@@ -1,7 +1,44 @@
 {
- "at": "2026-11-22 23:22:44",
+ "at": "2026-11-22 23:24:52",
  "errors": [],
- "rows": [],
+ "rows": [
+  {
+   "code": "AM-BO-013",
+   "approvals": [],
+   "title": "푸른길몇부작러닝타임",
+   "last_file_at": "2026-11-22 23:23",
+   "stage": "draft",
+   "label": "초안",
+   "detail": "1개 파일"
+  },
+  {
+   "code": "AM-DG-017",
+   "approvals": [],
+   "title": "PS블프결제이벤트비교",
+   "last_file_at": "2026-11-22 23:23",
+   "stage": "draft",
+   "label": "초안",
+   "detail": "1개 파일"
+  },
+  {
+   "code": "AM-PE-019",
+   "approvals": [],
+   "title": "임영웅영화객단가",
+   "last_file_at": "2026-11-22 23:23",
+   "stage": "draft",
+   "label": "초안",
+   "detail": "1개 파일"
+  },
+  {
+   "code": "AM-SP-023",
+   "approvals": [],
+   "title": "광주부천결과2위구도",
+   "last_file_at": "2026-11-22 23:23",
+   "stage": "draft",
+   "label": "초안",
+   "detail": "1개 파일"
+  }
+ ],
  "old_inflight": [],
  "discarded": [
   {
@@ -247,7 +284,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-22 23:22:29",
+   "last_at": "2026-11-22 23:24:29",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -321,13 +358,38 @@
   "who": "이대리",
   "state": "대기",
   "jobs": 0,
-  "last_min": 54,
+  "last_min": 56,
   "cur": "🔄 이부장 22:29 접수·검토 — 이대리 21:47 점검 보",
   "lvl": "ok"
  },
  "open_requests": [],
  "nodes": {
-  "draft": [],
+  "draft": [
+   {
+    "code": "AM-BO-013",
+    "title": "푸른길몇부작러닝타임",
+    "min": 1,
+    "lvl": "ok"
+   },
+   {
+    "code": "AM-DG-017",
+    "title": "PS블프결제이벤트비교",
+    "min": 1,
+    "lvl": "ok"
+   },
+   {
+    "code": "AM-PE-019",
+    "title": "임영웅영화객단가",
+    "min": 1,
+    "lvl": "ok"
+   },
+   {
+    "code": "AM-SP-023",
+    "title": "광주부천결과2위구도",
+    "min": 1,
+    "lvl": "ok"
+   }
+  ],
   "v0": [],
   "boss": [],
   "deploy": [],
@@ -746,7 +808,7 @@
   "state": "미확인(aroma 발행챗 상태는 이 방이 읽는 길이 없다)"
  },
  "tower": {
-  "age_min": 1,
+  "age_min": 0,
   "lvl": "ok"
  },
  "units": [
@@ -754,7 +816,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 54,
+   "last_min": 56,
    "cur": "🔄 이부장 22:29 접수·검토 — 이대리 21:47 점검 보",
    "lvl": "ok"
   },
@@ -769,7 +831,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 54,
+   "last_min": 56,
    "cur": "🔄 이부장 22:29 접수·검토 — 이대리 21:47 점검 보",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
@@ -798,11 +860,11 @@
    "who": "이대리(자기점검·CA 검색어·일정 박스)",
    "kind": "글감",
    "ran": true,
-   "at": "05:26",
-   "today": 4,
+   "at": "23:23",
+   "today": 8,
    "lvl": "ok",
    "order": null,
-   "note": "오늘 파일(drafts·previews)이 움직인 글 4편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
+   "note": "오늘 파일(drafts·previews)이 움직인 글 8편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
   },
   {
    "who": "루틴10(aroma 야간 글감)",
@@ -816,12 +878,16 @@
  "producers": [
   {
    "who": "이대리",
-   "made": "오늘 새 글 게시 4편 · 파일이 움직인 글 4편",
+   "made": "오늘 새 글 게시 4편 · 파일이 움직인 글 8편",
    "codes": [
     "AM-BC-002",
+    "AM-BO-013",
     "AM-DG-016",
+    "AM-DG-017",
     "AM-PE-018",
-    "AM-SP-022"
+    "AM-PE-019",
+    "AM-SP-022",
+    "AM-SP-023"
    ]
   }
  ],
@@ -829,9 +895,15 @@
  "edits": [],
  "today_events": [
   {
-   "code": "AM-PE-018",
+   "code": "AM-PE-019",
    "stage": "proc",
-   "at": "2026-11-22 04:38:35",
+   "at": "2026-11-22 23:23:30",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-BO-013",
+   "stage": "proc",
+   "at": "2026-11-22 23:23:29",
    "src": "파일 수정 시각"
   },
   {
@@ -841,15 +913,33 @@
    "src": "파일 수정 시각"
   },
   {
+   "code": "AM-DG-016",
+   "stage": "proc",
+   "at": "2026-11-22 04:29:50",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-PE-018",
+   "stage": "proc",
+   "at": "2026-11-22 04:38:35",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-SP-023",
+   "stage": "proc",
+   "at": "2026-11-22 23:23:29",
+   "src": "파일 수정 시각"
+  },
+  {
    "code": "AM-BC-002",
    "stage": "proc",
    "at": "2026-11-22 02:06:32",
    "src": "파일 수정 시각"
   },
   {
-   "code": "AM-DG-016",
+   "code": "AM-DG-017",
    "stage": "proc",
-   "at": "2026-11-22 04:29:50",
+   "at": "2026-11-22 23:23:30",
    "src": "파일 수정 시각"
   },
   {
@@ -946,7 +1036,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-22 23:22:29",
+     "chip": "2026-11-22 23:24:29",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
