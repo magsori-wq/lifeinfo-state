@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22 17:53:44",
+ "at": "2026-11-22 17:55:45",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -7,7 +7,7 @@
    {
     "code": "D1-27",
     "title": "2027학년도 정시 원서접수 1월 4~7일 — 군별 날",
-    "min": 40,
+    "min": 42,
     "lvl": "amber"
    }
   ],
@@ -465,7 +465,7 @@
   {
    "p": 1,
    "what": "사장님 결재 대기 D1-27 2027학년도 정시 원서접수 1월 4~7일 — 군별 날",
-   "min": 40,
+   "min": 42,
    "owner": "사장님"
   },
   {
@@ -605,7 +605,7 @@
    "who": "이과장",
    "state": "지연·확인 필요",
    "jobs": 2,
-   "last_min": 55,
+   "last_min": 57,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "amber",
    "role": "②처리·④발행 운전"
@@ -614,7 +614,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1432,
+   "last_min": 1434,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -658,7 +658,7 @@
    "who": "이과장",
    "state": "지연·확인 필요",
    "jobs": 2,
-   "last_min": 55,
+   "last_min": 57,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "amber"
   },
@@ -666,7 +666,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 27,
+   "last_min": 29,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -674,7 +674,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1432,
+   "last_min": 1434,
    "cur": "",
    "lvl": "ok"
   },
@@ -682,7 +682,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 6,
+   "last_min": 8,
    "cur": "17:47 점검: 새 승인·요청 없음, MAMA 수상 결과 미",
    "lvl": "ok"
   },
@@ -1832,7 +1832,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-22 17:48:30",
-  "age_min": 5
+  "age_min": 7
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1919,7 +1919,7 @@
  "fired": [
   {
    "day": "2026-11-22",
-   "total": 254,
+   "total": 255,
    "kinds": [
     [
      "REPORT_UNACKED",
@@ -1927,7 +1927,7 @@
     ],
     [
      "TOWER_OWED",
-     35
+     36
     ],
     [
      "BOSS_APPROVAL",
