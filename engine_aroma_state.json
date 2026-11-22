@@ -1,5 +1,5 @@
 {
- "at": "2026-11-22 23:29:39",
+ "at": "2026-11-22 23:31:59",
  "errors": [],
  "rows": [
   {
@@ -55,12 +55,20 @@
   },
   {
    "code": "AM-SP-023",
-   "approvals": [],
+   "approvals": [
+    {
+     "id": "aroma-am-sp-023-approve-1122",
+     "state": "todo",
+     "kind": "approve",
+     "at": "2026-11-22"
+    }
+   ],
    "title": "광주부천결과2위구도",
    "last_file_at": "2026-11-22 23:29",
-   "stage": "v0",
-   "label": "V0 단계",
-   "detail": "_v0_AM-SP-023_1122.md · REVISE 83점"
+   "stage": "boss_wait",
+   "label": "결재 대기",
+   "detail": "aroma-am-sp-023-approve-1122",
+   "no_preview": false
   }
  ],
  "old_inflight": [],
@@ -308,7 +316,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-22 23:29:29",
+   "last_at": "2026-11-22 23:31:59",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -371,49 +379,48 @@
   {
    "name": "aromapv 자동 동기",
    "node": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사)",
-   "last_at": "2026-11-22 23:26",
+   "last_at": "2026-11-22 23:29",
    "src": "webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다)",
    "today_n": null,
-   "note": "복사된 미리보기 65개",
+   "note": "복사된 미리보기 66개",
    "at_node": "boss"
   }
  ],
  "unit": {
   "who": "이대리",
-  "state": "대기",
+  "state": "현장(진행)",
   "jobs": 0,
-  "last_min": 60,
-  "cur": "🔄 이부장 22:29 접수·검토 — 이대리 21:47 점검 보",
+  "last_min": 0,
+  "cur": "야간 글감 4/4 (11-22 23시): 방송·OTT AM-B",
   "lvl": "ok"
  },
  "open_requests": [],
  "nodes": {
   "draft": [],
-  "v0": [
-   {
-    "code": "AM-SP-023",
-    "title": "광주부천결과2위구도",
-    "min": 0,
-    "lvl": "ok"
-   }
-  ],
+  "v0": [],
   "boss": [
    {
     "code": "AM-BO-013",
     "title": "푸른길몇부작러닝타임",
-    "min": 3,
+    "min": 5,
     "lvl": "ok"
    },
    {
     "code": "AM-DG-017",
     "title": "PS블프결제이벤트비교",
-    "min": 3,
+    "min": 5,
     "lvl": "ok"
    },
    {
     "code": "AM-PE-019",
     "title": "임영웅영화객단가",
-    "min": 3,
+    "min": 5,
+    "lvl": "ok"
+   },
+   {
+    "code": "AM-SP-023",
+    "title": "광주부천결과2위구도",
+    "min": 2,
     "lvl": "ok"
    }
   ],
@@ -817,7 +824,7 @@
   "today": "2026-11-22",
   "done_today": 4,
   "published_today": 4,
-  "boss_wait": 3,
+  "boss_wait": 4,
   "incidents_by_code": {
    "0": 0,
    "1": 0,
@@ -833,16 +840,16 @@
   "state": "미확인(aroma 발행챗 상태는 이 방이 읽는 길이 없다)"
  },
  "tower": {
-  "age_min": 1,
+  "age_min": 0,
   "lvl": "ok"
  },
  "units": [
   {
    "who": "이대리",
-   "state": "대기",
+   "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 60,
-   "cur": "🔄 이부장 22:29 접수·검토 — 이대리 21:47 점검 보",
+   "last_min": 0,
+   "cur": "야간 글감 4/4 (11-22 23시): 방송·OTT AM-B",
    "lvl": "ok"
   },
   {
@@ -854,10 +861,10 @@
  "drivers": [
   {
    "who": "이대리",
-   "state": "대기",
+   "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 60,
-   "cur": "🔄 이부장 22:29 접수·검토 — 이대리 21:47 점검 보",
+   "last_min": 0,
+   "cur": "야간 글감 4/4 (11-22 23시): 방송·OTT AM-B",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
   },
@@ -877,7 +884,7 @@
    "who": "사장님",
    "role": "③ CP 결재",
    "lvl": "ok",
-   "state": "결재 대기 3건"
+   "state": "결재 대기 4건"
   }
  ],
  "suppliers": [
@@ -937,10 +944,35 @@
    "what": "【권고】AM-DG-017 블랙프라이데이 플스 — LG U+ 5만원당 5천원 vs 카카오페이 8천P 승인(디지털, 검색형) 【근거】PlayStat",
    "by": "이대리",
    "waited": ""
+  },
+  {
+   "kind": "aroma",
+   "id": "aroma-am-sp-023-approve-1122",
+   "what": "【권고】AM-SP-023 K리그 순위 광주 4-2 부천에도 12위 — 7점 뒤진 채 남은 승점은 6 승인(스포츠, 홈판형·36R 직후, 11/2",
+   "by": "이대리",
+   "waited": ""
   }
  ],
  "edits": [],
  "today_events": [
+  {
+   "code": "AM-DG-016",
+   "stage": "proc",
+   "at": "2026-11-22 04:29:50",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-PE-019",
+   "stage": "proc",
+   "at": "2026-11-22 23:24:57",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-PE-018",
+   "stage": "proc",
+   "at": "2026-11-22 04:38:35",
+   "src": "파일 수정 시각"
+  },
   {
    "code": "AM-BO-013",
    "stage": "proc",
@@ -951,12 +983,6 @@
    "code": "AM-SP-023",
    "stage": "proc",
    "at": "2026-11-22 23:29:01",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-PE-019",
-   "stage": "proc",
-   "at": "2026-11-22 23:24:57",
    "src": "파일 수정 시각"
   },
   {
@@ -975,18 +1001,6 @@
    "code": "AM-BC-002",
    "stage": "proc",
    "at": "2026-11-22 02:06:32",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-PE-018",
-   "stage": "proc",
-   "at": "2026-11-22 04:38:35",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-DG-016",
-   "stage": "proc",
-   "at": "2026-11-22 04:29:50",
    "src": "파일 수정 시각"
   },
   {
@@ -1083,7 +1097,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-22 23:29:29",
+     "chip": "2026-11-22 23:31:59",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
@@ -1125,8 +1139,8 @@
     {
      "head": "aromapv 자동 동기",
      "lvl": "ok",
-     "chip": "2026-11-22 23:26",
-     "sub": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사) · 출처 webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다) · 복사된 미리보기 65개"
+     "chip": "2026-11-22 23:29",
+     "sub": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사) · 출처 webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다) · 복사된 미리보기 66개"
     }
    ]
   },
