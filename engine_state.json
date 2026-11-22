@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23 04:37:01",
+ "at": "2026-11-23 04:39:22",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -9,7 +9,7 @@
    {
     "code": "C2-32",
     "title": "콜레라 증상 — 10년 만의 국내 발생 추정, 병원은 ",
-    "min": 10,
+    "min": 12,
     "lvl": "ok"
    }
   ],
@@ -347,7 +347,7 @@
  },
  "index": {
   "requested": 167,
-  "todo": 84,
+  "todo": 85,
   "indexed": 0
  },
  "limit": {
@@ -525,7 +525,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 5,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "🚀 D1-27 발행 후속 — 2027학년도 정시 원서접수 군별",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -534,7 +534,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 540,
+   "last_min": 543,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -574,7 +574,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 5,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "🚀 D1-27 발행 후속 — 2027학년도 정시 원서접수 군별",
    "lvl": "ok"
   },
@@ -582,7 +582,7 @@
    "who": "3.세션",
    "state": "대기(상시 업무만)",
    "jobs": 2,
-   "last_min": 74,
+   "last_min": 76,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -590,16 +590,16 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 540,
+   "last_min": 543,
    "cur": "",
    "lvl": "ok"
   },
   {
    "who": "이대리",
-   "state": "⏸ 대기(남의 차례)",
+   "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 8,
-   "cur": "⏸ 대기 — AM-BO-013 승인(aroma-am-bo-01",
+   "last_min": -1,
+   "cur": "AM-BO-013(224487757827)·AM-PE-019(",
    "lvl": "ok"
   },
   {
@@ -1290,12 +1290,12 @@
  "exec_error": "",
  "reflect": {
   "state": "bad",
-  "ok": 3,
+  "ok": 5,
   "stale": 1,
   "bad": 1,
-  "na": 2,
-  "at": "2026-11-22 19:31:56",
-  "age_min": 5
+  "na": 0,
+  "at": "2026-11-23 04:39:26",
+  "age_min": 0
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1382,7 +1382,7 @@
  "fired": [
   {
    "day": "2026-11-23",
-   "total": 36,
+   "total": 38,
    "kinds": [
     [
      "BOSS_APPROVAL",
@@ -1398,6 +1398,10 @@
     ],
     [
      "REPORT_UNACKED",
+     4
+    ],
+    [
+     "CHKMON_REPORT",
      3
     ],
     [
@@ -1406,10 +1410,6 @@
     ],
     [
      "BOSS_REMIND",
-     2
-    ],
-    [
-     "CHKMON_REPORT",
      2
     ],
     [
