@@ -1,0 +1,1114 @@
+{
+ "at": "2026-11-22 16:24:14",
+ "errors": [],
+ "rows": [],
+ "old_inflight": [],
+ "discarded": [
+  {
+   "code": "AM-DG-003",
+   "detail": "폐기-대체",
+   "note": "11-19 기록: 승인(10-31) 뒤 magsori8975 224438160731 과 겹침 확인으로 보류, 같은 소재를 계산 각도로 바꾼 AM-DG-010(224472391441, 11-11 게시)로 대체. 게시 빠진 것이 아님."
+  }
+ ],
+ "recent_published": [
+  {
+   "code": "AM-BC-002",
+   "approvals": [
+    {
+     "id": "aroma-am-bc-002-approve-1122",
+     "state": "done",
+     "kind": "approve",
+     "at": "2026-11-22"
+    }
+   ],
+   "title": "무릎담요 크기 비교 미니 5,900원 vs 똑딱이 10,400원(배송비 포함)",
+   "last_file_at": "2026-11-22 04:34",
+   "stage": "published",
+   "label": "게시됨",
+   "detail": "2026-11-22"
+  },
+  {
+   "code": "AM-DG-016",
+   "approvals": [
+    {
+     "id": "aroma-am-dg-016-approve-1121",
+     "state": "done",
+     "kind": "approve",
+     "at": "2026-11-22"
+    }
+   ],
+   "title": "AGF 2026 티켓 3일권 65,000원 — 1일권 3장보다 22,000원 싸다",
+   "last_file_at": "2026-11-22 04:32",
+   "stage": "published",
+   "label": "게시됨",
+   "detail": "2026-11-22"
+  },
+  {
+   "code": "AM-PE-018",
+   "approvals": [
+    {
+     "id": "aroma-am-pe-018-approve-1121",
+     "state": "done",
+     "kind": "approve",
+     "at": "2026-11-22"
+    },
+    {
+     "id": "aroma-am-pe-018-hedge-1122",
+     "state": "done",
+     "kind": "hedge",
+     "at": "2026-11-22"
+    }
+   ],
+   "title": "아이브 콘서트 2027 앙코르 VIP 198,000원, 일반석과 4.4만원 차이",
+   "last_file_at": "2026-11-22 05:26",
+   "stage": "published",
+   "label": "게시됨",
+   "detail": "2026-11-22"
+  },
+  {
+   "code": "AM-SP-022",
+   "approvals": [
+    {
+     "id": "aroma-am-sp-022-approve-1121",
+     "state": "done",
+     "kind": "approve",
+     "at": "2026-11-22"
+    }
+   ],
+   "title": "K리그 승강플레이오프 — 광주 12위 확정, 김천은 규정상 자동 강등",
+   "last_file_at": "2026-11-22 04:29",
+   "stage": "published",
+   "label": "게시됨",
+   "detail": "2026-11-22"
+  },
+  {
+   "code": "AM-BC-001",
+   "approvals": [
+    {
+     "id": "aroma-am-bc-001-approve-1121",
+     "state": "done",
+     "kind": "approve",
+     "at": "2026-11-21"
+    },
+    {
+     "id": "aroma-am-bc-001-update-1121",
+     "state": "done",
+     "kind": "update",
+     "at": "2026-11-21"
+    }
+   ],
+   "title": "크리스마스트리 150cm vs 180cm, 가격차 15,900원 구성 표기 다름",
+   "last_file_at": "2026-11-21 16:01",
+   "stage": "published",
+   "label": "게시됨",
+   "detail": "2026-11-21"
+  },
+  {
+   "code": "AM-BO-012",
+   "approvals": [
+    {
+     "id": "aroma-am-bo-012-approve-1121",
+     "state": "done",
+     "kind": "approve",
+     "at": "2026-11-21"
+    }
+   ],
+   "title": "천천히 강렬하게 12월 11일 오후 5시 공개 — 공식 소개 시대 표기가 다르다",
+   "last_file_at": "2026-11-21 05:41",
+   "stage": "published",
+   "label": "게시됨",
+   "detail": "2026-11-21"
+  }
+ ],
+ "published_total": 69,
+ "rev_wait": [],
+ "cats": {
+  "window": 14,
+  "rows": [
+   [
+    "방송·OTT",
+    5
+   ],
+   [
+    "공연·연예",
+    8
+   ],
+   [
+    "스포츠",
+    7
+   ],
+   [
+    "디지털 콘텐츠·여가",
+    5
+   ]
+  ],
+  "total": 25
+ },
+ "share": {
+  "state": "active",
+  "label": "가동 — 최근 7일 안에 원고·결재 움직임(마지막 11-20 12:34)",
+  "drafts": [
+   {
+    "code": "AM-SP-020",
+    "head": "AM-SP-020 쓰레드 원고 (제안, 11/20 낮 게시용, 결재 전)",
+    "mtime": "2026-11-19 17:08",
+    "cards": [
+     {
+      "id": "aroma-threads-sp020-1120",
+      "state": "done",
+      "done_at": "2026-11-20",
+      "slot": "12:30~13:00",
+      "today": false,
+      "off": false,
+      "mismatch": "",
+      "unread": false,
+      "raw": ""
+     }
+    ],
+    "posted": true
+   },
+   {
+    "code": "AM-SP-021",
+    "head": "AM-SP-021 쓰레드 원고 (제안, 결재 전)",
+    "mtime": "2026-11-19 17:08",
+    "cards": [
+     {
+      "id": "aroma-threads-sp021-1119",
+      "state": "done",
+      "done_at": "2026-11-19",
+      "slot": "17:40~18:00",
+      "today": false,
+      "off": false,
+      "mismatch": "",
+      "unread": false,
+      "raw": ""
+     }
+    ],
+    "posted": true
+   },
+   {
+    "code": "AM-SP-005",
+    "head": "AM-SP-005 쓰레드 원고 (결재 대기)",
+    "mtime": "2026-11-01 18:22",
+    "cards": [
+     {
+      "id": "aroma-threads-sp005-1101",
+      "state": "done",
+      "done_at": "2026-11-01",
+      "slot": "",
+      "today": false,
+      "off": false,
+      "mismatch": "",
+      "unread": false,
+      "raw": ""
+     }
+    ],
+    "posted": true
+   }
+  ],
+  "posted": [
+   {
+    "code": "AM-SP-005",
+    "at": "2026-11-01 18:33",
+    "tz": "KST",
+    "url": "https://www.threads.com/@magsori8975/post/DfMa07dAU4Y"
+   },
+   {
+    "code": "AM-SP-021",
+    "at": "2026-11-19 17:40",
+    "tz": "KST",
+    "url": "https://www.threads.com/@magsori8975/post/Df6rLxRgTnE"
+   },
+   {
+    "code": "AM-SP-020",
+    "at": "2026-11-20 12:34",
+    "tz": "KST",
+    "url": "https://www.threads.com/@magsori8975/post/Df8s0ULgX0B"
+   }
+  ],
+  "slots": [],
+  "ledger_last": "AM-SP-020 · 2026-11-20 12:34 · 약 오후 7:34(11-19) · https://www.threads.com/@magsori8975/post/Df8s0ULgX0B · 사장님 aroma-threads-sp020-1120(회수 커밋 fea2d2f17, 「전부 승인이」) · 없음(원고 그대로, 텍스트만) · 11-21 이후 일별 기록(예약 434f2bfc)",
+  "ledger_unread": 0,
+  "ledger_odd": 2
+ },
+ "threads": {
+  "state": "active",
+  "label": "가동 — 최근 7일 안에 원고·결재 움직임(마지막 11-20 12:34)"
+ },
+ "consts": {
+  "stall_min": 240,
+  "remind_min": 60,
+  "giveup_h": 72,
+  "owed_min": 15,
+  "owed_remind": 30,
+  "stale_min": 30
+ },
+ "signals": [
+  {
+   "name": "IDAERI_WAKE",
+   "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
+   "last_at": "2026-11-22 16:24:13",
+   "src": ".idaeri_wake.json last_run",
+   "today_n": null,
+   "note": "",
+   "at_node": "boss"
+  },
+  {
+   "name": "AROMA_PUBLISH_STALL",
+   "node": "승인 → 게시(승인 뒤 240분 넘게 게시 없으면 · 재알림 60분 · 72시간 뒤 포기 · 취침 중 보류 · update/rev 결재는 감시 밖)",
+   "last_at": "",
+   "src": "시각 저장 없음(진행 중 0건)",
+   "today_n": 0,
+   "note": "",
+   "at_node": "pub"
+  },
+  {
+   "name": "AROMA_PUBLISH_RESOLVED",
+   "node": "승인 → 게시 해소(게시 기록이 생기면 1회)",
+   "last_at": "",
+   "src": "시각 저장 없음",
+   "today_n": 0,
+   "note": "",
+   "at_node": "pub"
+  },
+  {
+   "name": "IDAERI_STALL",
+   "node": "요청 → 이행(30분)·활동 공백(09~23시 중 3시간 · 열린 요청 STALL 이 없을 때만 1회)",
+   "last_at": "2026-11-22 09:00",
+   "src": "idaeri_idle_at(공백 알림만)",
+   "today_n": 1,
+   "note": "열린 요청 0건",
+   "at_node": ""
+  },
+  {
+   "name": "TOWER_OWED",
+   "node": "이대리 🙋·⏸ → 이부장(15분 안에 처리 기록이 없으면 · 같은 건 30분 간격 재알림)",
+   "last_at": "",
+   "src": "tick owed(aroma 건)",
+   "today_n": null,
+   "note": "aroma 건은 울린 적 없음 — 장부에 미처리 aroma 건 없음 · 오늘 33회는 전체 세션 합계(aroma 몫은 따로 저장되지 않음)",
+   "at_node": ""
+  },
+  {
+   "name": "ASIDE_ALERT",
+   "node": "이대리 🙋·⏸·👤 → 이부장 즉시",
+   "last_at": "2026-11-22 04:19:44",
+   "src": "now_log(bid=aroma)",
+   "today_n": 17,
+   "note": "횟수는 전체 세션",
+   "at_node": ""
+  },
+  {
+   "name": "ROUTINE_DONE",
+   "node": "루틴10 → CP",
+   "last_at": "",
+   "src": "시각 저장 없음(루틴10 꺼짐은 설계도 기재)",
+   "today_n": 4,
+   "note": "횟수는 lifeinfo 루틴 전체",
+   "at_node": ""
+  },
+  {
+   "name": "aromapv 자동 동기",
+   "node": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사)",
+   "last_at": "2026-11-22 04:38",
+   "src": "webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다)",
+   "today_n": null,
+   "note": "복사된 미리보기 62개",
+   "at_node": "boss"
+  }
+ ],
+ "unit": {
+  "who": "이대리",
+  "state": "현장(진행)",
+  "jobs": 0,
+  "last_min": 25,
+  "cur": "🔄 이부장 접수 답(15:5x): 이대리 15:47 점검 접수",
+  "lvl": "ok"
+ },
+ "open_requests": [],
+ "nodes": {
+  "draft": [],
+  "v0": [],
+  "boss": [],
+  "deploy": [],
+  "publish": [],
+  "osmu": []
+ },
+ "channels": {
+  "blog": {
+   "done": [],
+   "wait": []
+  },
+  "insta": {
+   "done": [],
+   "wait": []
+  },
+  "threads": {
+   "done": [
+    {
+     "code": "AM-SP-005",
+     "title": "",
+     "url": "https://www.threads.com/@magsori8975/post/DfMa07dAU4Y",
+     "at": "2026-11-01 18:33"
+    },
+    {
+     "code": "AM-SP-021",
+     "title": "",
+     "url": "https://www.threads.com/@magsori8975/post/Df6rLxRgTnE",
+     "at": "2026-11-19 17:40"
+    },
+    {
+     "code": "AM-SP-020",
+     "title": "",
+     "url": "https://www.threads.com/@magsori8975/post/Df8s0ULgX0B",
+     "at": "2026-11-20 12:34"
+    }
+   ],
+   "wait": [],
+   "state": "active",
+   "label": "가동"
+  },
+  "naver": {
+   "done": [
+    {
+     "code": "AM-SP-022",
+     "title": "K리그 승강플레이오프 — 광주 12위 확정, 김천은 규정상 자동 강등",
+     "url": "https://blog.naver.com/aroma-mag/224486637393"
+    },
+    {
+     "code": "AM-DG-016",
+     "title": "AGF 2026 티켓 3일권 65,000원 — 1일권 3장보다 22,000원 싸다",
+     "url": "https://blog.naver.com/aroma-mag/224486638311"
+    },
+    {
+     "code": "AM-BC-002",
+     "title": "무릎담요 크기 비교 미니 5,900원 vs 똑딱이 10,400원(배송비 포함)",
+     "url": "https://blog.naver.com/aroma-mag/224486640052"
+    },
+    {
+     "code": "AM-PE-018",
+     "title": "아이브 콘서트 2027 앙코르 VIP 198,000원, 일반석과 4.4만원 차이",
+     "url": "https://blog.naver.com/aroma-mag/224486661919"
+    },
+    {
+     "code": "AM-BO-012",
+     "title": "천천히 강렬하게 12월 11일 오후 5시 공개 — 공식 소개 시대 표기가 다르다",
+     "url": "https://blog.naver.com/aroma-mag/224485562916"
+    },
+    {
+     "code": "AM-PE-017",
+     "title": "멜론티켓 수수료 12월 21일 인상 — 공연 4매 8,000원에서 12,000원",
+     "url": "https://blog.naver.com/aroma-mag/224485564271"
+    },
+    {
+     "code": "AM-DG-015",
+     "title": "GTA6 가격 PS5 89,800원 vs 112,800원, 212GB 먼저 확인",
+     "url": "https://blog.naver.com/aroma-mag/224485565600"
+    },
+    {
+     "code": "AM-BC-001",
+     "title": "크리스마스트리 150cm vs 180cm, 가격차 15,900원 구성 표기 다름",
+     "url": "https://blog.naver.com/aroma-mag/224485983543"
+    },
+    {
+     "code": "AM-PE-016",
+     "title": "2026 MAMA 라인업 몇 일차? 빅뱅은 21일, 패닉 후배 무대는 날짜 불명",
+     "url": "https://blog.naver.com/aroma-mag/224484785664"
+    },
+    {
+     "code": "AM-SP-021",
+     "title": "카타르전 결과 1-0 — 선발 7명 바꾼 한국, 오세훈 전반 43분 헤더골",
+     "url": "https://blog.naver.com/aroma-mag/224482853486"
+    },
+    {
+     "code": "AM-PE-015",
+     "title": "뮤지컬 사춘기 예매 — 3차 오픈 11/16 15시, 전석 66,000원",
+     "url": "https://blog.naver.com/aroma-mag/224479099340"
+    },
+    {
+     "code": "AM-SP-020",
+     "title": "여자배구 순위 — 현대건설·SOOP 0승 4패끼리 11/18 맞대결",
+     "url": "https://blog.naver.com/aroma-mag/224477466833"
+    },
+    {
+     "code": "AM-DG-014",
+     "title": "닌텐도 스위치2 가격 — 세트 798,000원, 본체와 40,000원 차이",
+     "url": "https://blog.naver.com/aroma-mag/224477467568"
+    },
+    {
+     "code": "AM-PE-014",
+     "title": "2026 청룡영화상 후보 — 호프 10개·가능한 사랑 8개·왕과 사는 남자 7개",
+     "url": "https://blog.naver.com/aroma-mag/224477468233"
+    },
+    {
+     "code": "AM-BO-011",
+     "title": "넷플릭스 순위 한국 — 영화 7편 교체, 1위는 Possible Love",
+     "url": "https://blog.naver.com/aroma-mag/224477468986"
+    },
+    {
+     "code": "AM-DG-013",
+     "title": "지스타 입장권 11/14 정오 재오픈 — 11/21 토요일 1부 패스 취소분, 성인 18,000원",
+     "url": "https://blog.naver.com/aroma-mag/224476461900"
+    },
+    {
+     "code": "AM-BO-010",
+     "title": "디즈니 티빙 웨이브 번들 21,500원 — 할인율 13.65%·37%는 어떤 가격 기준일까",
+     "url": "https://blog.naver.com/aroma-mag/224476462937"
+    },
+    {
+     "code": "AM-PE-013",
+     "title": "놀티켓 예매수수료 11/16 인상 — 공연 3,000원, 연극 1,500원",
+     "url": "https://blog.naver.com/aroma-mag/224476463732"
+    },
+    {
+     "code": "AM-SP-017",
+     "title": "V리그 순위 11/14 — 삼성화재 2승 2패, 여자 SOOP은 0승 4패",
+     "url": "https://blog.naver.com/aroma-mag/224476464424"
+    },
+    {
+     "code": "AM-SP-018",
+     "title": "사우디전 2-3 패배 — 한국 무패 21년 만에 깨졌고 2분 만에 2실점",
+     "url": "https://blog.naver.com/aroma-mag/224476465172"
+    },
+    {
+     "code": "AM-SP-019",
+     "title": "삼성 정관장 80-87 — 정관장 승, 1위와 승차 1.0으로 좁혀졌다",
+     "url": "https://blog.naver.com/aroma-mag/224477085355"
+    },
+    {
+     "code": "AM-PE-012",
+     "title": "뮤지컬 두 도시 이야기 11/13 3차 오픈 — 기본가 4매 32만~64만원",
+     "url": "https://blog.naver.com/aroma-mag/224475007455"
+    },
+    {
+     "code": "AM-BO-009",
+     "title": "웨이브 티빙 더블이용권 7,000원부터 — 광고 없는 쪽 차액은 스탠다드 최저",
+     "url": "https://blog.naver.com/aroma-mag/224475012644"
+    },
+    {
+     "code": "AM-DG-012",
+     "title": "플레이스테이션 플러스 가격, 12개월 선결제 월 환산 7,200~14,250원",
+     "url": "https://blog.naver.com/aroma-mag/224475018364"
+    },
+    {
+     "code": "AM-SP-016",
+     "title": "KBL 순위 삼성 정관장 11/14 — 삼성 이기면 승차 3, 지면 1",
+     "url": "https://blog.naver.com/aroma-mag/224475022489"
+    },
+    {
+     "code": "AM-SP-015",
+     "title": "K리그2 승격 경우의 수 — 수원FC 64점이면 2위 확정, 김천은 12위 불가",
+     "url": "https://blog.naver.com/aroma-mag/224473724392"
+    },
+    {
+     "code": "AM-DG-011",
+     "title": "지스타 2026 코레일 패키지 — 19·20일 부산행 13편 중 12편 재고 0",
+     "url": "https://blog.naver.com/aroma-mag/224474127361"
+    },
+    {
+     "code": "AM-PE-010",
+     "title": "한로로 콘서트 티켓팅 11/13 오후 6시 — 이틀 공연, 4매 총액 계산",
+     "url": "https://blog.naver.com/aroma-mag/224474132225"
+    },
+    {
+     "code": "AM-PE-011",
+     "title": "듄 재개봉 박스오피스 8위, 스크린당 207명은 10편 중 1위 — 11/11",
+     "url": "https://blog.naver.com/aroma-mag/224474171457"
+    },
+    {
+     "code": "AM-BO-008",
+     "title": "넷플릭스 추가회원 요금 계산 — 광고 없이 가구당 최저 9,000원",
+     "url": "https://blog.naver.com/aroma-mag/224474189692"
+    },
+    {
+     "code": "AM-DG-010",
+     "title": "지스타 입장권 2026, 현장 판매 없음 — 관람일별 취소 수수료와 4인 계산",
+     "url": "https://blog.naver.com/aroma-mag/224472391441"
+    },
+    {
+     "code": "AM-SP-014",
+     "title": "FC서울 우승 확정, 울산이 3경기 다 이겨도 66점 — 승점 계산으로 확인",
+     "url": "https://blog.naver.com/aroma-mag/224471001685"
+    },
+    {
+     "code": "AM-BO-007",
+     "title": "재혼황후 디즈니+ 몇부작? 10부작 끝까지 보려면 결제 몇 번 필요한지 계산",
+     "url": "https://blog.naver.com/aroma-mag/224471909396"
+    },
+    {
+     "code": "AM-PE-009",
+     "title": "해밀턴 내한 티켓팅 11/11 — 서울은 첫 주 VIP석부터, 부산은 7만원부터",
+     "url": "https://blog.naver.com/aroma-mag/224470232510"
+    },
+    {
+     "code": "AM-SP-011",
+     "title": "2026 한국시리즈 총정리 — 삼성 우승(4승 1패), MVP 구자욱·KT 패인",
+     "url": "https://blog.naver.com/aroma-mag/224469585985"
+    },
+    {
+     "code": "AM-DG-009",
+     "title": "콜 오브 듀티 모던 워페어 4 DMZ 무료 체험 11월 12일 오전 3시까지 — 본편 80,000원은 환불 불가로 표시돼 있습니다",
+     "url": "https://blog.naver.com/aroma-mag/224468768274"
+    },
+    {
+     "code": "AM-PE-008",
+     "title": "캣츠아이 첫 단독 내한 2027년 2월 4일 KSPO DOME — 예매는 11/10·11/11·11/12 세 번, 스탠딩 4매는 66만 원이고 취소 수수료는 시점마다 다릅니다",
+     "url": "https://blog.naver.com/aroma-mag/224468767063"
+    },
+    {
+     "code": "AM-SP-013",
+     "title": "한국시리즈 4차전 삼성 10-5 KT, 시리즈 3승 1패 — 5차전 대니엘 vs 원태인은 선발 평균 이닝이 5.2로 같습니다",
+     "url": "https://blog.naver.com/aroma-mag/224468762003"
+    },
+    {
+     "code": "AM-BO-006",
+     "title": "굿파트너2, 시즌1과 무엇이 달라졌나 — 공식 소개 문구는 「천직·처음」에서 「체질·진심」으로, 출연진 표기는 6명에서 4명으로",
+     "url": "https://blog.naver.com/aroma-mag/224468158040"
+    },
+    {
+     "code": "AM-PE-007",
+     "title": "극장판 치이카와, 개봉 38일째 예매율 1위 — 예매 관객이 11월 5일 일별 관객 12,268명의 4.6배입니다(11/6 밤 KOBIS 기준)",
+     "url": "https://blog.naver.com/aroma-mag/224468160461"
+    },
+    {
+     "code": "AM-DG-008",
+     "title": "10월 PS5 다운로드 TOP 20 — 미국·캐나다와 유럽은 14개가 겹치고 6개씩은 한쪽에만 있습니다",
+     "url": "https://blog.naver.com/aroma-mag/224468162632"
+    },
+    {
+     "code": "AM-SP-012",
+     "title": "한국시리즈 4차전 선발 KT 로건 vs 삼성 장찬희 — 둘 다 1차전엔 구원으로 먼저 나왔고, 낮 2시 경기는 3차전 종료 16시간 42분 뒤입니다",
+     "url": "https://blog.naver.com/aroma-mag/224468155685"
+    },
+    {
+     "code": "AM-BO-005",
+     "title": "디즈니+ 11월 10일 구독료 인상 — 신규 스탠다드 월 11,500원, 취소 없이 쓰는 기존 구독자는 당분간 9,900원, 광고형 월 7,000원",
+     "url": "https://blog.naver.com/aroma-mag/224467451062"
+    },
+    {
+     "code": "AM-PE-006",
+     "title": "11월 5일 박스오피스 — 코난 신작 1위, 개봉 둘째 날 최종면접은 -26.1%, 암살자(들)는 누적 346만",
+     "url": "https://blog.naver.com/aroma-mag/224466703720"
+    },
+    {
+     "code": "AM-DG-007",
+     "title": "팬텀 블레이드 제로 PS5 vs 스팀 — 스탠다드 가격은 6만 9,800원으로 같고 PC는 145GB와 SSD가 필요합니다",
+     "url": "https://blog.naver.com/aroma-mag/224466684965"
+    },
+    {
+     "code": "AM-DG-006",
+     "title": "GTA6 사전 다운로드 212GB — 인터넷 속도별 몇 시간 걸리고 PS5 저장 공간은 얼마나 비워야 할까",
+     "url": "https://blog.naver.com/aroma-mag/224466604020"
+    },
+    {
+     "code": "AM-PE-005",
+     "title": "NCT WISH 고척돔 1월 15·16일 — VIP 22만 원·일반 16만 5천 원, 2매 총액과 취소 시점별 수수료",
+     "url": "https://blog.naver.com/aroma-mag/224466605674"
+    },
+    {
+     "code": "AM-DG-005",
+     "title": "PS Store 블랙프라이데이 첫 화면 24개 — 할인율 1위와 가장 많이 깎인 게임은 다릅니다",
+     "url": "https://blog.naver.com/aroma-mag/224466287797"
+    },
+    {
+     "code": "AM-SP-010",
+     "title": "한국시리즈 3차전 선발 소형준 vs 후라도 — 평균자책점 3.15 대 3.54, 선발 평균 이닝은 5.2 대 6.1",
+     "url": "https://blog.naver.com/aroma-mag/224466273985"
+    },
+    {
+     "code": "AM-BO-004",
+     "title": "넷플릭스 한국 주간 Top 10(10/26~11/1) — 시리즈 1위 Doctor X, Top 10 1주째 2위 Dead-End Job",
+     "url": "https://blog.naver.com/aroma-mag/224466277300"
+    },
+    {
+     "code": "AM-SP-009",
+     "title": "한국시리즈 2차전 삼성 3-2 KT 12회 연장, 이틀 연속 불펜 투구수 정리",
+     "url": "https://blog.naver.com/aroma-mag/224465971916"
+    },
+    {
+     "code": "AM-PE-004",
+     "title": "칼리드 내한 12월 5일 킨텍스 — 스탠딩 154,000원 vs M&G 609,000원, 상품 3종 비교",
+     "url": "https://blog.naver.com/aroma-mag/224464209423"
+    },
+    {
+     "code": "AM-SP-007",
+     "title": "K리그1 2위 싸움 승점 계산 — 울산 54점, 11월 8일 세 경기가 갈림길",
+     "url": "https://blog.naver.com/aroma-mag/224464208892"
+    },
+    {
+     "code": "AM-SP-008",
+     "title": "한국시리즈 2차전 선발 고영표 vs 페덱 · 안타는 같고 4사구는 8-2",
+     "url": "https://blog.naver.com/aroma-mag/224464200251"
+    },
+    {
+     "code": "AM-DG-004",
+     "title": "지스타 2026 크래프톤 시연작 5종 — 혼자 할까, 둘이 할까, 12월 3일 출시작부터 할까",
+     "url": "https://blog.naver.com/aroma-mag/224463406923"
+    },
+    {
+     "code": "AM-PE-003",
+     "title": "영 카이 첫 내한 11월 16일 무신사 개러지 — 스탠딩 99,000원, 취소 수수료 미리 계산",
+     "url": "https://blog.naver.com/aroma-mag/224461751922"
+    },
+    {
+     "code": "AM-SP-006",
+     "title": "축구대표팀 11월 명단 26명 — K리그 10명·해외 16명, 13일 사우디·17일 카타르전",
+     "url": "https://blog.naver.com/aroma-mag/224461748542"
+    },
+    {
+     "code": "AM-SP-005",
+     "title": "한국시리즈 1차전 KT vs 삼성 — 상대 전적은 삼성 9승 7패, 홈 승률은 KT",
+     "url": "https://blog.naver.com/aroma-mag/224461290856"
+    },
+    {
+     "code": "AM-SP-004",
+     "title": "삼성, KIA 6-1 꺾고 2년 만의 한국시리즈 — 11월 3일 수원서 KT와 1차전 (PO 5차전 결과·MVP)",
+     "url": "https://blog.naver.com/aroma-mag/224459751097"
+    },
+    {
+     "code": "AM-PE-002",
+     "title": "5SOS 내한 11월 19일 킨텍스 — R석·S석 가격과 취소 수수료, 예매 전 계산해 보기",
+     "url": "https://blog.naver.com/aroma-mag/224459752256"
+    },
+    {
+     "code": "AM-SP-003",
+     "title": "플레이오프 3차전 삼성 6-4 KIA, 시리즈 2승 1패 — 4차전 앞둔 확인 포인트",
+     "url": "https://blog.naver.com/aroma-mag/224457942199"
+    },
+    {
+     "code": "AM-SP-002",
+     "title": "삼성 8-3 승리로 플레이오프 1승 1패…후라도·올러 기록은 어떻게 읽을까",
+     "url": "https://blog.naver.com/aroma-mag/224456686486"
+    },
+    {
+     "code": "AM-PE-001",
+     "title": "10월 29일 목동 공연 예매 전 확인: HARAKIRI FOR THE SKY 시간·가격·취소 기준",
+     "url": "https://blog.naver.com/aroma-mag/224456652970"
+    },
+    {
+     "code": "AM-BO-003",
+     "title": "‘데블스 플랜: 데드 어게인’, 피스를 모두 잃어도 즉시 탈락하지 않는다",
+     "url": "https://blog.naver.com/aroma-mag/224456645608"
+    },
+    {
+     "code": "AM-DG-002",
+     "title": "온라인 취미 클래스 결제 전, 수강료보다 ‘완주 1회당 비용’부터 계산해보세요",
+     "url": "https://blog.naver.com/aroma-mag/224455305781"
+    },
+    {
+     "code": "AM-DG-001",
+     "title": "매튜 페리 3부작 다큐 공개일…‘프렌즈’ 팬이 보기 전 확인할 5가지",
+     "url": "https://blog.naver.com/aroma-mag/224455236977"
+    },
+    {
+     "code": "AM-BO-002",
+     "title": "A2O LITE 멤버 9명 이름 총정리, A2O와 A20 헷갈릴 때 보는 입문 가이드",
+     "url": "https://blog.naver.com/aroma-mag/224455157564"
+    },
+    {
+     "code": "AM-SP-001",
+     "title": "KIA가 먼저 웃었다, 삼성 반격할까? 후라도 vs 올러… PO 2차전 관전 포인트 3가지",
+     "url": "https://blog.naver.com/aroma-mag/224454824636"
+    },
+    {
+     "code": "AM-BO-001",
+     "title": "100일의 거짓말 몰아보기, 지금 티빙 결제할까? 남은 회차로 따져보는 기준",
+     "url": "https://blog.naver.com/aroma-mag/224454765191"
+    }
+   ],
+   "wait": []
+  }
+ },
+ "topics": [],
+ "limit": {
+  "publish": [
+   240,
+   4320
+  ]
+ },
+ "kpi": {
+  "today": "2026-11-22",
+  "done_today": 4,
+  "published_today": 4,
+  "boss_wait": 0,
+  "incidents_by_code": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0
+  }
+ },
+ "aside": {
+  "unknown": true,
+  "lvl": "ok",
+  "busy": false,
+  "queue": 0,
+  "state": "미확인(aroma 발행챗 상태는 이 방이 읽는 길이 없다)"
+ },
+ "tower": {
+  "age_min": 1,
+  "lvl": "ok"
+ },
+ "units": [
+  {
+   "who": "이대리",
+   "state": "현장(진행)",
+   "jobs": 0,
+   "last_min": 25,
+   "cur": "🔄 이부장 접수 답(15:5x): 이대리 15:47 점검 접수",
+   "lvl": "ok"
+  },
+  {
+   "who": "이부장(감시)",
+   "state": "살아 있음",
+   "lvl": "ok"
+  }
+ ],
+ "drivers": [
+  {
+   "who": "이대리",
+   "state": "현장(진행)",
+   "jobs": 0,
+   "last_min": 25,
+   "cur": "🔄 이부장 접수 답(15:5x): 이대리 15:47 점검 접수",
+   "lvl": "ok",
+   "role": "글감·초안·V0·게시 기록"
+  },
+  {
+   "who": "이부장(감시)",
+   "state": "살아 있음",
+   "lvl": "ok",
+   "role": "어드바이저·감시"
+  },
+  {
+   "who": "Aside",
+   "role": "발행 전용 챗(게시)",
+   "lvl": "ok",
+   "state": "미확인(aroma 발행챗 상태는 읽는 길이 없다)"
+  },
+  {
+   "who": "사장님",
+   "role": "③ CP 결재",
+   "lvl": "ok",
+   "state": "대기"
+  }
+ ],
+ "suppliers": [
+  {
+   "who": "이대리(자기점검·CA 검색어·일정 박스)",
+   "kind": "글감",
+   "ran": true,
+   "at": "05:26",
+   "today": 4,
+   "lvl": "ok",
+   "order": null,
+   "note": "오늘 파일(drafts·previews)이 움직인 글 4편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
+  },
+  {
+   "who": "루틴10(aroma 야간 글감)",
+   "kind": "글감",
+   "ran": false,
+   "lvl": "idle",
+   "order": null,
+   "note": "꺼짐 — 설계도 기재(이대리 회신 11-19). 원복 판단은 watch aroma-two-per-day-1118"
+  }
+ ],
+ "producers": [
+  {
+   "who": "이대리",
+   "made": "오늘 새 글 게시 4편 · 파일이 움직인 글 4편",
+   "codes": [
+    "AM-BC-002",
+    "AM-DG-016",
+    "AM-PE-018",
+    "AM-SP-022"
+   ]
+  }
+ ],
+ "approvals": [],
+ "edits": [],
+ "today_events": [
+  {
+   "code": "AM-BC-002",
+   "stage": "proc",
+   "at": "2026-11-22 02:06:32",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-SP-022",
+   "stage": "proc",
+   "at": "2026-11-22 04:29:50",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-DG-016",
+   "stage": "proc",
+   "at": "2026-11-22 04:29:50",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-PE-018",
+   "stage": "proc",
+   "at": "2026-11-22 04:38:35",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-SP-020",
+   "stage": "boss",
+   "at": "2026-11-22 04:19:33",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "AM-PE-018",
+   "stage": "boss",
+   "at": "2026-11-22 04:22:47",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "AM-DG-016",
+   "stage": "boss",
+   "at": "2026-11-22 04:26:51",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "AM-SP-022",
+   "stage": "boss",
+   "at": "2026-11-22 04:27:36",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "AM-BC-002",
+   "stage": "boss",
+   "at": "2026-11-22 04:28:13",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "AM-PE-018",
+   "stage": "boss",
+   "at": "2026-11-22 05:25:33",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "AM-SP-022",
+   "stage": "naver",
+   "at": "",
+   "src": "db.json published(날짜만)"
+  },
+  {
+   "code": "AM-DG-016",
+   "stage": "naver",
+   "at": "",
+   "src": "db.json published(날짜만)"
+  },
+  {
+   "code": "AM-BC-002",
+   "stage": "naver",
+   "at": "",
+   "src": "db.json published(날짜만)"
+  },
+  {
+   "code": "AM-PE-018",
+   "stage": "naver",
+   "at": "",
+   "src": "db.json published(날짜만)"
+  }
+ ],
+ "incidents": [],
+ "stage_of": {},
+ "design_signals": [],
+ "room_extra": [
+  {
+   "title": "📊 카테고리 4개 · 최근 14일 게시",
+   "sub": "합계 25편 · 일률분배 몫 6.2편",
+   "rows": [
+    {
+     "head": "방송·OTT",
+     "chip": "5편"
+    },
+    {
+     "head": "공연·연예",
+     "chip": "8편"
+    },
+    {
+     "head": "스포츠",
+     "chip": "7편"
+    },
+    {
+     "head": "디지털 콘텐츠·여가",
+     "chip": "5편"
+    }
+   ]
+  },
+  {
+   "title": "⚡ 신호 — 마디 옆 최근 발생",
+   "sub": "설계도 신호 표 · 시각 저장이 없는 것은 횟수만",
+   "rows": [
+    {
+     "head": "IDAERI_WAKE",
+     "lvl": "ok",
+     "chip": "2026-11-22 16:24:13",
+     "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
+    },
+    {
+     "head": "AROMA_PUBLISH_STALL",
+     "lvl": "ok",
+     "chip": "시각 기록 없음",
+     "sub": "승인 → 게시(승인 뒤 240분 넘게 게시 없으면 · 재알림 60분 · 72시간 뒤 포기 · 취침 중 보류 · update/rev 결재는 감시 밖) · 출처 시각 저장 없음(진행 중 0건) · 오늘 0회"
+    },
+    {
+     "head": "AROMA_PUBLISH_RESOLVED",
+     "lvl": "ok",
+     "chip": "시각 기록 없음",
+     "sub": "승인 → 게시 해소(게시 기록이 생기면 1회) · 출처 시각 저장 없음 · 오늘 0회"
+    },
+    {
+     "head": "IDAERI_STALL",
+     "lvl": "ok",
+     "chip": "2026-11-22 09:00",
+     "sub": "요청 → 이행(30분)·활동 공백(09~23시 중 3시간 · 열린 요청 STALL 이 없을 때만 1회) · 출처 idaeri_idle_at(공백 알림만) · 오늘 1회 · 열린 요청 0건"
+    },
+    {
+     "head": "TOWER_OWED",
+     "lvl": "ok",
+     "chip": "시각 기록 없음",
+     "sub": "이대리 🙋·⏸ → 이부장(15분 안에 처리 기록이 없으면 · 같은 건 30분 간격 재알림) · 출처 tick owed(aroma 건) · aroma 건은 울린 적 없음 — 장부에 미처리 aroma 건 없음 · 오늘 33회는 전체 세션 합계(aroma 몫은 따로 저장되지 않음)"
+    },
+    {
+     "head": "ASIDE_ALERT",
+     "lvl": "ok",
+     "chip": "2026-11-22 04:19:44",
+     "sub": "이대리 🙋·⏸·👤 → 이부장 즉시 · 출처 now_log(bid=aroma) · 오늘 17회 · 횟수는 전체 세션"
+    },
+    {
+     "head": "ROUTINE_DONE",
+     "lvl": "ok",
+     "chip": "시각 기록 없음",
+     "sub": "루틴10 → CP · 출처 시각 저장 없음(루틴10 꺼짐은 설계도 기재) · 오늘 4회 · 횟수는 lifeinfo 루틴 전체"
+    },
+    {
+     "head": "aromapv 자동 동기",
+     "lvl": "ok",
+     "chip": "2026-11-22 04:38",
+     "sub": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사) · 출처 webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다) · 복사된 미리보기 62개"
+    }
+   ]
+  },
+  {
+   "title": "🧵 쓰레드 공유",
+   "sub": "aroma-mag/threads·watch aroma-threads-* — 읽기 전용",
+   "rows": [
+    {
+     "head": "① 상태",
+     "chip": "가동",
+     "lvl": "ok",
+     "sub": "가동 — 최근 7일 안에 원고·결재 움직임(마지막 11-20 12:34)"
+    },
+    {
+     "head": "② 오늘 슬롯",
+     "chip": "없음",
+     "lvl": "idle",
+     "sub": "오늘 날짜 결재 카드에 슬롯 시각이 적힌 것 없음"
+    },
+    {
+     "head": "③ AM-SP-020",
+     "chip": "게시됨",
+     "lvl": "ok",
+     "sub": "장부에 게시 기록 2026-11-20 12:34 · 원고 11-19 17:08 · 카드 aroma-threads-sp020-1120(done 11-20)"
+    },
+    {
+     "head": "③ AM-SP-021",
+     "chip": "게시됨",
+     "lvl": "ok",
+     "sub": "장부에 게시 기록 2026-11-19 17:40 · 원고 11-19 17:08 · 카드 aroma-threads-sp021-1119(done 11-19)"
+    },
+    {
+     "head": "③ AM-SP-005",
+     "chip": "게시됨",
+     "lvl": "ok",
+     "sub": "장부에 게시 기록 2026-11-01 18:33 · 원고 11-01 18:22 · 카드 aroma-threads-sp005-1101(done 11-01)"
+    },
+    {
+     "head": "④ AM-SP-005",
+     "chip": "게시 2026-11-01 18:33 KST",
+     "lvl": "ok",
+     "sub": "https://www.threads.com/@magsori8975/post/DfMa07dAU4Y",
+     "href": "https://www.threads.com/@magsori8975/post/DfMa07dAU4Y"
+    },
+    {
+     "head": "④ AM-SP-021",
+     "chip": "게시 2026-11-19 17:40 KST",
+     "lvl": "ok",
+     "sub": "https://www.threads.com/@magsori8975/post/Df6rLxRgTnE",
+     "href": "https://www.threads.com/@magsori8975/post/Df6rLxRgTnE"
+    },
+    {
+     "head": "④ AM-SP-020",
+     "chip": "게시 2026-11-20 12:34 KST",
+     "lvl": "ok",
+     "sub": "https://www.threads.com/@magsori8975/post/Df8s0ULgX0B",
+     "href": "https://www.threads.com/@magsori8975/post/Df8s0ULgX0B"
+    },
+    {
+     "head": "⑤ 알아보지 못한 표·줄",
+     "chip": "2개",
+     "lvl": "idle",
+     "sub": "분석.md 에서 장부 행으로 읽지 못한 표·줄(AM 코드·URL·게시 시각이 없는 표, 또는 표 밖에서 AM 코드와 쓰레드 URL 이 함께 적힌 줄) — 장부가 아니거나 새 형식이다(행은 세지 않음)"
+    },
+    {
+     "head": "⑤ 장부 최신 행",
+     "chip": "분석.md",
+     "lvl": "idle",
+     "sub": "AM-SP-020 · 2026-11-20 12:34 · 약 오후 7:34(11-19) · https://www.threads.com/@magsori8975/post/Df8s0ULgX0B · 사장님 aroma-threads-sp020-1120(회수 커밋 fea2d2f17, 「전부 승인이」) · 없음(원고 그대로, 텍스트만) · 11-21 이후 일별 기록(예약 434f2bfc)"
+    }
+   ]
+  },
+  {
+   "title": "🗑 폐기·대체",
+   "rows": [
+    {
+     "head": "AM-DG-003",
+     "chip": "폐기-대체",
+     "lvl": "idle",
+     "sub": "11-19 기록: 승인(10-31) 뒤 magsori8975 224438160731 과 겹침 확인으로 보류, 같은 소재를 계산 각도로 바꾼 AM-DG-010(224472391441, 11-11 게시)로 대체. 게시 빠진 것이 아님."
+    }
+   ]
+  },
+  {
+   "title": "✅ 최근 게시 · 전체 69편",
+   "empty": "게시 기록 없음",
+   "rows": [
+    {
+     "head": "AM-SP-022",
+     "chip": "2026-11-22",
+     "sub": "K리그 승강플레이오프 — 광주 12위 확정, 김천은 규정상 자동 강등"
+    },
+    {
+     "head": "AM-DG-016",
+     "chip": "2026-11-22",
+     "sub": "AGF 2026 티켓 3일권 65,000원 — 1일권 3장보다 22,000원 싸다"
+    },
+    {
+     "head": "AM-BC-002",
+     "chip": "2026-11-22",
+     "sub": "무릎담요 크기 비교 미니 5,900원 vs 똑딱이 10,400원(배송비 포함)"
+    },
+    {
+     "head": "AM-PE-018",
+     "chip": "2026-11-22",
+     "sub": "아이브 콘서트 2027 앙코르 VIP 198,000원, 일반석과 4.4만원 차이"
+    },
+    {
+     "head": "AM-BO-012",
+     "chip": "2026-11-21",
+     "sub": "천천히 강렬하게 12월 11일 오후 5시 공개 — 공식 소개 시대 표기가 다르다"
+    },
+    {
+     "head": "AM-PE-017",
+     "chip": "2026-11-21",
+     "sub": "멜론티켓 수수료 12월 21일 인상 — 공연 4매 8,000원에서 12,000원"
+    }
+   ]
+  }
+ ],
+ "log": []
+}
