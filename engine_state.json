@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23 16:25:32",
+ "at": "2026-11-23 16:28:13",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -364,8 +364,8 @@
   "lvl": "ok"
  },
  "index": {
-  "requested": 182,
-  "todo": 86,
+  "requested": 183,
+  "todo": 85,
   "indexed": 0
  },
  "limit": {
@@ -525,7 +525,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 5,
+   "last_min": 8,
    "cur": "✍️ F4-35 초안 — 2026 함평 겨울빛축제 — 12월 ",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -534,7 +534,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1249,
+   "last_min": 1252,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -575,7 +575,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 5,
+   "last_min": 8,
    "cur": "✍️ F4-35 초안 — 2026 함평 겨울빛축제 — 12월 ",
    "lvl": "ok"
   },
@@ -583,7 +583,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 14,
+   "last_min": 17,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -591,7 +591,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1249,
+   "last_min": 1252,
    "cur": "",
    "lvl": "ok"
   },
@@ -599,7 +599,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 26,
+   "last_min": 28,
    "cur": "[이부장 접수 16:00 · 어드바이저] 이대리 15:47 점",
    "lvl": "ok"
   },
@@ -1305,17 +1305,17 @@
    "who": ""
   },
   {
+   "code": "F4-35",
+   "stage": "threads",
+   "at": "2026-11-23 16:26:13",
+   "src": "now_log 게시 URL",
+   "who": ""
+  },
+  {
    "code": "C2-32",
    "stage": "blog",
    "at": "",
    "src": "pub_dates(날짜뿐)"
-  },
-  {
-   "code": "F4-35",
-   "stage": "threads",
-   "at": "",
-   "src": "DB osmu_at(날짜뿐)",
-   "who": ""
   }
  ],
  "approvals": [],
@@ -1501,7 +1501,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-23 16:21:58",
-  "age_min": 3
+  "age_min": 6
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1588,7 +1588,7 @@
  "fired": [
   {
    "day": "2026-11-23",
-   "total": 103,
+   "total": 107,
    "kinds": [
     [
      "REPORT_UNACKED",
