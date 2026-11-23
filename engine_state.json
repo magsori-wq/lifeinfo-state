@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23 13:57:49",
+ "at": "2026-11-23 14:00:30",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -470,8 +470,8 @@
    "who": "3.세션",
    "kind": "글감",
    "ran": true,
-   "at": "13:56",
-   "note": "원문 1/2 확보 — 공정위 소비자보호 지침 개정안(docs/source_fairtrade_guideline_20261123.",
+   "at": "13:58",
+   "note": "원문 2/2 확보 — 난방비 추가지원(docs/source_heating_extra_20261123.md): 기후에너지환경부 ",
    "today": 0,
    "order": null,
    "lvl": "ok"
@@ -536,7 +536,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 5,
-   "last_min": 1,
+   "last_min": 3,
    "cur": "🚀 D1-27 발행 후속 — 2027학년도 정시 원서접수 군별",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -545,7 +545,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1101,
+   "last_min": 1104,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -585,7 +585,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 5,
-   "last_min": 1,
+   "last_min": 3,
    "cur": "🚀 D1-27 발행 후속 — 2027학년도 정시 원서접수 군별",
    "lvl": "ok"
   },
@@ -601,7 +601,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1101,
+   "last_min": 1104,
    "cur": "",
    "lvl": "ok"
   },
@@ -609,8 +609,8 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 9,
-   "cur": "13:47 점검: 새 승인·요청 없음. 후보 확보 — 제47회",
+   "last_min": 1,
+   "cur": "[이부장 접수 14:10] 이대리 13:47 점검 접수 — 청",
    "lvl": "ok"
   },
   {
@@ -1313,7 +1313,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-23 13:57:38",
-  "age_min": 0
+  "age_min": 2
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1400,11 +1400,11 @@
  "fired": [
   {
    "day": "2026-11-23",
-   "total": 72,
+   "total": 73,
    "kinds": [
     [
      "REPORT_UNACKED",
-     12
+     13
     ],
     [
      "BOSS_APPROVAL",
