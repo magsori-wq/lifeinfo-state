@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23 13:55:10",
+ "at": "2026-11-23 13:57:49",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -470,8 +470,8 @@
    "who": "3.세션",
    "kind": "글감",
    "ran": true,
-   "at": "13:54",
-   "note": "📋 복창: 재고 0(하한 3) → 빈손 금지 · 06:5x 지시대로 원문 확보 2건 병렬(source 에이전트 · 공정위 소비",
+   "at": "13:56",
+   "note": "원문 1/2 확보 — 공정위 소비자보호 지침 개정안(docs/source_fairtrade_guideline_20261123.",
    "today": 0,
    "order": null,
    "lvl": "ok"
@@ -536,7 +536,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 5,
-   "last_min": 2,
+   "last_min": 1,
    "cur": "🚀 D1-27 발행 후속 — 2027학년도 정시 원서접수 군별",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -545,7 +545,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1098,
+   "last_min": 1101,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -585,7 +585,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 5,
-   "last_min": 2,
+   "last_min": 1,
    "cur": "🚀 D1-27 발행 후속 — 2027학년도 정시 원서접수 군별",
    "lvl": "ok"
   },
@@ -593,7 +593,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 0,
+   "last_min": 1,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -601,7 +601,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1098,
+   "last_min": 1101,
    "cur": "",
    "lvl": "ok"
   },
@@ -609,7 +609,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 7,
+   "last_min": 9,
    "cur": "13:47 점검: 새 승인·요청 없음. 후보 확보 — 제47회",
    "lvl": "ok"
   },
@@ -1142,8 +1142,8 @@
   {
    "code": "D1-27",
    "stage": "naver",
-   "at": "",
-   "src": "DB osmu_at(날짜뿐)",
+   "at": "2026-11-23 13:56:43",
+   "src": "now_log 게시 URL",
    "who": "lee"
   }
  ],
@@ -1307,12 +1307,12 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "bad",
-  "ok": 5,
+  "state": "stale",
+  "ok": 6,
   "stale": 1,
-  "bad": 1,
+  "bad": 0,
   "na": 0,
-  "at": "2026-11-23 13:55:17",
+  "at": "2026-11-23 13:57:38",
   "age_min": 0
  },
  "design_signals": [
@@ -1400,7 +1400,7 @@
  "fired": [
   {
    "day": "2026-11-23",
-   "total": 71,
+   "total": 72,
    "kinds": [
     [
      "REPORT_UNACKED",
@@ -1412,7 +1412,7 @@
     ],
     [
      "CHKMON_REPORT",
-     7
+     8
     ],
     [
      "BOSS_REMIND",
