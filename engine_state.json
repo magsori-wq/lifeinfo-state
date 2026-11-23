@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23 14:32:50",
+ "at": "2026-11-23 14:35:08",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -516,7 +516,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 5,
-   "last_min": -1,
+   "last_min": 2,
    "cur": "🚀 D1-27 발행 후속 — 2027학년도 정시 원서접수 군별",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -525,7 +525,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1136,
+   "last_min": 1138,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -565,7 +565,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 5,
-   "last_min": -1,
+   "last_min": 2,
    "cur": "🚀 D1-27 발행 후속 — 2027학년도 정시 원서접수 군별",
    "lvl": "ok"
   },
@@ -573,7 +573,7 @@
    "who": "3.세션",
    "state": "대기(상시 업무만)",
    "jobs": 2,
-   "last_min": 34,
+   "last_min": 36,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -581,7 +581,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1136,
+   "last_min": 1138,
    "cur": "",
    "lvl": "ok"
   },
@@ -589,7 +589,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 33,
+   "last_min": 35,
    "cur": "[이부장 접수 14:10] 이대리 13:47 점검 접수 — 청",
    "lvl": "ok"
   },
@@ -1346,7 +1346,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-23 14:32:03",
-  "age_min": 0
+  "age_min": 3
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1433,7 +1433,7 @@
  "fired": [
   {
    "day": "2026-11-23",
-   "total": 77,
+   "total": 78,
    "kinds": [
     [
      "REPORT_UNACKED",
@@ -1460,12 +1460,12 @@
      5
     ],
     [
-     "NEW_BOSS_ITEM",
+     "ASIDE_ALERT",
      4
     ],
     [
-     "ASIDE_ALERT",
-     3
+     "NEW_BOSS_ITEM",
+     4
     ]
    ]
   },
