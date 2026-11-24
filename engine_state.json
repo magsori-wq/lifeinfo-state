@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24 10:14:15",
+ "at": "2026-11-24 10:16:34",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -11,24 +11,24 @@
     "code": "A1-28",
     "title": "2027 국가장학금 신청 — 1월 7일 18시 마감, ",
     "left": [
-     "네이버",
      "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
-     "naver": false,
+     "naver": true,
      "insta": false,
      "threads": false
     },
-    "who": {},
+    "who": {
+     "naver": "lee"
+    },
     "plan": {
-     "naver": "lee",
      "insta": "lee",
      "threads": "lee"
     },
     "pub": "2026-11-24",
-    "last_at": "",
+    "last_at": "2026-11-24",
     "lvl": "amber"
    }
   ],
@@ -503,8 +503,8 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 4,
-   "cur": "🚀 D1-28 발행 후속 — 수능 부정행위 신고 포상금 4채널",
+   "last_min": 2,
+   "cur": "🚀 A1-28 발행 후속 — 2027 국가장학금 4채널 완결",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
   },
@@ -512,7 +512,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 764,
+   "last_min": 766,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -552,15 +552,15 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 4,
-   "cur": "🚀 D1-28 발행 후속 — 수능 부정행위 신고 포상금 4채널",
+   "last_min": 2,
+   "cur": "🚀 A1-28 발행 후속 — 2027 국가장학금 4채널 완결",
    "lvl": "ok"
   },
   {
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 3,
+   "last_min": 6,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -568,7 +568,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 764,
+   "last_min": 766,
    "cur": "",
    "lvl": "ok"
   },
@@ -576,7 +576,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 14,
+   "last_min": 16,
    "cur": "11/23 야간 승인 4건 게시·검증 완료: SP-024(22",
    "lvl": "ok"
   },
@@ -745,6 +745,13 @@
   "naver": {
    "done": [
     {
+     "code": "A1-28",
+     "title": "2027 국가장학금 신청 — 1월 7일 18시 마감, ",
+     "url": "https://blog.naver.com/magsori8975/224489575840",
+     "at": "2026-11-24",
+     "who": "lee"
+    },
+    {
      "code": "D1-28",
      "title": "수능 부정행위 신고 포상금 1억~5억 — 신고만 하면 ",
      "url": "https://blog.naver.com/magsori8975/224489538477",
@@ -843,12 +850,7 @@
      "who": "lee"
     }
    ],
-   "wait": [
-    {
-     "code": "A1-28",
-     "title": "2027 국가장학금 신청 — 1월 7일 18시 마감, "
-    }
-   ]
+   "wait": []
   },
   "insta": {
    "done": [
@@ -1159,6 +1161,13 @@
   },
   {
    "code": "A1-28",
+   "stage": "naver",
+   "at": "",
+   "src": "DB osmu_at(날짜뿐)",
+   "who": "lee"
+  },
+  {
+   "code": "A1-28",
    "stage": "blog",
    "at": "",
    "src": "pub_dates(날짜뿐)"
@@ -1341,7 +1350,7 @@
   "stale": 1,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-24 10:13:48",
+  "at": "2026-11-24 10:16:37",
   "age_min": 0
  },
  "design_signals": [
@@ -1429,7 +1438,7 @@
  "fired": [
   {
    "day": "2026-11-24",
-   "total": 56,
+   "total": 57,
    "kinds": [
     [
      "BOSS_APPROVAL",
@@ -1437,7 +1446,7 @@
     ],
     [
      "REPORT_UNACKED",
-     5
+     6
     ],
     [
      "CONFIRM_BACKLOG",
