@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25 00:28:30",
+ "at": "2026-11-25 00:30:52",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -340,8 +340,8 @@
   "lvl": "ok"
  },
  "index": {
-  "requested": 170,
-  "todo": 84,
+  "requested": 171,
+  "todo": 83,
   "indexed": 0
  },
  "limit": {
@@ -540,7 +540,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 8,
-   "last_min": 11,
+   "last_min": 14,
    "cur": "🧵 xmas1121 쓰레드 단독 상품글 게시(승인 도장 11-",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -549,7 +549,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 422,
+   "last_min": 424,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -587,7 +587,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 8,
-   "last_min": 11,
+   "last_min": 14,
    "cur": "🧵 xmas1121 쓰레드 단독 상품글 게시(승인 도장 11-",
    "lvl": "ok"
   },
@@ -595,7 +595,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 13,
+   "last_min": 15,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -603,7 +603,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 422,
+   "last_min": 424,
    "cur": "",
    "lvl": "ok"
   },
@@ -611,7 +611,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 18,
+   "last_min": 21,
    "cur": "[이부장 접수 00:12] 이대리 23:4x 겹침 권고 회신·",
    "lvl": "ok"
   },
@@ -1351,7 +1351,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-25 00:24:52",
-  "age_min": 3
+  "age_min": 6
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1439,7 +1439,7 @@
  "fired": [
   {
    "day": "2026-11-25",
-   "total": 11,
+   "total": 14,
    "kinds": [
     [
      "REPORT_UNACKED",
@@ -1450,6 +1450,10 @@
      2
     ],
     [
+     "AUTO_CONFIRM",
+     1
+    ],
+    [
      "CONFIRM_BACKLOG",
      1
     ],
@@ -1458,19 +1462,15 @@
      1
     ],
     [
+     "INDEX_REQUEST_TODO",
+     1
+    ],
+    [
      "LANE_IDLE",
      1
     ],
     [
-     "PUBLISH_RUN_DONE",
-     1
-    ],
-    [
-     "ROUTINE_DONE",
-     1
-    ],
-    [
-     "WAKE_SESSION",
+     "POST_COMPLETE",
      1
     ]
    ]
