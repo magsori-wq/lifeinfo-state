@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24 14:06:42",
+ "at": "2026-11-24 14:08:48",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -505,7 +505,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 8,
-   "last_min": 25,
+   "last_min": 28,
    "cur": "🚀 A2-34 발행 후속 — 국민연금 10년 문턱 판정표 4채",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -514,7 +514,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 996,
+   "last_min": 998,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -555,7 +555,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 8,
-   "last_min": 25,
+   "last_min": 28,
    "cur": "🚀 A2-34 발행 후속 — 국민연금 10년 문턱 판정표 4채",
    "lvl": "ok"
   },
@@ -563,7 +563,7 @@
    "who": "3.세션",
    "state": "대기(상시 업무만)",
    "jobs": 2,
-   "last_min": 42,
+   "last_min": 44,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -571,7 +571,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 996,
+   "last_min": 998,
    "cur": "",
    "lvl": "ok"
   },
@@ -579,7 +579,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 19,
+   "last_min": 21,
    "cur": "13:47 점검: 새 승인·요청 없음, MAMA 공식 결과 미",
    "lvl": "ok"
   },
@@ -1463,7 +1463,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-24 13:50:17",
-  "age_min": 16
+  "age_min": 18
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1550,22 +1550,22 @@
  "fired": [
   {
    "day": "2026-11-24",
-   "total": 115,
+   "total": 118,
    "kinds": [
     [
      "REPORT_UNACKED",
-     19
+     21
     ],
     [
      "BOSS_APPROVAL",
      14
     ],
     [
-     "CHKMON_REPORT",
-     8
+     "TOWER_OWED",
+     9
     ],
     [
-     "TOWER_OWED",
+     "CHKMON_REPORT",
      8
     ],
     [
