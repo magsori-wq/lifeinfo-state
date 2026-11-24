@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24 10:18:53",
+ "at": "2026-11-24 10:21:14",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -11,20 +11,19 @@
     "code": "A1-28",
     "title": "2027 국가장학금 신청 — 1월 7일 18시 마감, ",
     "left": [
-     "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
      "naver": true,
-     "insta": false,
+     "insta": true,
      "threads": false
     },
     "who": {
-     "naver": "lee"
+     "naver": "lee",
+     "insta": ""
     },
     "plan": {
-     "insta": "lee",
      "threads": "lee"
     },
     "pub": "2026-11-24",
@@ -496,7 +495,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 1,
+   "last_min": 4,
    "cur": "🚀 A1-28 발행 후속 — 2027 국가장학금 4채널 완결",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -505,7 +504,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 769,
+   "last_min": 771,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -545,7 +544,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 1,
+   "last_min": 4,
    "cur": "🚀 A1-28 발행 후속 — 2027 국가장학금 4채널 완결",
    "lvl": "ok"
   },
@@ -553,7 +552,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 8,
+   "last_min": 10,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -561,7 +560,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 769,
+   "last_min": 771,
    "cur": "",
    "lvl": "ok"
   },
@@ -569,7 +568,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 18,
+   "last_min": 21,
    "cur": "11/23 야간 승인 4건 게시·검증 완료: SP-024(22",
    "lvl": "ok"
   },
@@ -848,6 +847,13 @@
   "insta": {
    "done": [
     {
+     "code": "A1-28",
+     "title": "2027 국가장학금 신청 — 1월 7일 18시 마감, ",
+     "url": "https://www.instagram.com/p/DgGwr9kEawP/",
+     "at": "2026-11-24",
+     "who": ""
+    },
+    {
      "code": "D1-28",
      "title": "수능 부정행위 신고 포상금 1억~5억 — 신고만 하면 ",
      "url": "https://www.instagram.com/p/DgGu2JSkb-l/",
@@ -946,12 +952,7 @@
      "who": "lee"
     }
    ],
-   "wait": [
-    {
-     "code": "A1-28",
-     "title": "2027 국가장학금 신청 — 1월 7일 18시 마감, "
-    }
-   ]
+   "wait": []
   },
   "threads": {
    "done": [
@@ -1161,6 +1162,13 @@
   },
   {
    "code": "A1-28",
+   "stage": "insta",
+   "at": "",
+   "src": "DB osmu_at(날짜뿐)",
+   "who": ""
+  },
+  {
+   "code": "A1-28",
    "stage": "blog",
    "at": "",
    "src": "pub_dates(날짜뿐)"
@@ -1343,8 +1351,8 @@
   "stale": 1,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-24 10:16:37",
-  "age_min": 2
+  "at": "2026-11-24 10:21:21",
+  "age_min": 0
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
