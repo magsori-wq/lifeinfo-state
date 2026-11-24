@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24 14:24:53",
+ "at": "2026-11-24 14:26:54",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -439,8 +439,8 @@
    "who": "3.세션",
    "kind": "글감",
    "ran": true,
-   "at": "14:14",
-   "note": "📋 14:14 지시서 재확인: 새 지시 없음(최신 12:10 판정 그대로). 진행: (나) 기존 글 후속 — 난임휴직·소방점검",
+   "at": "14:26",
+   "note": "정정(14:3x 지시 반영): 앞 보고의 「A2-34 이부장 판단 대기」는 낡은 표현이다 — 실측: topicprop 상태 ✅",
    "today": 1,
    "order": null,
    "lvl": "ok"
@@ -505,7 +505,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 8,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -514,7 +514,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 9,
+   "last_min": 11,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -555,7 +555,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 8,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -563,7 +563,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 7,
+   "last_min": 0,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -571,7 +571,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 9,
+   "last_min": 11,
    "cur": "",
    "lvl": "ok"
   },
@@ -579,7 +579,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 15,
+   "last_min": 17,
    "cur": "[이부장 접수 14:1x · 어드바이저] 이대리 13:47 점",
    "lvl": "ok"
   },
@@ -1463,7 +1463,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-24 14:10:20",
-  "age_min": 14
+  "age_min": 16
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1550,11 +1550,11 @@
  "fired": [
   {
    "day": "2026-11-24",
-   "total": 120,
+   "total": 123,
    "kinds": [
     [
      "REPORT_UNACKED",
-     21
+     23
     ],
     [
      "BOSS_APPROVAL",
@@ -1565,12 +1565,12 @@
      10
     ],
     [
-     "CHKMON_REPORT",
+     "ASIDE_ALERT",
      8
     ],
     [
-     "ASIDE_ALERT",
-     7
+     "CHKMON_REPORT",
+     8
     ],
     [
      "AUTO_CONFIRM",
