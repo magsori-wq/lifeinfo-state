@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24 14:44:55",
+ "at": "2026-11-24 14:47:46",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -446,8 +446,8 @@
    "who": "3.세션",
    "kind": "글감",
    "ran": true,
-   "at": "14:28",
-   "note": "[이부장 접수 14:3x] 3. 14:26 정정 보고 접수 — A2-34 이미 발행 흐름·새 발행 후보 0건 확인(topicp",
+   "at": "14:45",
+   "note": "[이부장 접수 14:4x] 3. 14:25·14:26 보고(batchboard unread 로 새 보고 2건 전부 읽음) 접수",
    "today": 1,
    "order": null,
    "lvl": "ok"
@@ -512,7 +512,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 8,
-   "last_min": 0,
+   "last_min": 3,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -521,7 +521,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 5,
+   "last_min": 8,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -562,7 +562,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 8,
-   "last_min": 0,
+   "last_min": 3,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -570,7 +570,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 18,
+   "last_min": 21,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -578,7 +578,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 5,
+   "last_min": 8,
    "cur": "",
    "lvl": "ok"
   },
@@ -586,7 +586,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 35,
+   "last_min": 38,
    "cur": "[이부장 접수 14:1x · 어드바이저] 이대리 13:47 점",
    "lvl": "ok"
   },
@@ -1470,7 +1470,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-24 14:38:53",
-  "age_min": 6
+  "age_min": 8
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1558,7 +1558,7 @@
  "fired": [
   {
    "day": "2026-11-24",
-   "total": 131,
+   "total": 132,
    "kinds": [
     [
      "REPORT_UNACKED",
