@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24 12:16:36",
+ "at": "2026-11-24 12:18:34",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -494,7 +494,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 886,
+   "last_min": 888,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -542,7 +542,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 8,
+   "last_min": 10,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -550,7 +550,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 886,
+   "last_min": 888,
    "cur": "",
    "lvl": "ok"
   },
@@ -558,7 +558,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 18,
+   "last_min": 20,
    "cur": "[이부장 접수 12:0x · 어드바이저] 이대리 11:47 점",
    "lvl": "ok"
   },
@@ -1379,7 +1379,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-24 12:13:08",
-  "age_min": 3
+  "age_min": 5
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1466,7 +1466,7 @@
  "fired": [
   {
    "day": "2026-11-24",
-   "total": 82,
+   "total": 83,
    "kinds": [
     [
      "REPORT_UNACKED",
