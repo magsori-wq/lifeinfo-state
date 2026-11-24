@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25 00:19:10",
+ "at": "2026-11-25 00:21:32",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -11,20 +11,19 @@
     "code": "B2-29",
     "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
     "left": [
-     "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
      "naver": true,
-     "insta": false,
+     "insta": true,
      "threads": false
     },
     "who": {
-     "naver": "lee"
+     "naver": "lee",
+     "insta": ""
     },
     "plan": {
-     "insta": "lee",
      "threads": "lee"
     },
     "pub": "2026-11-25",
@@ -485,8 +484,8 @@
    "who": "3.세션",
    "kind": "글감",
    "ran": true,
-   "at": "00:14",
-   "note": "📋 코레일 설 승차권 원문 결과(docs/source_korail_seol_20261125.md): 2027 설 예매 공지 아",
+   "at": "00:21",
+   "note": "[이부장 접수 00:22] 3. 코레일 설 승차권 원문 결과(00:14)·D5-14 소방세대점검 후보(소방청 보도자료 1차 확",
    "today": 1,
    "order": null,
    "lvl": "ok"
@@ -551,7 +550,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 9,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "🚀 B2-29 발행 — 불법추심 신고 어디로 — 1332·지자",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -560,7 +559,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 412,
+   "last_min": 415,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -598,7 +597,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 9,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "🚀 B2-29 발행 — 불법추심 신고 어디로 — 1332·지자",
    "lvl": "ok"
   },
@@ -606,7 +605,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 3,
+   "last_min": 6,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -614,7 +613,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 412,
+   "last_min": 415,
    "cur": "",
    "lvl": "ok"
   },
@@ -622,7 +621,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 9,
+   "last_min": 11,
    "cur": "[이부장 접수 00:12] 이대리 23:4x 겹침 권고 회신·",
    "lvl": "ok"
   },
@@ -891,6 +890,13 @@
   "insta": {
    "done": [
     {
+     "code": "B2-29",
+     "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
+     "url": "https://www.instagram.com/p/DgIQ4yEkwvh/",
+     "at": "2026-11-25",
+     "who": ""
+    },
+    {
      "code": "A1-28",
      "title": "2027 국가장학금 신청 — 1월 7일 18시 마감, ",
      "url": "https://www.instagram.com/p/DgGwr9kEawP/",
@@ -989,12 +995,7 @@
      "who": ""
     }
    ],
-   "wait": [
-    {
-     "code": "B2-29",
-     "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 "
-    }
-   ]
+   "wait": []
   },
   "threads": {
    "done": [
@@ -1136,6 +1137,13 @@
    "stage": "proc",
    "at": "2026-11-25 00:18:24",
    "src": "topicprop 선별"
+  },
+  {
+   "code": "B2-29",
+   "stage": "insta",
+   "at": "",
+   "src": "DB osmu_at(날짜뿐)",
+   "who": ""
   },
   {
    "code": "B2-29",
@@ -1342,7 +1350,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-25 00:15:49",
-  "age_min": 3
+  "age_min": 5
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1430,10 +1438,14 @@
  "fired": [
   {
    "day": "2026-11-25",
-   "total": 9,
+   "total": 10,
    "kinds": [
     [
      "CODE_UNVERIFIED",
+     2
+    ],
+    [
+     "REPORT_UNACKED",
      2
     ],
     [
@@ -1450,10 +1462,6 @@
     ],
     [
      "PUBLISH_RUN_DONE",
-     1
-    ],
-    [
-     "REPORT_UNACKED",
      1
     ],
     [
