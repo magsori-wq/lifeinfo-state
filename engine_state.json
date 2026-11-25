@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26 02:06:51",
+ "at": "2026-11-26 02:09:06",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -11,24 +11,24 @@
     "code": "A2-35",
     "title": "부양의무자 폐지 2027 하반기 — 중증장애인 가구, ",
     "left": [
-     "네이버",
      "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
-     "naver": false,
+     "naver": true,
      "insta": false,
      "threads": false
     },
-    "who": {},
+    "who": {
+     "naver": "lee"
+    },
     "plan": {
-     "naver": "lee",
      "insta": "lee",
      "threads": "lee"
     },
     "pub": "",
-    "last_at": "",
+    "last_at": "2026-11-26",
     "lvl": "amber"
    }
   ],
@@ -437,7 +437,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 6,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "🚀 A2-35 발행 — 부양의무자 폐지 2027 하반기 — 중",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -446,7 +446,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1960,
+   "last_min": 1962,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -468,8 +468,9 @@
  "producers": [
   {
    "who": "이과장",
-   "made": "새 글 초안·발행 1편 · 개선 반영 0편",
+   "made": "새 글 초안·발행 2편 · 개선 반영 0편",
    "codes": [
+    "A2-35",
     "D1-29"
    ]
   },
@@ -484,7 +485,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 6,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "🚀 A2-35 발행 — 부양의무자 폐지 2027 하반기 — 중",
    "lvl": "ok"
   },
@@ -492,7 +493,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 20,
+   "last_min": 23,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -500,7 +501,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1960,
+   "last_min": 1962,
    "cur": "",
    "lvl": "ok"
   },
@@ -508,7 +509,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 50,
+   "last_min": 52,
    "cur": "[이부장 접수 01:17] 이대리 DG-019 게시·검증 완료",
    "lvl": "ok"
   },
@@ -531,7 +532,7 @@
   "done_codes": [
    "D1-29"
   ],
-  "published_today": 1,
+  "published_today": 2,
   "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
@@ -626,6 +627,13 @@
   "naver": {
    "done": [
     {
+     "code": "A2-35",
+     "title": "부양의무자 폐지 2027 하반기 — 중증장애인 가구, ",
+     "url": "https://blog.naver.com/magsori8975/224492331737",
+     "at": "2026-11-26",
+     "who": "lee"
+    },
+    {
      "code": "D1-29",
      "title": "국가자격시험 부정행위 응시 제한 3년→10년? 이미 적",
      "url": "https://blog.naver.com/magsori8975/224492315023",
@@ -696,12 +704,7 @@
      "who": "lee"
     }
    ],
-   "wait": [
-    {
-     "code": "A2-35",
-     "title": "부양의무자 폐지 2027 하반기 — 중증장애인 가구, "
-    }
-   ]
+   "wait": []
   },
   "insta": {
    "done": [
@@ -887,6 +890,13 @@
    "who": ""
   },
   {
+   "code": "A2-35",
+   "stage": "naver",
+   "at": "",
+   "src": "DB osmu_at(날짜뿐)",
+   "who": "lee"
+  },
+  {
    "code": "D1-29",
    "stage": "blog",
    "at": "",
@@ -1008,12 +1018,12 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "ok",
-  "ok": 7,
-  "stale": 0,
+  "state": "stale",
+  "ok": 6,
+  "stale": 1,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-26 02:06:05",
+  "at": "2026-11-26 02:09:05",
   "age_min": 0
  },
  "design_signals": [
