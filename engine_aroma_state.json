@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26 01:10:21",
+ "at": "2026-11-26 01:12:34",
  "errors": [],
  "rows": [
   {
@@ -17,38 +17,6 @@
    "stage": "approved_unverified",
    "label": "승인 확인 중",
    "detail": "watch done 이나 [사장님]/회수 커밋 못 찾음(미확인)"
-  },
-  {
-   "code": "AM-PE-021",
-   "approvals": [
-    {
-     "id": "aroma-am-pe-021-approve-1125",
-     "state": "done",
-     "kind": "approve",
-     "at": "2026-11-25"
-    }
-   ],
-   "title": "변우석팬미팅앙코르예매",
-   "last_file_at": "2026-11-26 01:08",
-   "stage": "approved",
-   "label": "승인됨(게시 전)",
-   "detail": "watch done + 커밋 49c83b8ae"
-  },
-  {
-   "code": "AM-SP-025",
-   "approvals": [
-    {
-     "id": "aroma-am-sp-025-approve-1125",
-     "state": "done",
-     "kind": "approve",
-     "at": "2026-11-25"
-    }
-   ],
-   "title": "KBO시상식후보수비상",
-   "last_file_at": "2026-11-26 01:08",
-   "stage": "approved",
-   "label": "승인됨(게시 전)",
-   "detail": "watch done + 커밋 3e9e8f75f"
   }
  ],
  "old_inflight": [],
@@ -60,6 +28,38 @@
   }
  ],
  "recent_published": [
+  {
+   "code": "AM-PE-021",
+   "approvals": [
+    {
+     "id": "aroma-am-pe-021-approve-1125",
+     "state": "done",
+     "kind": "approve",
+     "at": "2026-11-25"
+    }
+   ],
+   "title": "변우석 팬미팅 앙코르 — 전석 110,000원, 선예매 12/7·일반 12/8",
+   "last_file_at": "2026-11-26 01:10",
+   "stage": "published",
+   "label": "게시됨",
+   "detail": "2026-11-26"
+  },
+  {
+   "code": "AM-SP-025",
+   "approvals": [
+    {
+     "id": "aroma-am-sp-025-approve-1125",
+     "state": "done",
+     "kind": "approve",
+     "at": "2026-11-25"
+    }
+   ],
+   "title": "2026 KBO 시상식 — MVP 후보 14명, 수비상 164명 중 10명",
+   "last_file_at": "2026-11-26 01:08",
+   "stage": "published",
+   "label": "게시됨",
+   "detail": "2026-11-26"
+  },
   {
    "code": "AM-BO-014",
    "approvals": [
@@ -123,41 +123,9 @@
    "stage": "published",
    "label": "게시됨",
    "detail": "2026-11-24"
-  },
-  {
-   "code": "AM-BO-013",
-   "approvals": [
-    {
-     "id": "aroma-am-bo-013-approve-1122",
-     "state": "done",
-     "kind": "approve",
-     "at": "2026-11-23"
-    }
-   ],
-   "title": "푸른길 몇부작 8부작 — 전편 약 6시간 7분, 회차 35분~57분",
-   "last_file_at": "2026-11-23 04:29",
-   "stage": "published",
-   "label": "게시됨",
-   "detail": "2026-11-23"
-  },
-  {
-   "code": "AM-DG-017",
-   "approvals": [
-    {
-     "id": "aroma-am-dg-017-approve-1122",
-     "state": "done",
-     "kind": "approve",
-     "at": "2026-11-23"
-    }
-   ],
-   "title": "블랙프라이데이 플스 — LG U+ 5만원당 5천원 vs 카카오페이 8천P",
-   "last_file_at": "2026-11-23 04:42",
-   "stage": "published",
-   "label": "게시됨",
-   "detail": "2026-11-23"
   }
  ],
- "published_total": 77,
+ "published_total": 79,
  "rev_wait": [],
  "cats": {
   "window": 14,
@@ -358,7 +326,7 @@
   "who": "이대리",
   "state": "현장(진행)",
   "jobs": 1,
-  "last_min": 912,
+  "last_min": 914,
   "cur": "[문의 01:10·지시 아님] 11-25 11:09~11:12",
   "lvl": "ok"
  },
@@ -378,19 +346,7 @@
    {
     "code": "AM-DG-019",
     "title": "GTA6플레이타임공식수치",
-    "min": 837,
-    "lvl": "amber"
-   },
-   {
-    "code": "AM-PE-021",
-    "title": "변우석팬미팅앙코르예매",
-    "min": 840,
-    "lvl": "amber"
-   },
-   {
-    "code": "AM-SP-025",
-    "title": "KBO시상식후보수비상",
-    "min": 840,
+    "min": 839,
     "lvl": "amber"
    }
   ],
@@ -432,6 +388,16 @@
   },
   "naver": {
    "done": [
+    {
+     "code": "AM-SP-025",
+     "title": "2026 KBO 시상식 — MVP 후보 14명, 수비상 164명 중 10명",
+     "url": "https://blog.naver.com/aroma-mag/224492290285"
+    },
+    {
+     "code": "AM-PE-021",
+     "title": "변우석 팬미팅 앙코르 — 전석 110,000원, 선예매 12/7·일반 12/8",
+     "url": "https://blog.naver.com/aroma-mag/224492291666"
+    },
     {
      "code": "AM-SP-024",
      "title": "K리그2 순위 PO 4팀 확정(제 계산) — 3위는 대구 59점·서울E 58점",
@@ -821,12 +787,6 @@
    "wait": [
     {
      "code": "AM-DG-019"
-    },
-    {
-     "code": "AM-PE-021"
-    },
-    {
-     "code": "AM-SP-025"
     }
    ]
   }
@@ -840,8 +800,8 @@
  },
  "kpi": {
   "today": "2026-11-26",
-  "done_today": 0,
-  "published_today": 0,
+  "done_today": 2,
+  "published_today": 2,
   "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
@@ -858,7 +818,7 @@
   "state": "미확인(aroma 발행챗 상태는 이 방이 읽는 길이 없다)"
  },
  "tower": {
-  "age_min": 1,
+  "age_min": 0,
   "lvl": "ok"
  },
  "units": [
@@ -866,7 +826,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 912,
+   "last_min": 914,
    "cur": "[문의 01:10·지시 아님] 11-25 11:09~11:12",
    "lvl": "ok"
   },
@@ -881,7 +841,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 912,
+   "last_min": 914,
    "cur": "[문의 01:10·지시 아님] 11-25 11:09~11:12",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
@@ -910,7 +870,7 @@
    "who": "이대리(자기점검·CA 검색어·일정 박스)",
    "kind": "글감",
    "ran": true,
-   "at": "01:08",
+   "at": "01:10",
    "today": 3,
    "lvl": "ok",
    "order": null,
@@ -928,7 +888,7 @@
  "producers": [
   {
    "who": "이대리",
-   "made": "오늘 새 글 게시 0편 · 파일이 움직인 글 3편",
+   "made": "오늘 새 글 게시 2편 · 파일이 움직인 글 3편",
    "codes": [
     "AM-DG-019",
     "AM-PE-021",
@@ -939,6 +899,12 @@
  "approvals": [],
  "edits": [],
  "today_events": [
+  {
+   "code": "AM-SP-025",
+   "stage": "proc",
+   "at": "2026-11-26 01:08:22",
+   "src": "파일 수정 시각"
+  },
   {
    "code": "AM-DG-019",
    "stage": "proc",
@@ -953,9 +919,15 @@
   },
   {
    "code": "AM-SP-025",
-   "stage": "proc",
-   "at": "2026-11-26 01:08:22",
-   "src": "파일 수정 시각"
+   "stage": "naver",
+   "at": "",
+   "src": "db.json published(날짜만)"
+  },
+  {
+   "code": "AM-PE-021",
+   "stage": "naver",
+   "at": "",
+   "src": "db.json published(날짜만)"
   }
  ],
  "incidents": [],
@@ -1119,9 +1091,19 @@
    ]
   },
   {
-   "title": "✅ 최근 게시 · 전체 77편",
+   "title": "✅ 최근 게시 · 전체 79편",
    "empty": "게시 기록 없음",
    "rows": [
+    {
+     "head": "AM-SP-025",
+     "chip": "2026-11-26",
+     "sub": "2026 KBO 시상식 — MVP 후보 14명, 수비상 164명 중 10명"
+    },
+    {
+     "head": "AM-PE-021",
+     "chip": "2026-11-26",
+     "sub": "변우석 팬미팅 앙코르 — 전석 110,000원, 선예매 12/7·일반 12/8"
+    },
     {
      "head": "AM-SP-024",
      "chip": "2026-11-24",
@@ -1141,16 +1123,6 @@
      "head": "AM-DG-018",
      "chip": "2026-11-24",
      "sub": "PS Plus 프리미엄 12개월 114,570원 — 6개월 쓰면 월결제보다 쌉니다"
-    },
-    {
-     "head": "AM-BO-013",
-     "chip": "2026-11-23",
-     "sub": "푸른길 몇부작 8부작 — 전편 약 6시간 7분, 회차 35분~57분"
-    },
-    {
-     "head": "AM-PE-019",
-     "chip": "2026-11-23",
-     "sub": "임영웅 영화 박스오피스 — 관객 5위, 매출 3위, 1인당 29,174원"
     }
    ]
   }
