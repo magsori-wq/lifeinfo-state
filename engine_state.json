@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26 01:45:48",
+ "at": "2026-11-26 01:47:56",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -35,20 +35,19 @@
     "code": "D1-29",
     "title": "국가자격시험 부정행위 응시 제한 3년→10년? 이미 적",
     "left": [
-     "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
      "naver": true,
-     "insta": false,
+     "insta": true,
      "threads": false
     },
     "who": {
-     "naver": "lee"
+     "naver": "lee",
+     "insta": ""
     },
     "plan": {
-     "insta": "lee",
      "threads": "lee"
     },
     "pub": "2026-11-26",
@@ -454,7 +453,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 0,
+   "last_min": 3,
    "cur": "🚀 D1-29 발행 — 국가자격시험 부정행위 응시 제한 3년→",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -463,7 +462,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1939,
+   "last_min": 1941,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -501,7 +500,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 0,
+   "last_min": 3,
    "cur": "🚀 D1-29 발행 — 국가자격시험 부정행위 응시 제한 3년→",
    "lvl": "ok"
   },
@@ -509,7 +508,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": -1,
+   "last_min": 2,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -517,7 +516,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1939,
+   "last_min": 1941,
    "cur": "",
    "lvl": "ok"
   },
@@ -525,7 +524,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 28,
+   "last_min": 31,
    "cur": "[이부장 접수 01:17] 이대리 DG-019 게시·검증 완료",
    "lvl": "ok"
   },
@@ -721,6 +720,13 @@
   "insta": {
    "done": [
     {
+     "code": "D1-29",
+     "title": "국가자격시험 부정행위 응시 제한 3년→10년? 이미 적",
+     "url": "https://www.instagram.com/p/DgK_km0k69E/",
+     "at": "2026-11-26",
+     "who": ""
+    },
+    {
      "code": "B2-29",
      "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
      "url": "https://www.instagram.com/p/DgIQ4yEkwvh/",
@@ -788,10 +794,6 @@
     {
      "code": "A2-35",
      "title": "부양의무자 폐지 2027 하반기 — 중증장애인 가구, "
-    },
-    {
-     "code": "D1-29",
-     "title": "국가자격시험 부정행위 응시 제한 3년→10년? 이미 적"
     }
    ]
   },
@@ -880,6 +882,13 @@
    "at": "2026-11-26 01:44:36",
    "src": "now_log 게시 URL",
    "who": "lee"
+  },
+  {
+   "code": "D1-29",
+   "stage": "insta",
+   "at": "",
+   "src": "DB osmu_at(날짜뿐)",
+   "who": ""
   },
   {
    "code": "D1-29",
@@ -1009,7 +1018,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-26 01:44:49",
-  "age_min": 0
+  "age_min": 3
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
