@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26 12:19:04",
+ "at": "2026-11-26 12:21:04",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -35,20 +35,19 @@
     "code": "D5-15",
     "title": "모두의카드 청소년 12월 1일부터 — 우리 아이 되나,",
     "left": [
-     "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
      "naver": true,
-     "insta": false,
+     "insta": true,
      "threads": false
     },
     "who": {
-     "naver": "lee"
+     "naver": "lee",
+     "insta": ""
     },
     "plan": {
-     "insta": "lee",
      "threads": "lee"
     },
     "pub": "2026-11-26",
@@ -318,7 +317,7 @@
  },
  "index": {
   "requested": 169,
-  "todo": 85,
+  "todo": 86,
   "indexed": 0
  },
  "limit": {
@@ -496,7 +495,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 3,
+   "last_min": 0,
    "cur": "📣 11-26 발행 후속 — D5-15 → A5-24 순서(네",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -505,7 +504,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 13,
+   "last_min": 15,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -547,7 +546,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 3,
+   "last_min": 0,
    "cur": "📣 11-26 발행 후속 — D5-15 → A5-24 순서(네",
    "lvl": "ok"
   },
@@ -555,7 +554,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 6,
+   "last_min": 8,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -563,7 +562,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 13,
+   "last_min": 15,
    "cur": "",
    "lvl": "ok"
   },
@@ -571,7 +570,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 5,
+   "last_min": 7,
    "cur": "[이부장 접수 12:17] 이대리 AM-DG-020 게시(22",
    "lvl": "ok"
   },
@@ -845,6 +844,13 @@
      "who": ""
     },
     {
+     "code": "D5-15",
+     "title": "모두의카드 청소년 12월 1일부터 — 우리 아이 되나,",
+     "url": "https://www.instagram.com/p/DgMHtQoE1ZI/",
+     "at": "2026-11-26",
+     "who": ""
+    },
+    {
      "code": "B2-29",
      "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
      "url": "https://www.instagram.com/p/DgIQ4yEkwvh/",
@@ -912,10 +918,6 @@
     {
      "code": "A5-24",
      "title": "연차수당, 소멸돼도 남는 경우 — 회사 서면 촉구 2번"
-    },
-    {
-     "code": "D5-15",
-     "title": "모두의카드 청소년 12월 1일부터 — 우리 아이 되나,"
     },
     {
      "code": "H1-47",
@@ -1130,6 +1132,13 @@
    "src": "결재 도장"
   },
   {
+   "code": "D5-15",
+   "stage": "insta",
+   "at": "2026-11-26 12:20:34",
+   "src": "now_log 게시 URL",
+   "who": ""
+  },
+  {
    "code": "A2-35",
    "stage": "blog",
    "at": "",
@@ -1303,12 +1312,12 @@
  "exec_error": "",
  "reflect": {
   "state": "bad",
-  "ok": 3,
-  "stale": 0,
-  "bad": 2,
-  "na": 2,
-  "at": "2026-11-26 03:14:21",
-  "age_min": 4
+  "ok": 5,
+  "stale": 1,
+  "bad": 1,
+  "na": 0,
+  "at": "2026-11-26 12:19:42",
+  "age_min": 1
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
