@@ -1,12 +1,12 @@
 {
- "at": "2026-11-26 11:55:30",
+ "at": "2026-11-26 11:57:43",
  "nodes": {
   "draft": [],
   "v0": [
    {
     "code": "H1-47",
     "title": "필라테스 환불 규정, 등록 전 가격표 4가지 확인 — ",
-    "min": 715,
+    "min": 717,
     "lvl": "red"
    }
   ],
@@ -345,7 +345,7 @@
   {
    "p": 1,
    "what": "V0 지연 H1-47 필라테스 환불 규정, 등록 전 가격표 4가지 확인 — ",
-   "min": 715,
+   "min": 717,
    "owner": "이부장"
   },
   {
@@ -502,7 +502,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 3,
+   "last_min": 1,
    "cur": "📣 11-26 발행 후속 — D5-15 → A5-24 순서(네",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -511,7 +511,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 11,
+   "last_min": 14,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -552,7 +552,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 3,
+   "last_min": 1,
    "cur": "📣 11-26 발행 후속 — D5-15 → A5-24 순서(네",
    "lvl": "ok"
   },
@@ -560,7 +560,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 14,
+   "last_min": 16,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -568,7 +568,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 11,
+   "last_min": 14,
    "cur": "",
    "lvl": "ok"
   },
@@ -576,7 +576,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 0,
+   "last_min": 3,
    "cur": "[이부장 접수 11:55] 이대리 AM-BO-015 게시 완료",
    "lvl": "ok"
   },
@@ -1097,6 +1097,13 @@
    "src": "topicprop 선별"
   },
   {
+   "code": "D5-15",
+   "stage": "naver",
+   "at": "2026-11-26 11:55:54",
+   "src": "now_log 게시 URL",
+   "who": "lee"
+  },
+  {
    "code": "A2-35",
    "stage": "blog",
    "at": "",
@@ -1107,13 +1114,6 @@
    "stage": "blog",
    "at": "",
    "src": "pub_dates(날짜뿐)"
-  },
-  {
-   "code": "D5-15",
-   "stage": "naver",
-   "at": "",
-   "src": "DB osmu_at(날짜뿐)",
-   "who": "lee"
   },
   {
    "code": "D5-15",
@@ -1279,7 +1279,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-26 11:55:31",
-  "age_min": 0
+  "age_min": 2
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1367,7 +1367,7 @@
  "fired": [
   {
    "day": "2026-11-26",
-   "total": 119,
+   "total": 120,
    "kinds": [
     [
      "ASIDE_ALERT",
@@ -1394,11 +1394,11 @@
      7
     ],
     [
-     "PUBLISH_RUN_DONE",
-     5
+     "TOWER_OWED",
+     6
     ],
     [
-     "TOWER_OWED",
+     "PUBLISH_RUN_DONE",
      5
     ]
    ]
