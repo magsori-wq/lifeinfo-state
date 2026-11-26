@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26 12:32:24",
+ "at": "2026-11-26 12:34:43",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -11,20 +11,19 @@
     "code": "A5-24",
     "title": "연차수당, 소멸돼도 남는 경우 — 회사 서면 촉구 2번",
     "left": [
-     "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
      "naver": true,
-     "insta": false,
+     "insta": true,
      "threads": false
     },
     "who": {
-     "naver": "lee"
+     "naver": "lee",
+     "insta": ""
     },
     "plan": {
-     "insta": "lee",
      "threads": "lee"
     },
     "pub": "2026-11-26",
@@ -495,7 +494,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 6,
+   "last_min": 9,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -545,7 +544,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 20,
+   "last_min": 22,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -553,7 +552,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 6,
+   "last_min": 9,
    "cur": "",
    "lvl": "ok"
   },
@@ -561,7 +560,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 18,
+   "last_min": 21,
    "cur": "[이부장 접수 12:17] 이대리 AM-DG-020 게시(22",
    "lvl": "ok"
   },
@@ -832,6 +831,13 @@
      "who": ""
     },
     {
+     "code": "A5-24",
+     "title": "연차수당, 소멸돼도 남는 경우 — 회사 서면 촉구 2번",
+     "url": "https://www.instagram.com/p/DgMJfJzkfIO/",
+     "at": "2026-11-26",
+     "who": ""
+    },
+    {
      "code": "D1-29",
      "title": "국가자격시험 부정행위 응시 제한 3년→10년? 이미 적",
      "url": "https://www.instagram.com/p/DgK_km0k69E/",
@@ -910,10 +916,6 @@
     }
    ],
    "wait": [
-    {
-     "code": "A5-24",
-     "title": "연차수당, 소멸돼도 남는 경우 — 회사 서면 촉구 2번"
-    },
     {
      "code": "H1-47",
      "title": "필라테스·요가 가격표시 의무 4가지 — 환불은 어느 기"
@@ -1144,6 +1146,13 @@
    "who": "lee"
   },
   {
+   "code": "A5-24",
+   "stage": "insta",
+   "at": "2026-11-26 12:34:34",
+   "src": "now_log 게시 URL",
+   "who": ""
+  },
+  {
    "code": "A2-35",
    "stage": "blog",
    "at": "",
@@ -1328,7 +1337,7 @@
   "stale": 0,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-26 12:31:26",
+  "at": "2026-11-26 12:33:53",
   "age_min": 0
  },
  "design_signals": [
