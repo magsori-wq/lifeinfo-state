@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 05:35:13",
+ "at": "2026-11-27 05:37:32",
  "errors": [],
  "rows": [],
  "old_inflight": [],
@@ -102,7 +102,7 @@
     }
    ],
    "title": "2026 KBO 시상식 — MVP 후보 14명, 수비상 164명 중 10명",
-   "last_file_at": "2026-11-26 01:08",
+   "last_file_at": "2026-11-27 05:36",
    "stage": "published",
    "label": "게시됨",
    "detail": "2026-11-26"
@@ -235,7 +235,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-27 05:35:12",
+   "last_at": "2026-11-27 05:37:12",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -309,7 +309,7 @@
   "who": "이대리",
   "state": "현장(진행)",
   "jobs": 0,
-  "last_min": 2,
+  "last_min": 5,
   "cur": "11-26 야간 루틴 0편 원인 실측: 4분 만에 종료(우회 ",
   "lvl": "ok"
  },
@@ -817,7 +817,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 2,
+   "last_min": 5,
    "cur": "11-26 야간 루틴 0편 원인 실측: 4분 만에 종료(우회 ",
    "lvl": "ok"
   },
@@ -832,7 +832,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 2,
+   "last_min": 5,
    "cur": "11-26 야간 루틴 0편 원인 실측: 4분 만에 종료(우회 ",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
@@ -860,12 +860,12 @@
   {
    "who": "이대리(자기점검·CA 검색어·일정 박스)",
    "kind": "글감",
-   "ran": false,
-   "at": "",
-   "today": 0,
-   "lvl": "idle",
+   "ran": true,
+   "at": "05:36",
+   "today": 1,
+   "lvl": "ok",
    "order": null,
-   "note": "오늘 파일(drafts·previews)이 움직인 글 0편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
+   "note": "오늘 파일(drafts·previews)이 움직인 글 1편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
   },
   {
    "who": "루틴10(aroma 야간 글감)",
@@ -879,13 +879,22 @@
  "producers": [
   {
    "who": "이대리",
-   "made": "오늘 새 글 게시 0편 · 파일이 움직인 글 0편",
-   "codes": []
+   "made": "오늘 새 글 게시 0편 · 파일이 움직인 글 1편",
+   "codes": [
+    "AM-SP-025"
+   ]
   }
  ],
  "approvals": [],
  "edits": [],
- "today_events": [],
+ "today_events": [
+  {
+   "code": "AM-SP-025",
+   "stage": "proc",
+   "at": "2026-11-27 05:36:06",
+   "src": "파일 수정 시각"
+  }
+ ],
  "incidents": [],
  "stage_of": {},
  "design_signals": [],
@@ -919,7 +928,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-27 05:35:12",
+     "chip": "2026-11-27 05:37:12",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
