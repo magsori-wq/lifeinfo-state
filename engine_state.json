@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26 18:23:38",
+ "at": "2026-11-26 18:26:15",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -9,7 +9,7 @@
    {
     "code": "D2-22",
     "title": "⏳ 자정 발행 예정 · 면허정지·취소 감경, 음주 전력 있으면 20",
-    "min": 2,
+    "min": 4,
     "lvl": "ok"
    }
   ],
@@ -499,7 +499,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 4,
-   "last_min": 2,
+   "last_min": 5,
    "cur": "✍️ D3-16 초안 — 저소득층 단열·창호·보일러 지원 최대",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -508,7 +508,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 6,
+   "last_min": 9,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -552,7 +552,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 4,
-   "last_min": 2,
+   "last_min": 5,
    "cur": "✍️ D3-16 초안 — 저소득층 단열·창호·보일러 지원 최대",
    "lvl": "ok"
   },
@@ -560,7 +560,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": -1,
+   "last_min": 2,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -568,7 +568,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 6,
+   "last_min": 9,
    "cur": "",
    "lvl": "ok"
   },
@@ -576,7 +576,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 17,
+   "last_min": 20,
    "cur": "현황(18:1x): 오늘 관련 검색어 반영 1일차 완료 — 태",
    "lvl": "ok"
   },
@@ -1487,9 +1487,9 @@
     "live": null
    },
    "D3-16": {
-    "stage": "none",
-    "icon": "⬜",
-    "label": "미조사",
+    "stage": "no_fit",
+    "icon": "☑️",
+    "label": "붙일 것 없음",
     "links": 0,
     "attached": 0,
     "live": null
@@ -1553,11 +1553,11 @@
  "exec_error": "",
  "reflect": {
   "state": "stale",
-  "ok": 5,
-  "stale": 2,
+  "ok": 6,
+  "stale": 1,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-26 18:23:26",
+  "at": "2026-11-26 18:25:57",
   "age_min": 0
  },
  "design_signals": [
@@ -1650,19 +1650,19 @@
  "fired": [
   {
    "day": "2026-11-26",
-   "total": 244,
+   "total": 249,
    "kinds": [
     [
      "REPORT_UNACKED",
-     34
+     36
     ],
     [
      "ASIDE_ALERT",
-     30
+     31
     ],
     [
      "BOSS_APPROVAL",
-     21
+     22
     ],
     [
      "NEW_BOSS_ITEM",
@@ -1674,7 +1674,7 @@
     ],
     [
      "TOWER_OWED",
-     9
+     10
     ],
     [
      "WAKE_SESSION",
