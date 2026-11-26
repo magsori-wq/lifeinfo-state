@@ -1,12 +1,12 @@
 {
- "at": "2026-11-26 11:48:43",
+ "at": "2026-11-26 11:51:23",
  "nodes": {
   "draft": [],
   "v0": [
    {
     "code": "H1-47",
     "title": "필라테스 환불 규정, 등록 전 가격표 4가지 확인 — ",
-    "min": 708,
+    "min": 711,
     "lvl": "red"
    }
   ],
@@ -300,7 +300,7 @@
  ],
  "aside": {
   "state": "휴면 — 이과장 직접 게시(aside repl) · 2026-12-31 재연결",
-  "queue": 7,
+  "queue": 6,
   "busy": false,
   "lvl": "ok",
   "credit_hold": "aside-credit-t2624",
@@ -345,7 +345,7 @@
   {
    "p": 1,
    "what": "V0 지연 H1-47 필라테스 환불 규정, 등록 전 가격표 4가지 확인 — ",
-   "min": 708,
+   "min": 711,
    "owner": "이부장"
   },
   {
@@ -502,7 +502,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 3,
+   "last_min": 0,
    "cur": "📣 11-26 발행 후속 — D5-15 → A5-24 순서(네",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -511,7 +511,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 5,
+   "last_min": 7,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -519,7 +519,7 @@
   {
    "who": "Aside",
    "state": "휴면(2026-12-31 재연결 · 게시는 이과장)",
-   "jobs": 7,
+   "jobs": 6,
    "lvl": "ok",
    "role": "허브·4종착 배송"
   },
@@ -552,7 +552,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 3,
+   "last_min": 0,
    "cur": "📣 11-26 발행 후속 — D5-15 → A5-24 순서(네",
    "lvl": "ok"
   },
@@ -560,7 +560,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 7,
+   "last_min": 9,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -568,7 +568,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 5,
+   "last_min": 7,
    "cur": "",
    "lvl": "ok"
   },
@@ -576,14 +576,14 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 6,
+   "last_min": 9,
    "cur": "🙋 이대리: 야간 글감 4/4(11-25 23시 회차 재시도,",
    "lvl": "ok"
   },
   {
    "who": "Aside",
    "state": "휴면(2026-12-31 재연결 · 게시는 이과장)",
-   "jobs": 7,
+   "jobs": 6,
    "lvl": "ok"
   },
   {
@@ -1118,7 +1118,7 @@
    "kind": "🙋승인",
    "id": "v0reject-h1-47",
    "what": "🔴 V0 반려 확인 요청 — H1-47 「필라테스 환불 규정, 등록 전 ",
-   "by": "세션:7c5092aa",
+   "by": "이부장",
    "waited": ""
   }
  ],
@@ -1269,7 +1269,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-26 11:46:59",
-  "age_min": 1
+  "age_min": 4
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1357,11 +1357,11 @@
  "fired": [
   {
    "day": "2026-11-26",
-   "total": 110,
+   "total": 116,
    "kinds": [
     [
      "ASIDE_ALERT",
-     10
+     11
     ],
     [
      "BOSS_APPROVAL",
@@ -1373,7 +1373,7 @@
     ],
     [
      "NEW_BOSS_ITEM",
-     8
+     9
     ],
     [
      "CONFIRM_BACKLOG",
@@ -1381,7 +1381,7 @@
     ],
     [
      "ROUTINE_DONE",
-     6
+     7
     ],
     [
      "PUBLISH_RUN_DONE",
