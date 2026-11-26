@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 02:31:41",
+ "at": "2026-11-27 02:34:01",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -456,7 +456,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 3,
+   "last_min": 5,
    "cur": "🚀 D2-22 발행 — 면허정지·취소 감경, 음주 전력 있으면",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -465,7 +465,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 446,
+   "last_min": 449,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -504,7 +504,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 3,
+   "last_min": 5,
    "cur": "🚀 D2-22 발행 — 면허정지·취소 감경, 음주 전력 있으면",
    "lvl": "ok"
   },
@@ -512,7 +512,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 2,
+   "last_min": 5,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -520,7 +520,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 446,
+   "last_min": 449,
    "cur": "",
    "lvl": "ok"
   },
@@ -528,7 +528,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 194,
+   "last_min": 196,
    "cur": "[이부장 접수 23:17] 루틴10 aroma 야간 글감 0/",
    "lvl": "ok"
   },
@@ -1057,11 +1057,11 @@
     "live": null
    },
    "D2-22": {
-    "stage": "researched",
-    "icon": "🔎",
-    "label": "조사 접수(링크 발급 대기)",
-    "links": 0,
-    "attached": 0,
+    "stage": "attached",
+    "icon": "📝",
+    "label": "원고 부착",
+    "links": 1,
+    "attached": 1,
     "live": null
    },
    "D3-16": {
@@ -1106,9 +1106,9 @@
    }
   },
   "summary": {
-   "links": 71,
+   "links": 72,
    "unattached": 34,
-   "posts_issued": 48,
+   "posts_issued": 49,
    "live_posts": 35
   }
  },
@@ -1120,7 +1120,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-27 02:30:38",
-  "age_min": 1
+  "age_min": 3
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
