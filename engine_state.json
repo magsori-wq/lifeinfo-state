@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26 17:33:13",
+ "at": "2026-11-26 17:35:35",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -11,20 +11,19 @@
     "code": "F2-22",
     "title": "아시아나 환불 위약금 면제 — 12월 17일부터 문의 ",
     "left": [
-     "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
      "naver": true,
-     "insta": false,
+     "insta": true,
      "threads": false
     },
     "who": {
-     "naver": ""
+     "naver": "",
+     "insta": "lee"
     },
     "plan": {
-     "insta": "lee",
      "threads": "lee"
     },
     "pub": "2026-11-26",
@@ -502,9 +501,9 @@
   {
    "who": "이과장",
    "state": "현장(진행)",
-   "jobs": 4,
-   "last_min": 2,
-   "cur": "🚀 F2-22 발행 — 아시아나 환불 위약금 면제 — 12월 ",
+   "jobs": 3,
+   "last_min": 5,
+   "cur": "📣 11-26 발행 후속 2 — H1-47 4채널 + 오늘 3",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
   },
@@ -512,7 +511,7 @@
    "who": "4.세션",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 12,
+   "last_min": 14,
    "cur": "🎯 4. 애드센스 지원팀 문의 — 양식 실측·최종 문안(초안 ",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -554,16 +553,16 @@
   {
    "who": "이과장",
    "state": "현장(진행)",
-   "jobs": 4,
-   "last_min": 2,
-   "cur": "🚀 F2-22 발행 — 아시아나 환불 위약금 면제 — 12월 ",
+   "jobs": 3,
+   "last_min": 5,
+   "cur": "📣 11-26 발행 후속 2 — H1-47 4채널 + 오늘 3",
    "lvl": "ok"
   },
   {
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 4,
+   "last_min": 7,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -571,7 +570,7 @@
    "who": "4.세션",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 12,
+   "last_min": 14,
    "cur": "🎯 4. 애드센스 지원팀 문의 — 양식 실측·최종 문안(초안 ",
    "lvl": "ok"
   },
@@ -579,7 +578,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 139,
+   "last_min": 142,
    "cur": "[이부장 접수 15:03] 이대리 관련 검색어 반영 보고 접수",
    "lvl": "ok"
   },
@@ -903,6 +902,13 @@
      "who": ""
     },
     {
+     "code": "F2-22",
+     "title": "아시아나 환불 위약금 면제 — 12월 17일부터 문의 ",
+     "url": "https://www.instagram.com/p/DgMsBsLEwJt/",
+     "at": "2026-11-26",
+     "who": "lee"
+    },
+    {
      "code": "H1-47",
      "title": "필라테스·요가 가격표시 의무 4가지 — 환불은 어느 기",
      "url": "https://www.instagram.com/p/DgMLXppEbUC/",
@@ -973,12 +979,7 @@
      "who": ""
     }
    ],
-   "wait": [
-    {
-     "code": "F2-22",
-     "title": "아시아나 환불 위약금 면제 — 12월 17일부터 문의 "
-    }
-   ]
+   "wait": []
   },
   "threads": {
    "done": [
@@ -1317,6 +1318,13 @@
    "src": "pub_dates(날짜뿐)"
   },
   {
+   "code": "F2-22",
+   "stage": "insta",
+   "at": "",
+   "src": "DB osmu_at(날짜뿐)",
+   "who": "lee"
+  },
+  {
    "code": "H1-47",
    "stage": "blog",
    "at": "",
@@ -1488,7 +1496,7 @@
   "bad": 1,
   "na": 0,
   "at": "2026-11-26 17:32:25",
-  "age_min": 0
+  "age_min": 3
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1580,7 +1588,7 @@
  "fired": [
   {
    "day": "2026-11-26",
-   "total": 213,
+   "total": 215,
    "kinds": [
     [
      "REPORT_UNACKED",
