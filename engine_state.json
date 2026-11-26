@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26 15:41:49",
+ "at": "2026-11-26 15:43:48",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -472,7 +472,7 @@
    "who": "이과장",
    "state": "지연·확인 필요",
    "jobs": 3,
-   "last_min": 155,
+   "last_min": 157,
    "cur": "📣 11-26 발행 후속 2 — H1-47 4채널 + 오늘 3",
    "lvl": "amber",
    "role": "②처리·④발행 운전"
@@ -481,7 +481,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 196,
+   "last_min": 198,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -523,7 +523,7 @@
    "who": "이과장",
    "state": "지연·확인 필요",
    "jobs": 3,
-   "last_min": 155,
+   "last_min": 157,
    "cur": "📣 11-26 발행 후속 2 — H1-47 4채널 + 오늘 3",
    "lvl": "amber"
   },
@@ -531,7 +531,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 16,
+   "last_min": 18,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -539,15 +539,15 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 196,
+   "last_min": 198,
    "cur": "",
    "lvl": "ok"
   },
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "대기",
    "jobs": 0,
-   "last_min": 28,
+   "last_min": 30,
    "cur": "[이부장 접수 15:03] 이대리 관련 검색어 반영 보고 접수",
    "lvl": "ok"
   },
@@ -1364,7 +1364,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-26 15:37:48",
-  "age_min": 4
+  "age_min": 5
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1456,7 +1456,7 @@
  "fired": [
   {
    "day": "2026-11-26",
-   "total": 171,
+   "total": 173,
    "kinds": [
     [
      "REPORT_UNACKED",
@@ -1468,7 +1468,7 @@
     ],
     [
      "BOSS_APPROVAL",
-     15
+     17
     ],
     [
      "NEW_BOSS_ITEM",
