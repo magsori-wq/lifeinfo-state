@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 07:01:45",
+ "at": "2026-11-27 07:04:04",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -457,7 +457,7 @@
    "who": "이과장",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 2,
-   "last_min": 109,
+   "last_min": 112,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -466,7 +466,7 @@
    "who": "4.세션",
    "state": "지연·확인 필요",
    "jobs": 1,
-   "last_min": 59,
+   "last_min": 61,
    "cur": "GSC 메일 조사(4.)",
    "lvl": "amber",
    "role": "애드센스 정비"
@@ -505,7 +505,7 @@
    "who": "이과장",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 2,
-   "last_min": 109,
+   "last_min": 112,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -513,7 +513,7 @@
    "who": "3.세션",
    "state": "대기(상시 업무만)",
    "jobs": 2,
-   "last_min": 92,
+   "last_min": 94,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -521,7 +521,7 @@
    "who": "4.세션",
    "state": "지연·확인 필요",
    "jobs": 1,
-   "last_min": 59,
+   "last_min": 61,
    "cur": "GSC 메일 조사(4.)",
    "lvl": "amber"
   },
@@ -529,7 +529,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 41,
+   "last_min": 43,
    "cur": "이부장 ack r9dd87d — 이부장 06:20 — 사장님 ",
    "lvl": "ok"
   },
@@ -1158,7 +1158,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-27 07:00:20",
-  "age_min": 1
+  "age_min": 3
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
