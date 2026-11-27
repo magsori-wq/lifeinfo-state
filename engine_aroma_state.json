@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 16:55:48",
+ "at": "2026-11-27 16:57:59",
  "errors": [],
  "rows": [],
  "old_inflight": [],
@@ -44,7 +44,7 @@
     },
     {
      "id": "aroma-am-bo-015-upd-aff-1127",
-     "state": "todo",
+     "state": "done",
      "kind": "upd",
      "at": "2026-11-27"
     }
@@ -53,10 +53,7 @@
    "last_file_at": "2026-11-27 16:50",
    "stage": "published",
    "label": "게시됨",
-   "detail": "2026-11-26",
-   "rev_wait": [
-    "aroma-am-bo-015-upd-aff-1127"
-   ]
+   "detail": "2026-11-26"
   },
   {
    "code": "AM-DG-019",
@@ -142,20 +139,7 @@
   }
  ],
  "published_total": 85,
- "rev_wait": [
-  {
-   "code": "AM-BO-015",
-   "ids": [
-    "aroma-am-bo-015-upd-aff-1127"
-   ]
-  },
-  {
-   "code": "AM-BO-014",
-   "ids": [
-    "aroma-am-bo-014-upd-aff-1127"
-   ]
-  }
- ],
+ "rev_wait": [],
  "cats": {
   "window": 14,
   "rows": [
@@ -355,7 +339,7 @@
   "who": "이대리",
   "state": "대기",
   "jobs": 0,
-  "last_min": 49,
+  "last_min": 51,
   "cur": "이부장 ack rcde1bd — 16:06 이부장: 결재 회수",
   "lvl": "ok"
  },
@@ -844,7 +828,7 @@
   "today": "2026-11-27",
   "done_today": 1,
   "published_today": 1,
-  "boss_wait": 2,
+  "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
    "1": 0,
@@ -860,7 +844,7 @@
   "state": "미확인(aroma 발행챗 상태는 이 방이 읽는 길이 없다)"
  },
  "tower": {
-  "age_min": 3,
+  "age_min": 2,
   "lvl": "ok"
  },
  "units": [
@@ -868,7 +852,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 49,
+   "last_min": 51,
    "cur": "이부장 ack rcde1bd — 16:06 이부장: 결재 회수",
    "lvl": "ok"
   },
@@ -883,7 +867,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 49,
+   "last_min": 51,
    "cur": "이부장 ack rcde1bd — 16:06 이부장: 결재 회수",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
@@ -904,7 +888,7 @@
    "who": "사장님",
    "role": "③ CP 결재",
    "lvl": "ok",
-   "state": "결재 대기 2건"
+   "state": "대기"
   }
  ],
  "suppliers": [
@@ -947,37 +931,27 @@
    ]
   }
  ],
- "approvals": [
+ "approvals": [],
+ "edits": [],
+ "today_events": [
   {
-   "kind": "aroma",
-   "id": "aroma-am-bo-014-upd-aff-1127",
-   "what": "【권고】AM-BO-014 라이브 글에 관련 상품 제휴 칸 추가(사장님 11-27 「다른 글들도 관련 상품 제휴 링크 붙여」). 제휴 상품: 오브",
-   "by": "이대리",
-   "waited": ""
-  },
-  {
-   "kind": "aroma",
-   "id": "aroma-am-bo-015-upd-aff-1127",
-   "what": "【권고】AM-BO-015 라이브 글에 관련 상품 제휴 칸 추가(사장님 11-27 「다른 글들도 관련 상품 제휴 링크 붙여」). 제휴 상품: 오브",
-   "by": "이대리",
-   "waited": ""
-  }
- ],
- "edits": [
-  {
-   "code": "AM-BO-015",
-   "title": "넷플릭스 순위 11/16~22, 문무 7위→4위·닥터X 2위→6위",
-   "stage": "boss",
-   "packer": ""
+   "code": "AM-SP-025",
+   "stage": "proc",
+   "at": "2026-11-27 05:43:11",
+   "src": "파일 수정 시각"
   },
   {
    "code": "AM-BO-014",
-   "title": "데블스 플랜 데드 어게인 몇부작, 등록 10편 14시간 15분·6화 106분",
-   "stage": "boss",
-   "packer": ""
-  }
- ],
- "today_events": [
+   "stage": "proc",
+   "at": "2026-11-27 16:50:22",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-SP-024",
+   "stage": "proc",
+   "at": "2026-11-27 16:50:21",
+   "src": "파일 수정 시각"
+  },
   {
    "code": "AM-SP-007",
    "stage": "proc",
@@ -991,27 +965,9 @@
    "src": "파일 수정 시각"
   },
   {
-   "code": "AM-PE-021",
+   "code": "AM-SP-026",
    "stage": "proc",
    "at": "2026-11-27 16:50:21",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-DG-021",
-   "stage": "proc",
-   "at": "2026-11-27 06:00:18",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-BO-014",
-   "stage": "proc",
-   "at": "2026-11-27 16:50:22",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-SP-025",
-   "stage": "proc",
-   "at": "2026-11-27 05:43:11",
    "src": "파일 수정 시각"
   },
   {
@@ -1027,19 +983,7 @@
    "src": "파일 수정 시각"
   },
   {
-   "code": "AM-PE-005",
-   "stage": "proc",
-   "at": "2026-11-27 05:57:42",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-SP-024",
-   "stage": "proc",
-   "at": "2026-11-27 16:50:21",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-SP-026",
+   "code": "AM-PE-021",
    "stage": "proc",
    "at": "2026-11-27 16:50:21",
    "src": "파일 수정 시각"
@@ -1048,6 +992,18 @@
    "code": "AM-BO-015",
    "stage": "proc",
    "at": "2026-11-27 16:50:22",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-PE-005",
+   "stage": "proc",
+   "at": "2026-11-27 05:57:42",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-DG-021",
+   "stage": "proc",
+   "at": "2026-11-27 06:00:18",
    "src": "파일 수정 시각"
   },
   {
@@ -1125,13 +1081,25 @@
   {
    "code": "AM-PE-021",
    "stage": "boss",
-   "at": "",
-   "src": "watch done_at(날짜뿐)"
+   "at": "2026-11-27 16:58:03",
+   "src": "결재 커밋 시각"
   },
   {
    "code": "AM-PE-022",
    "stage": "boss",
    "at": "2026-11-27 16:55:34",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "AM-BO-014",
+   "stage": "boss",
+   "at": "2026-11-27 16:56:44",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "AM-BO-015",
+   "stage": "boss",
+   "at": "2026-11-27 16:57:21",
    "src": "결재 커밋 시각"
   },
   {
