@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 14:51:21",
+ "at": "2026-11-27 15:30:50",
  "errors": [],
  "rows": [],
  "old_inflight": [],
@@ -22,7 +22,7 @@
     },
     {
      "id": "aroma-am-dg-021-upd-aff-1127",
-     "state": "todo",
+     "state": "done",
      "kind": "upd",
      "at": "2026-11-27"
     }
@@ -31,10 +31,7 @@
    "last_file_at": "2026-11-27 14:01",
    "stage": "published",
    "label": "게시됨",
-   "detail": "2026-11-27",
-   "rev_wait": [
-    "aroma-am-dg-021-upd-aff-1127"
-   ]
+   "detail": "2026-11-27"
   },
   {
    "code": "AM-BO-015",
@@ -118,14 +115,7 @@
   }
  ],
  "published_total": 85,
- "rev_wait": [
-  {
-   "code": "AM-DG-021",
-   "ids": [
-    "aroma-am-dg-021-upd-aff-1127"
-   ]
-  }
- ],
+ "rev_wait": [],
  "cats": {
   "window": 14,
   "rows": [
@@ -251,7 +241,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-27 14:51:10",
+   "last_at": "2026-11-27 15:30:36",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -296,7 +286,7 @@
   {
    "name": "ASIDE_ALERT",
    "node": "이대리 🙋·⏸·👤 → 이부장 즉시",
-   "last_at": "2026-11-27 14:20:14",
+   "last_at": "2026-11-27 15:20:27",
    "src": "now_log(bid=aroma)",
    "today_n": 24,
    "note": "횟수는 전체 세션",
@@ -323,10 +313,10 @@
  ],
  "unit": {
   "who": "이대리",
-  "state": "현장(진행)",
+  "state": "⏸ 대기(남의 차례)",
   "jobs": 0,
-  "last_min": 28,
-  "cur": "이부장 ack r6ce54b — aroma DG-021 제휴 ",
+  "last_min": 10,
+  "cur": "⏸ 대기 — tower 깨우기(DG-021 승인) 15:20 ",
   "lvl": "ok"
  },
  "open_requests": [],
@@ -814,7 +804,7 @@
   "today": "2026-11-27",
   "done_today": 1,
   "published_today": 1,
-  "boss_wait": 1,
+  "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
    "1": 0,
@@ -830,16 +820,16 @@
   "state": "미확인(aroma 발행챗 상태는 이 방이 읽는 길이 없다)"
  },
  "tower": {
-  "age_min": 3,
-  "lvl": "ok"
+  "age_min": 38,
+  "lvl": "red"
  },
  "units": [
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
-   "last_min": 28,
-   "cur": "이부장 ack r6ce54b — aroma DG-021 제휴 ",
+   "last_min": 10,
+   "cur": "⏸ 대기 — tower 깨우기(DG-021 승인) 15:20 ",
    "lvl": "ok"
   },
   {
@@ -851,10 +841,10 @@
  "drivers": [
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
-   "last_min": 28,
-   "cur": "이부장 ack r6ce54b — aroma DG-021 제휴 ",
+   "last_min": 10,
+   "cur": "⏸ 대기 — tower 깨우기(DG-021 승인) 15:20 ",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
   },
@@ -874,7 +864,7 @@
    "who": "사장님",
    "role": "③ CP 결재",
    "lvl": "ok",
-   "state": "결재 대기 1건"
+   "state": "대기"
   }
  ],
  "suppliers": [
@@ -909,36 +899,9 @@
    ]
   }
  ],
- "approvals": [
-  {
-   "kind": "aroma",
-   "id": "aroma-am-dg-021-upd-aff-1127",
-   "what": "【권고】라이브 글 AM-DG-021(PS 플러스 12월 정가 합계) 제휴 링크 추가 수정 승인 — 사장님 11-27 지시 「직접 제품이 없으면 ",
-   "by": "이대리",
-   "waited": ""
-  }
- ],
- "edits": [
-  {
-   "code": "AM-DG-021",
-   "title": "PS 플러스 12월 게임 정가 합계 64,600원, 에센셜 1개월 요금의 5.4배",
-   "stage": "boss",
-   "packer": ""
-  }
- ],
+ "approvals": [],
+ "edits": [],
  "today_events": [
-  {
-   "code": "AM-DG-021",
-   "stage": "proc",
-   "at": "2026-11-27 06:00:18",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-PE-005",
-   "stage": "proc",
-   "at": "2026-11-27 05:57:42",
-   "src": "파일 수정 시각"
-  },
   {
    "code": "AM-SP-025",
    "stage": "proc",
@@ -947,6 +910,18 @@
   },
   {
    "code": "AM-SP-007",
+   "stage": "proc",
+   "at": "2026-11-27 05:57:42",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-DG-021",
+   "stage": "proc",
+   "at": "2026-11-27 06:00:18",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-PE-005",
    "stage": "proc",
    "at": "2026-11-27 05:57:42",
    "src": "파일 수정 시각"
@@ -989,6 +964,12 @@
   },
   {
    "code": "AM-DG-021",
+   "stage": "boss",
+   "at": "",
+   "src": "watch done_at(날짜뿐)"
+  },
+  {
+   "code": "AM-DG-021",
    "stage": "naver",
    "at": "",
    "src": "db.json published(날짜만)"
@@ -1027,7 +1008,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-27 14:51:10",
+     "chip": "2026-11-27 15:30:36",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
@@ -1057,7 +1038,7 @@
     {
      "head": "ASIDE_ALERT",
      "lvl": "ok",
-     "chip": "2026-11-27 14:20:14",
+     "chip": "2026-11-27 15:20:27",
      "sub": "이대리 🙋·⏸·👤 → 이부장 즉시 · 출처 now_log(bid=aroma) · 오늘 24회 · 횟수는 전체 세션"
     },
     {
