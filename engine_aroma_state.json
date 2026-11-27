@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 05:39:40",
+ "at": "2026-11-28 05:42:07",
  "errors": [],
  "rows": [
   {
@@ -7,17 +7,16 @@
    "approvals": [
     {
      "id": "aroma-am-bo-016-1128",
-     "state": "todo",
+     "state": "done",
      "kind": "1128",
      "at": "2026-11-28"
     }
    ],
    "title": "크로스2공개일 1편주간순위",
    "last_file_at": "2026-11-28 05:37",
-   "stage": "boss_wait",
-   "label": "결재 대기",
-   "detail": "aroma-am-bo-016-1128",
-   "no_preview": false
+   "stage": "approved",
+   "label": "승인됨(게시 전)",
+   "detail": "watch done + 커밋 701908015"
   }
  ],
  "old_inflight": [],
@@ -283,7 +282,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-28 05:39:25",
+   "last_at": "2026-11-28 05:41:56",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -339,7 +338,7 @@
    "node": "루틴10 → CP",
    "last_at": "",
    "src": "시각 저장 없음(루틴10 꺼짐은 설계도 기재)",
-   "today_n": 1,
+   "today_n": 2,
    "note": "횟수는 lifeinfo 루틴 전체",
    "at_node": ""
   },
@@ -357,7 +356,7 @@
   "who": "이대리",
   "state": "현장(진행)",
   "jobs": 0,
-  "last_min": 0,
+  "last_min": 2,
   "cur": "글감 1건 원인 점검: 야간 루틴 0/4 뒤 재시도가 방송 칸",
   "lvl": "ok"
  },
@@ -365,16 +364,16 @@
  "nodes": {
   "draft": [],
   "v0": [],
-  "boss": [
+  "boss": [],
+  "deploy": [],
+  "publish": [
    {
     "code": "AM-BO-016",
-    "title": "크로스2공개일 1편주간순위",
-    "min": 2,
+    "title": "크로스2공개일 1편주간순위 · 게시 승인 꼴 결재가 없거나 보류·취소·사장님 승인 아님 — 게시 지연 판정 해당 없음",
+    "min": null,
     "lvl": "ok"
    }
   ],
-  "deploy": [],
-  "publish": [],
   "osmu": []
  },
  "channels": {
@@ -839,7 +838,11 @@
      "url": "https://blog.naver.com/aroma-mag/224454765191"
     }
    ],
-   "wait": []
+   "wait": [
+    {
+     "code": "AM-BO-016"
+    }
+   ]
   }
  },
  "topics": [],
@@ -853,7 +856,7 @@
   "today": "2026-11-28",
   "done_today": 0,
   "published_today": 0,
-  "boss_wait": 1,
+  "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
    "1": 0,
@@ -877,7 +880,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "글감 1건 원인 점검: 야간 루틴 0/4 뒤 재시도가 방송 칸",
    "lvl": "ok"
   },
@@ -892,7 +895,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "글감 1건 원인 점검: 야간 루틴 0/4 뒤 재시도가 방송 칸",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
@@ -913,7 +916,7 @@
    "who": "사장님",
    "role": "③ CP 결재",
    "lvl": "ok",
-   "state": "결재 대기 1건"
+   "state": "대기"
   }
  ],
  "suppliers": [
@@ -945,15 +948,7 @@
    ]
   }
  ],
- "approvals": [
-  {
-   "kind": "aroma",
-   "id": "aroma-am-bo-016-1128",
-   "what": "【권고】AM-BO-016 새 글 게시(방송·OTT, 홈판형): 「크로스2 공개일 12월 25일, 1편은 2주 1위·5주 TOP10이었다」(39자",
-   "by": "이대리",
-   "waited": ""
-  }
- ],
+ "approvals": [],
  "edits": [],
  "today_events": [
   {
@@ -961,6 +956,12 @@
    "stage": "proc",
    "at": "2026-11-28 05:36:36",
    "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-BO-016",
+   "stage": "boss",
+   "at": "2026-11-28 05:40:40",
+   "src": "결재 커밋 시각"
   }
  ],
  "incidents": [],
@@ -996,7 +997,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-28 05:39:25",
+     "chip": "2026-11-28 05:41:56",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
@@ -1033,7 +1034,7 @@
      "head": "ROUTINE_DONE",
      "lvl": "ok",
      "chip": "시각 기록 없음",
-     "sub": "루틴10 → CP · 출처 시각 저장 없음(루틴10 꺼짐은 설계도 기재) · 오늘 1회 · 횟수는 lifeinfo 루틴 전체"
+     "sub": "루틴10 → CP · 출처 시각 저장 없음(루틴10 꺼짐은 설계도 기재) · 오늘 2회 · 횟수는 lifeinfo 루틴 전체"
     },
     {
      "head": "aromapv 자동 동기",
