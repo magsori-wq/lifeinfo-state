@@ -1,15 +1,23 @@
 {
- "at": "2026-11-28 05:58:08",
+ "at": "2026-11-28 06:00:59",
  "errors": [],
  "rows": [
   {
    "code": "AM-PE-023",
-   "approvals": [],
+   "approvals": [
+    {
+     "id": "aroma-am-pe-023-1128",
+     "state": "todo",
+     "kind": "1128",
+     "at": "2026-11-28"
+    }
+   ],
    "title": "연말시상식일정 두무대겹침",
-   "last_file_at": "2026-11-28 05:57",
-   "stage": "draft",
-   "label": "초안",
-   "detail": "1개 파일"
+   "last_file_at": "2026-11-28 05:59",
+   "stage": "boss_wait",
+   "label": "결재 대기",
+   "detail": "aroma-am-pe-023-1128",
+   "no_preview": false
   }
  ],
  "old_inflight": [],
@@ -269,7 +277,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-28 05:57:56",
+   "last_at": "2026-11-28 06:00:56",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -332,7 +340,7 @@
   {
    "name": "aromapv 자동 동기",
    "node": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사)",
-   "last_at": "2026-11-28 05:57",
+   "last_at": "2026-11-28 05:59",
    "src": "webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다)",
    "today_n": null,
    "note": "복사된 미리보기 71개",
@@ -343,13 +351,15 @@
   "who": "이대리",
   "state": "현장(진행)",
   "jobs": 0,
-  "last_min": 2,
-  "cur": "06:00 자가점검: BO-016 V0 오탐(보고서 위치·판정",
+  "last_min": 0,
+  "cur": "PE-023 재검 V0 PASS 93(필수 0) → 미리보기 ",
   "lvl": "ok"
  },
  "open_requests": [],
  "nodes": {
-  "draft": [
+  "draft": [],
+  "v0": [],
+  "boss": [
    {
     "code": "AM-PE-023",
     "title": "연말시상식일정 두무대겹침",
@@ -357,8 +367,6 @@
     "lvl": "ok"
    }
   ],
-  "v0": [],
-  "boss": [],
   "deploy": [],
   "publish": [],
   "osmu": []
@@ -844,7 +852,7 @@
   "today": "2026-11-28",
   "done_today": 1,
   "published_today": 1,
-  "boss_wait": 0,
+  "boss_wait": 1,
   "incidents_by_code": {
    "0": 0,
    "1": 0,
@@ -868,8 +876,8 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 2,
-   "cur": "06:00 자가점검: BO-016 V0 오탐(보고서 위치·판정",
+   "last_min": 0,
+   "cur": "PE-023 재검 V0 PASS 93(필수 0) → 미리보기 ",
    "lvl": "ok"
   },
   {
@@ -883,8 +891,8 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 2,
-   "cur": "06:00 자가점검: BO-016 V0 오탐(보고서 위치·판정",
+   "last_min": 0,
+   "cur": "PE-023 재검 V0 PASS 93(필수 0) → 미리보기 ",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
   },
@@ -904,7 +912,7 @@
    "who": "사장님",
    "role": "③ CP 결재",
    "lvl": "ok",
-   "state": "대기"
+   "state": "결재 대기 1건"
   }
  ],
  "suppliers": [
@@ -912,7 +920,7 @@
    "who": "이대리(자기점검·CA 검색어·일정 박스)",
    "kind": "글감",
    "ran": true,
-   "at": "05:57",
+   "at": "05:59",
    "today": 2,
    "lvl": "ok",
    "order": null,
@@ -937,7 +945,15 @@
    ]
   }
  ],
- "approvals": [],
+ "approvals": [
+  {
+   "kind": "aroma",
+   "id": "aroma-am-pe-023-1128",
+   "what": "【권고】AM-PE-023 「2026 연말 시상식 일정, 가요대축제·가요대전 둘 다 서는 6팀」(36자, 공연·연예, 검색형) 게시 승인. 【근거",
+   "by": "이대리",
+   "waited": ""
+  }
+ ],
  "edits": [],
  "today_events": [
   {
@@ -949,7 +965,7 @@
   {
    "code": "AM-PE-023",
    "stage": "proc",
-   "at": "2026-11-28 05:57:56",
+   "at": "2026-11-28 05:59:41",
    "src": "파일 수정 시각"
   },
   {
@@ -998,7 +1014,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-28 05:57:56",
+     "chip": "2026-11-28 06:00:56",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
@@ -1040,7 +1056,7 @@
     {
      "head": "aromapv 자동 동기",
      "lvl": "ok",
-     "chip": "2026-11-28 05:57",
+     "chip": "2026-11-28 05:59",
      "sub": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사) · 출처 webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다) · 복사된 미리보기 71개"
     }
    ]
