@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 06:00:59",
+ "at": "2026-11-28 06:02:59",
  "errors": [],
  "rows": [
   {
@@ -7,17 +7,16 @@
    "approvals": [
     {
      "id": "aroma-am-pe-023-1128",
-     "state": "todo",
+     "state": "done",
      "kind": "1128",
      "at": "2026-11-28"
     }
    ],
    "title": "연말시상식일정 두무대겹침",
    "last_file_at": "2026-11-28 05:59",
-   "stage": "boss_wait",
-   "label": "결재 대기",
-   "detail": "aroma-am-pe-023-1128",
-   "no_preview": false
+   "stage": "approved",
+   "label": "승인됨(게시 전)",
+   "detail": "watch done + 커밋 b5e1cbaa9"
   }
  ],
  "old_inflight": [],
@@ -277,7 +276,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-28 06:00:56",
+   "last_at": "2026-11-28 06:02:57",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -351,7 +350,7 @@
   "who": "이대리",
   "state": "현장(진행)",
   "jobs": 0,
-  "last_min": 0,
+  "last_min": 2,
   "cur": "PE-023 재검 V0 PASS 93(필수 0) → 미리보기 ",
   "lvl": "ok"
  },
@@ -359,16 +358,16 @@
  "nodes": {
   "draft": [],
   "v0": [],
-  "boss": [
+  "boss": [],
+  "deploy": [],
+  "publish": [
    {
     "code": "AM-PE-023",
-    "title": "연말시상식일정 두무대겹침",
-    "min": 1,
+    "title": "연말시상식일정 두무대겹침 · 게시 승인 꼴 결재가 없거나 보류·취소·사장님 승인 아님 — 게시 지연 판정 해당 없음",
+    "min": null,
     "lvl": "ok"
    }
   ],
-  "deploy": [],
-  "publish": [],
   "osmu": []
  },
  "channels": {
@@ -838,7 +837,11 @@
      "url": "https://blog.naver.com/aroma-mag/224454765191"
     }
    ],
-   "wait": []
+   "wait": [
+    {
+     "code": "AM-PE-023"
+    }
+   ]
   }
  },
  "topics": [],
@@ -852,7 +855,7 @@
   "today": "2026-11-28",
   "done_today": 1,
   "published_today": 1,
-  "boss_wait": 1,
+  "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
    "1": 0,
@@ -876,7 +879,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "PE-023 재검 V0 PASS 93(필수 0) → 미리보기 ",
    "lvl": "ok"
   },
@@ -891,7 +894,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "PE-023 재검 V0 PASS 93(필수 0) → 미리보기 ",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
@@ -912,7 +915,7 @@
    "who": "사장님",
    "role": "③ CP 결재",
    "lvl": "ok",
-   "state": "결재 대기 1건"
+   "state": "대기"
   }
  ],
  "suppliers": [
@@ -945,23 +948,9 @@
    ]
   }
  ],
- "approvals": [
-  {
-   "kind": "aroma",
-   "id": "aroma-am-pe-023-1128",
-   "what": "【권고】AM-PE-023 「2026 연말 시상식 일정, 가요대축제·가요대전 둘 다 서는 6팀」(36자, 공연·연예, 검색형) 게시 승인. 【근거",
-   "by": "이대리",
-   "waited": ""
-  }
- ],
+ "approvals": [],
  "edits": [],
  "today_events": [
-  {
-   "code": "AM-BO-016",
-   "stage": "proc",
-   "at": "2026-11-28 05:37:01",
-   "src": "파일 수정 시각"
-  },
   {
    "code": "AM-PE-023",
    "stage": "proc",
@@ -970,8 +959,20 @@
   },
   {
    "code": "AM-BO-016",
+   "stage": "proc",
+   "at": "2026-11-28 05:37:01",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-BO-016",
    "stage": "boss",
    "at": "2026-11-28 05:40:40",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "AM-PE-023",
+   "stage": "boss",
+   "at": "2026-11-28 06:02:13",
    "src": "결재 커밋 시각"
   },
   {
@@ -1014,7 +1015,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-28 06:00:56",
+     "chip": "2026-11-28 06:02:57",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
