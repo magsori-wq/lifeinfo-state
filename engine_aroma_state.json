@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 05:16:41",
+ "at": "2026-11-28 05:19:18",
  "errors": [],
  "rows": [],
  "old_inflight": [],
@@ -265,7 +265,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-28 05:16:23",
+   "last_at": "2026-11-28 05:18:53",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -331,7 +331,7 @@
    "last_at": "2026-11-27 17:13",
    "src": "webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다)",
    "today_n": null,
-   "note": "복사된 미리보기 95개",
+   "note": "복사된 미리보기 71개",
    "at_node": "boss"
   }
  ],
@@ -339,7 +339,7 @@
   "who": "이대리",
   "state": "대기",
   "jobs": 0,
-  "last_min": 282,
+  "last_min": 284,
   "cur": "[이부장 접수 00:33] 루틴10 11-27 야간 0/4 원",
   "lvl": "ok"
  },
@@ -844,15 +844,15 @@
   "state": "미확인(aroma 발행챗 상태는 이 방이 읽는 길이 없다)"
  },
  "tower": {
-  "age_min": 29,
-  "lvl": "red"
+  "age_min": 1,
+  "lvl": "ok"
  },
  "units": [
   {
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 282,
+   "last_min": 284,
    "cur": "[이부장 접수 00:33] 루틴10 11-27 야간 0/4 원",
    "lvl": "ok"
   },
@@ -867,7 +867,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 282,
+   "last_min": 284,
    "cur": "[이부장 접수 00:33] 루틴10 11-27 야간 0/4 원",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
@@ -954,7 +954,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-28 05:16:23",
+     "chip": "2026-11-28 05:18:53",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
@@ -997,7 +997,7 @@
      "head": "aromapv 자동 동기",
      "lvl": "ok",
      "chip": "2026-11-27 17:13",
-     "sub": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사) · 출처 webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다) · 복사된 미리보기 95개"
+     "sub": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사) · 출처 webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다) · 복사된 미리보기 71개"
     }
    ]
   },
