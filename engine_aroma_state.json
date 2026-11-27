@@ -1,24 +1,7 @@
 {
- "at": "2026-11-28 06:20:43",
+ "at": "2026-11-28 06:23:05",
  "errors": [],
- "rows": [
-  {
-   "code": "AM-PE-023",
-   "approvals": [
-    {
-     "id": "aroma-am-pe-023-1128",
-     "state": "done",
-     "kind": "1128",
-     "at": "2026-11-28"
-    }
-   ],
-   "title": "seg1",
-   "last_file_at": "2026-11-28 06:04",
-   "stage": "approved",
-   "label": "승인됨(게시 전)",
-   "detail": "watch done + 커밋 b5e1cbaa9"
-  }
- ],
+ "rows": [],
  "old_inflight": [],
  "discarded": [
   {
@@ -40,6 +23,22 @@
    ],
    "title": "크로스2 공개일 12월 25일, 1편은 2주 1위·5주 TOP10이었다",
    "last_file_at": "2026-11-28 05:43",
+   "stage": "published",
+   "label": "게시됨",
+   "detail": "2026-11-28"
+  },
+  {
+   "code": "AM-PE-023",
+   "approvals": [
+    {
+     "id": "aroma-am-pe-023-1128",
+     "state": "done",
+     "kind": "1128",
+     "at": "2026-11-28"
+    }
+   ],
+   "title": "2026 연말 시상식 일정, 가요대축제·가요대전 둘 다 서는 6팀",
+   "last_file_at": "2026-11-28 06:04",
    "stage": "published",
    "label": "게시됨",
    "detail": "2026-11-28"
@@ -125,31 +124,9 @@
    "stage": "published",
    "label": "게시됨",
    "detail": "2026-11-26"
-  },
-  {
-   "code": "AM-PE-021",
-   "approvals": [
-    {
-     "id": "aroma-am-pe-021-approve-1125",
-     "state": "done",
-     "kind": "approve",
-     "at": "2026-11-25"
-    },
-    {
-     "id": "aroma-am-pe-021-upd-aff-1127",
-     "state": "done",
-     "kind": "upd",
-     "at": "2026-11-27"
-    }
-   ],
-   "title": "변우석 팬미팅 앙코르 — 전석 110,000원, 선예매 12/7·일반 12/8",
-   "last_file_at": "2026-11-27 17:13",
-   "stage": "published",
-   "label": "게시됨",
-   "detail": "2026-11-26"
   }
  ],
- "published_total": 86,
+ "published_total": 87,
  "rev_wait": [],
  "cats": {
   "window": 14,
@@ -276,7 +253,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-28 06:20:28",
+   "last_at": "2026-11-28 06:22:58",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -323,7 +300,7 @@
    "node": "이대리 🙋·⏸·👤 → 이부장 즉시",
    "last_at": "2026-11-27 23:11:35",
    "src": "now_log(bid=aroma)",
-   "today_n": 8,
+   "today_n": 10,
    "note": "횟수는 전체 세션",
    "at_node": ""
   },
@@ -348,10 +325,10 @@
  ],
  "unit": {
   "who": "이대리",
-  "state": "현장(진행)",
+  "state": "대기(보고 완료·다음 지시 기다림)",
   "jobs": 0,
-  "last_min": 2,
-  "cur": "[이부장 접수 06:18] 이대리 PE-023 재검 V0 PA",
+  "last_min": 0,
+  "cur": "[이부장 접수 06:22] PE-023 네이버 게시 완료(22",
   "lvl": "ok"
  },
  "open_requests": [],
@@ -360,14 +337,7 @@
   "v0": [],
   "boss": [],
   "deploy": [],
-  "publish": [
-   {
-    "code": "AM-PE-023",
-    "title": "seg1 · 게시 승인 꼴 결재가 없거나 보류·취소·사장님 승인 아님 — 게시 지연 판정 해당 없음",
-    "min": null,
-    "lvl": "ok"
-   }
-  ],
+  "publish": [],
   "osmu": []
  },
  "channels": {
@@ -410,6 +380,11 @@
      "code": "AM-BO-016",
      "title": "크로스2 공개일 12월 25일, 1편은 2주 1위·5주 TOP10이었다",
      "url": "https://blog.naver.com/aroma-mag/224495417454"
+    },
+    {
+     "code": "AM-PE-023",
+     "title": "2026 연말 시상식 일정, 가요대축제·가요대전 둘 다 서는 6팀",
+     "url": "https://blog.naver.com/aroma-mag/224495427225"
     },
     {
      "code": "AM-DG-021",
@@ -837,11 +812,7 @@
      "url": "https://blog.naver.com/aroma-mag/224454765191"
     }
    ],
-   "wait": [
-    {
-     "code": "AM-PE-023"
-    }
-   ]
+   "wait": []
   }
  },
  "topics": [],
@@ -853,8 +824,8 @@
  },
  "kpi": {
   "today": "2026-11-28",
-  "done_today": 1,
-  "published_today": 1,
+  "done_today": 2,
+  "published_today": 2,
   "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
@@ -871,16 +842,16 @@
   "state": "미확인(aroma 발행챗 상태는 이 방이 읽는 길이 없다)"
  },
  "tower": {
-  "age_min": 2,
+  "age_min": 1,
   "lvl": "ok"
  },
  "units": [
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 2,
-   "cur": "[이부장 접수 06:18] 이대리 PE-023 재검 V0 PA",
+   "last_min": 0,
+   "cur": "[이부장 접수 06:22] PE-023 네이버 게시 완료(22",
    "lvl": "ok"
   },
   {
@@ -892,10 +863,10 @@
  "drivers": [
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 2,
-   "cur": "[이부장 접수 06:18] 이대리 PE-023 재검 V0 PA",
+   "last_min": 0,
+   "cur": "[이부장 접수 06:22] PE-023 네이버 게시 완료(22",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
   },
@@ -941,7 +912,7 @@
  "producers": [
   {
    "who": "이대리",
-   "made": "오늘 새 글 게시 1편 · 파일이 움직인 글 2편",
+   "made": "오늘 새 글 게시 2편 · 파일이 움직인 글 2편",
    "codes": [
     "AM-BO-016",
     "AM-PE-023"
@@ -952,15 +923,15 @@
  "edits": [],
  "today_events": [
   {
-   "code": "AM-PE-023",
-   "stage": "proc",
-   "at": "2026-11-28 05:59:41",
-   "src": "파일 수정 시각"
-  },
-  {
    "code": "AM-BO-016",
    "stage": "proc",
    "at": "2026-11-28 05:37:01",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-PE-023",
+   "stage": "proc",
+   "at": "2026-11-28 05:59:41",
    "src": "파일 수정 시각"
   },
   {
@@ -977,6 +948,12 @@
   },
   {
    "code": "AM-BO-016",
+   "stage": "naver",
+   "at": "",
+   "src": "db.json published(날짜만)"
+  },
+  {
+   "code": "AM-PE-023",
    "stage": "naver",
    "at": "",
    "src": "db.json published(날짜만)"
@@ -1015,7 +992,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-28 06:20:28",
+     "chip": "2026-11-28 06:22:58",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
@@ -1046,7 +1023,7 @@
      "head": "ASIDE_ALERT",
      "lvl": "ok",
      "chip": "2026-11-27 23:11:35",
-     "sub": "이대리 🙋·⏸·👤 → 이부장 즉시 · 출처 now_log(bid=aroma) · 오늘 8회 · 횟수는 전체 세션"
+     "sub": "이대리 🙋·⏸·👤 → 이부장 즉시 · 출처 now_log(bid=aroma) · 오늘 10회 · 횟수는 전체 세션"
     },
     {
      "head": "ROUTINE_DONE",
@@ -1143,13 +1120,18 @@
    ]
   },
   {
-   "title": "✅ 최근 게시 · 전체 86편",
+   "title": "✅ 최근 게시 · 전체 87편",
    "empty": "게시 기록 없음",
    "rows": [
     {
      "head": "AM-BO-016",
      "chip": "2026-11-28",
      "sub": "크로스2 공개일 12월 25일, 1편은 2주 1위·5주 TOP10이었다"
+    },
+    {
+     "head": "AM-PE-023",
+     "chip": "2026-11-28",
+     "sub": "2026 연말 시상식 일정, 가요대축제·가요대전 둘 다 서는 6팀"
     },
     {
      "head": "AM-DG-021",
@@ -1170,11 +1152,6 @@
      "head": "AM-DG-019",
      "chip": "2026-11-26",
      "sub": "GTA6 플레이타임 평균 17.4시간 — PS5 플레이어 3,900만 명 이상"
-    },
-    {
-     "head": "AM-BO-015",
-     "chip": "2026-11-26",
-     "sub": "넷플릭스 순위 11/16~22, 문무 7위→4위·닥터X 2위→6위"
     }
    ]
   }
