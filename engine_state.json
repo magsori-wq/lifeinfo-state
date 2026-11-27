@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 09:22:08",
+ "at": "2026-11-27 09:24:28",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -468,7 +468,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 2,
+   "last_min": 0,
    "cur": "✍️ A2-36 초안 — 보훈증명서 10종 무인민원발급기 무료",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -477,7 +477,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 128,
+   "last_min": 130,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -516,7 +516,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 2,
+   "last_min": 0,
    "cur": "✍️ A2-36 초안 — 보훈증명서 10종 무인민원발급기 무료",
    "lvl": "ok"
   },
@@ -524,7 +524,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 1,
+   "last_min": 4,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -532,7 +532,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 128,
+   "last_min": 130,
    "cur": "",
    "lvl": "ok"
   },
@@ -540,7 +540,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 57,
+   "last_min": 59,
    "cur": "이부장 ack re9cc7b — 이부장 08:24 — 같은 사",
    "lvl": "ok"
   },
@@ -1199,13 +1199,13 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "bad",
-  "ok": 5,
+  "state": "stale",
+  "ok": 6,
   "stale": 1,
-  "bad": 1,
+  "bad": 0,
   "na": 0,
-  "at": "2026-11-27 09:22:00",
-  "age_min": 0
+  "at": "2026-11-27 09:23:24",
+  "age_min": 1
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1298,7 +1298,7 @@
  "fired": [
   {
    "day": "2026-11-27",
-   "total": 101,
+   "total": 103,
    "kinds": [
     [
      "COOP_STALE",
@@ -1329,8 +1329,8 @@
      5
     ],
     [
-     "FUEL_LOW",
-     3
+     "ROUTINE_DONE",
+     4
     ]
    ]
   },
