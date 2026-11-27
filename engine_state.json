@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 09:17:08",
+ "at": "2026-11-27 09:19:28",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -423,7 +423,7 @@
    "ran": false,
    "at": "",
    "note": "",
-   "today": 0,
+   "today": 1,
    "lvl": "idle"
   },
   {
@@ -466,10 +466,10 @@
  "drivers": [
   {
    "who": "이과장",
-   "state": "대기(보고 완료·다음 지시 기다림)",
-   "jobs": 2,
-   "last_min": 245,
-   "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
+   "state": "현장(진행)",
+   "jobs": 3,
+   "last_min": -1,
+   "cur": "✍️ A2-36 초안 — 보훈증명서 10종 무인민원발급기 무료",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
   },
@@ -477,7 +477,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 123,
+   "last_min": 125,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -514,17 +514,17 @@
  "units": [
   {
    "who": "이과장",
-   "state": "대기(보고 완료·다음 지시 기다림)",
-   "jobs": 2,
-   "last_min": 245,
-   "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
+   "state": "현장(진행)",
+   "jobs": 3,
+   "last_min": -1,
+   "cur": "✍️ A2-36 초안 — 보훈증명서 10종 무인민원발급기 무료",
    "lvl": "ok"
   },
   {
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 15,
+   "last_min": 1,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -532,7 +532,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 123,
+   "last_min": 125,
    "cur": "",
    "lvl": "ok"
   },
@@ -540,7 +540,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 52,
+   "last_min": 54,
    "cur": "이부장 ack re9cc7b — 이부장 08:24 — 같은 사",
    "lvl": "ok"
   },
@@ -561,8 +561,8 @@
    "code": "A2-36",
    "title": "보훈증명서 10종 무인민원발급기 무료 발급 — 11월 30일부터, 주말·",
    "src": "lifeinfo-daily-topics",
-   "state": "제안",
-   "at": "2026-11-27T09:16"
+   "state": "선별",
+   "at": "2026-11-27T09:17"
   }
  ],
  "kpi": {
@@ -1022,6 +1022,12 @@
    "src": "topicprop 제안"
   },
   {
+   "code": "A2-36",
+   "stage": "proc",
+   "at": "2026-11-27 09:17:35",
+   "src": "topicprop 선별"
+  },
+  {
    "code": "D2-22",
    "stage": "threads",
    "at": "",
@@ -1198,8 +1204,8 @@
   "stale": 1,
   "bad": 1,
   "na": 0,
-  "at": "2026-11-27 09:11:43",
-  "age_min": 5
+  "at": "2026-11-27 09:19:20",
+  "age_min": 0
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
