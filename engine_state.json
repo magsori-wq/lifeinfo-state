@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 13:05:31",
+ "at": "2026-11-27 13:07:33",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -304,7 +304,7 @@
  ],
  "aside": {
   "state": "휴면 — 이과장 직접 게시(aside repl) · 2026-12-31 재연결",
-  "queue": 8,
+  "queue": 9,
   "busy": false,
   "lvl": "ok",
   "credit_hold": "aside-credit-t2624",
@@ -488,7 +488,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 11,
+   "last_min": 13,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -497,7 +497,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 54,
+   "last_min": 56,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -505,7 +505,7 @@
   {
    "who": "Aside",
    "state": "휴면(2026-12-31 재연결 · 게시는 이과장)",
-   "jobs": 8,
+   "jobs": 9,
    "lvl": "ok",
    "role": "허브·4종착 배송"
   },
@@ -537,7 +537,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 11,
+   "last_min": 13,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -545,7 +545,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 19,
+   "last_min": 21,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -553,7 +553,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 54,
+   "last_min": 56,
    "cur": "",
    "lvl": "ok"
   },
@@ -561,14 +561,14 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 13,
+   "last_min": 15,
    "cur": "[이부장 접수 12:52] 이대리 12:35 자가점검: 할 일",
    "lvl": "ok"
   },
   {
    "who": "Aside",
    "state": "휴면(2026-12-31 재연결 · 게시는 이과장)",
-   "jobs": 8,
+   "jobs": 9,
    "lvl": "ok"
   },
   {
@@ -1244,7 +1244,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-27 13:01:35",
-  "age_min": 3
+  "age_min": 5
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
