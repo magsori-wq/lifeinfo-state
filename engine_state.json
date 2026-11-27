@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 12:35:11",
+ "at": "2026-11-27 12:37:51",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -476,7 +476,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 4,
+   "last_min": 0,
    "cur": "🚀 A2-36 발행 — 보훈증명서 발급방법 11월 30일부터 ",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -485,7 +485,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 24,
+   "last_min": 27,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -525,7 +525,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 4,
+   "last_min": 0,
    "cur": "🚀 A2-36 발행 — 보훈증명서 발급방법 11월 30일부터 ",
    "lvl": "ok"
   },
@@ -533,7 +533,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 2,
+   "last_min": 5,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -541,16 +541,16 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 24,
+   "last_min": 27,
    "cur": "",
    "lvl": "ok"
   },
   {
    "who": "이대리",
-   "state": "대기(보고 완료·다음 지시 기다림)",
+   "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 0,
-   "cur": "✅ aroma-extfix-1127 완료 — DG-006·DG",
+   "last_min": 2,
+   "cur": "🔎 자가점검 12:35 — 할 일 0·사장님 결재 대기 0(D",
    "lvl": "ok"
   },
   {
@@ -1226,13 +1226,13 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "bad",
-  "ok": 5,
+  "state": "stale",
+  "ok": 6,
   "stale": 1,
-  "bad": 1,
+  "bad": 0,
   "na": 0,
-  "at": "2026-11-27 12:34:09",
-  "age_min": 1
+  "at": "2026-11-27 12:37:54",
+  "age_min": 0
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
