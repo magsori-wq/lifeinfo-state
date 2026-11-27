@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 00:14:28",
+ "at": "2026-11-28 00:16:44",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -415,7 +415,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "✍️ D1-30 초안 — 2027년 수도권 공공주택 5만600",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -424,7 +424,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 8,
+   "last_min": 10,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -460,7 +460,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 3,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "✍️ D1-30 초안 — 2027년 수도권 공공주택 5만600",
    "lvl": "ok"
   },
@@ -468,7 +468,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 26,
+   "last_min": 28,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -476,7 +476,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 8,
+   "last_min": 10,
    "cur": "",
    "lvl": "ok"
   },
@@ -484,7 +484,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 55,
+   "last_min": 57,
    "cur": "[이부장 접수 23:20] 이대리 23:3x 회신 접수 — P",
    "lvl": "ok"
   },
@@ -961,13 +961,13 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "stale",
-  "ok": 6,
+  "state": "bad",
+  "ok": 5,
   "stale": 1,
-  "bad": 0,
+  "bad": 1,
   "na": 0,
-  "at": "2026-11-28 00:05:47",
-  "age_min": 8
+  "at": "2026-11-28 00:15:54",
+  "age_min": 0
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
