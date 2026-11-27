@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 16:59:58",
+ "at": "2026-11-27 17:02:37",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -500,7 +500,7 @@
    "who": "이과장",
    "state": "대기(시계 대기 — 판독 기한 전)",
    "jobs": 1,
-   "last_min": 30,
+   "last_min": 33,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -509,7 +509,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 289,
+   "last_min": 292,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -549,15 +549,15 @@
    "who": "이과장",
    "state": "대기(시계 대기 — 판독 기한 전)",
    "jobs": 1,
-   "last_min": 30,
+   "last_min": 33,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
   {
    "who": "3.세션",
-   "state": "현장(진행)",
+   "state": "대기(상시 업무만)",
    "jobs": 2,
-   "last_min": 28,
+   "last_min": 30,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -565,7 +565,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 289,
+   "last_min": 292,
    "cur": "",
    "lvl": "ok"
   },
@@ -573,7 +573,7 @@
    "who": "이대리",
    "state": "대기",
    "jobs": 0,
-   "last_min": 53,
+   "last_min": 56,
    "cur": "이부장 ack rcde1bd — 16:06 이부장: 결재 회수",
    "lvl": "ok"
   },
@@ -1283,8 +1283,8 @@
   "stale": 1,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-27 16:48:53",
-  "age_min": 11
+  "at": "2026-11-27 17:00:31",
+  "age_min": 2
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1382,7 +1382,7 @@
  "fired": [
   {
    "day": "2026-11-27",
-   "total": 270,
+   "total": 271,
    "kinds": [
     [
      "REPORT_UNACKED",
