@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 05:49:23",
+ "at": "2026-11-28 05:51:24",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -11,20 +11,19 @@
     "code": "D3-17",
     "title": "공공분양 일정 2027 — 수도권 5만6000호, 우리",
     "left": [
-     "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
      "naver": true,
-     "insta": false,
+     "insta": true,
      "threads": false
     },
     "who": {
-     "naver": "lee"
+     "naver": "lee",
+     "insta": ""
     },
     "plan": {
-     "insta": "lee",
      "threads": "lee"
     },
     "pub": "2026-11-28",
@@ -442,7 +441,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 3,
+   "last_min": 5,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -451,7 +450,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 343,
+   "last_min": 345,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -489,7 +488,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 3,
+   "last_min": 5,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -497,7 +496,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 9,
+   "last_min": 11,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -505,7 +504,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 343,
+   "last_min": 345,
    "cur": "",
    "lvl": "ok"
   },
@@ -513,7 +512,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "AM-BO-016 〈크로스 2〉 게시 완료 https://bl",
    "lvl": "ok"
   },
@@ -740,6 +739,13 @@
   "insta": {
    "done": [
     {
+     "code": "D3-17",
+     "title": "공공분양 일정 2027 — 수도권 5만6000호, 우리",
+     "url": "https://www.instagram.com/p/DgQlBmxE0pW/",
+     "at": "2026-11-28",
+     "who": ""
+    },
+    {
      "code": "A2-36",
      "title": "보훈증명서 발급방법 11월 30일부터 무인민원발급기 무",
      "url": "https://www.instagram.com/p/DgO3cYHEfWA/",
@@ -810,12 +816,7 @@
      "who": ""
     }
    ],
-   "wait": [
-    {
-     "code": "D3-17",
-     "title": "공공분양 일정 2027 — 수도권 5만6000호, 우리"
-    }
-   ]
+   "wait": []
   },
   "threads": {
    "done": [
@@ -953,6 +954,13 @@
    "at": "2026-11-28 05:45:02",
    "src": "now_log 게시 URL",
    "who": "lee"
+  },
+  {
+   "code": "D3-17",
+   "stage": "insta",
+   "at": "",
+   "src": "DB osmu_at(날짜뿐)",
+   "who": ""
   },
   {
    "code": "D3-17",
@@ -1106,7 +1114,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-28 05:45:53",
-  "age_min": 3
+  "age_min": 5
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
