@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 17:13:57",
+ "at": "2026-11-27 17:15:57",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -500,7 +500,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 10,
+   "last_min": 12,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -509,7 +509,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 303,
+   "last_min": 305,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -549,7 +549,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 10,
+   "last_min": 12,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -557,7 +557,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 9,
+   "last_min": 11,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -565,16 +565,16 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 303,
+   "last_min": 305,
    "cur": "",
    "lvl": "ok"
   },
   {
    "who": "이대리",
-   "state": "대기",
+   "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 67,
-   "cur": "이부장 ack rcde1bd — 16:06 이부장: 결재 회수",
+   "last_min": 0,
+   "cur": "[이부장 접수 17:16] 이대리 제휴 1차 9편 보고 접수 ",
    "lvl": "ok"
   },
   {
@@ -1284,7 +1284,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-27 17:09:35",
-  "age_min": 4
+  "age_min": 6
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
