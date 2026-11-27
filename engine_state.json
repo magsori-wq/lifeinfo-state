@@ -1,5 +1,5 @@
 {
- "at": "2026-11-27 17:18:17",
+ "at": "2026-11-27 17:20:58",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -512,7 +512,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 14,
+   "last_min": 17,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -521,7 +521,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 307,
+   "last_min": 310,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -561,7 +561,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 14,
+   "last_min": 17,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -569,7 +569,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 14,
+   "last_min": 16,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -577,7 +577,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 307,
+   "last_min": 310,
    "cur": "",
    "lvl": "ok"
   },
@@ -585,8 +585,8 @@
    "who": "이대리",
    "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
-   "last_min": 1,
-   "cur": "⏸ 제휴 1차 8편(SP-024/025/026·DG-018·P",
+   "last_min": 2,
+   "cur": "⏸ 자가점검 17:17: 제휴 승인 미반영 8건 — 17시 이",
    "lvl": "ok"
   },
   {
@@ -1305,7 +1305,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-27 17:18:09",
-  "age_min": 0
+  "age_min": 2
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1403,15 +1403,15 @@
  "fired": [
   {
    "day": "2026-11-27",
-   "total": 271,
+   "total": 278,
    "kinds": [
     [
      "REPORT_UNACKED",
-     37
+     38
     ],
     [
      "ASIDE_ALERT",
-     30
+     34
     ],
     [
      "BOSS_APPROVAL",
@@ -1419,7 +1419,7 @@
     ],
     [
      "NEW_BOSS_ITEM",
-     28
+     29
     ],
     [
      "COOP_STALE",
@@ -1435,7 +1435,7 @@
     ],
     [
      "CHKMON_REPORT",
-     15
+     16
     ]
    ]
   },
