@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 05:51:24",
+ "at": "2026-11-28 05:53:20",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -441,7 +441,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 5,
+   "last_min": 0,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -450,7 +450,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 345,
+   "last_min": 347,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -488,7 +488,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 5,
+   "last_min": 0,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -496,7 +496,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 11,
+   "last_min": 13,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -504,7 +504,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 345,
+   "last_min": 347,
    "cur": "",
    "lvl": "ok"
   },
@@ -512,7 +512,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 4,
+   "last_min": 5,
    "cur": "AM-BO-016 〈크로스 2〉 게시 완료 https://bl",
    "lvl": "ok"
   },
@@ -958,8 +958,8 @@
   {
    "code": "D3-17",
    "stage": "insta",
-   "at": "",
-   "src": "DB osmu_at(날짜뿐)",
+   "at": "2026-11-28 05:52:31",
+   "src": "now_log 게시 URL",
    "who": ""
   },
   {
@@ -1113,8 +1113,8 @@
   "stale": 1,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-28 05:45:53",
-  "age_min": 5
+  "at": "2026-11-28 05:53:19",
+  "age_min": 0
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1212,14 +1212,14 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 47,
+   "total": 49,
    "kinds": [
     [
-     "CHKMON_REPORT",
-     6
+     "REPORT_UNACKED",
+     7
     ],
     [
-     "REPORT_UNACKED",
+     "CHKMON_REPORT",
      6
     ],
     [
