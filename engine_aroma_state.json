@@ -1,5 +1,5 @@
 {
- "at": "2026-11-29 00:36:07",
+ "at": "2026-11-29 00:38:31",
  "errors": [],
  "rows": [
   {
@@ -55,12 +55,20 @@
   },
   {
    "code": "AM-SP-028",
-   "approvals": [],
+   "approvals": [
+    {
+     "id": "aroma-am-sp-028-1129",
+     "state": "todo",
+     "kind": "1129",
+     "at": "2026-11-29"
+    }
+   ],
    "title": "프로배구순위남녀선두동률",
-   "last_file_at": "2026-11-29 00:20",
-   "stage": "draft",
-   "label": "초안",
-   "detail": "1개 파일"
+   "last_file_at": "2026-11-29 00:36",
+   "stage": "boss_wait",
+   "label": "결재 대기",
+   "detail": "aroma-am-sp-028-1129",
+   "no_preview": false
   }
  ],
  "old_inflight": [],
@@ -308,7 +316,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-29 00:35:55",
+   "last_at": "2026-11-29 00:38:25",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -347,13 +355,13 @@
    "last_at": "",
    "src": "tick owed(aroma 건)",
    "today_n": null,
-   "note": "aroma 건은 울린 적 없음 — 장부에 미처리 aroma 건 없음 · 오늘 1회는 전체 세션 합계(aroma 몫은 따로 저장되지 않음)",
+   "note": "aroma 건은 울린 적 없음 — 미처리 1건 · 가장 오래된 0분째 (15분 넘으면 경보) · 오늘 1회는 전체 세션 합계(aroma 몫은 따로 저장되지 않음)",
    "at_node": ""
   },
   {
    "name": "ASIDE_ALERT",
    "node": "이대리 🙋·⏸·👤 → 이부장 즉시",
-   "last_at": "2026-11-28 16:27:06",
+   "last_at": "2026-11-29 00:37:53",
    "src": "now_log(bid=aroma)",
    "today_n": 2,
    "note": "횟수는 전체 세션",
@@ -371,7 +379,7 @@
   {
    "name": "aromapv 자동 동기",
    "node": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사)",
-   "last_at": "2026-11-29 00:30",
+   "last_at": "2026-11-29 00:36",
    "src": "webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다)",
    "today_n": null,
    "note": "복사된 미리보기 81개",
@@ -380,40 +388,39 @@
  ],
  "unit": {
   "who": "이대리",
-  "state": "현장(진행)",
+  "state": "⏸ 대기(남의 차례)",
   "jobs": 0,
-  "last_min": 15,
-  "cur": "자가점검 00:20: V0 없음 4건 — BO-017·DG-0",
+  "last_min": 0,
+  "cur": "⏸ 사장님 결재 대기 4건(00:37 상정): aroma-am",
   "lvl": "ok"
  },
  "open_requests": [],
  "nodes": {
-  "draft": [
-   {
-    "code": "AM-SP-028",
-    "title": "프로배구순위남녀선두동률",
-    "min": 16,
-    "lvl": "ok"
-   }
-  ],
+  "draft": [],
   "v0": [],
   "boss": [
    {
     "code": "AM-BO-017",
     "title": "넷플릭스12월신작공식목록분포",
-    "min": 10,
+    "min": 12,
     "lvl": "ok"
    },
    {
     "code": "AM-DG-023",
     "title": "몬스터헌터와일즈스위치2가격",
-    "min": 9,
+    "min": 11,
     "lvl": "ok"
    },
    {
     "code": "AM-PE-024",
     "title": "골든디스크후보 두부문4팀",
-    "min": 6,
+    "min": 8,
+    "lvl": "ok"
+   },
+   {
+    "code": "AM-SP-028",
+    "title": "프로배구순위남녀선두동률",
+    "min": 2,
     "lvl": "ok"
    }
   ],
@@ -917,7 +924,7 @@
   "today": "2026-11-29",
   "done_today": 0,
   "published_today": 0,
-  "boss_wait": 3,
+  "boss_wait": 4,
   "incidents_by_code": {
    "0": 0,
    "1": 0,
@@ -939,10 +946,10 @@
  "units": [
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
-   "last_min": 15,
-   "cur": "자가점검 00:20: V0 없음 4건 — BO-017·DG-0",
+   "last_min": 0,
+   "cur": "⏸ 사장님 결재 대기 4건(00:37 상정): aroma-am",
    "lvl": "ok"
   },
   {
@@ -954,10 +961,10 @@
  "drivers": [
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
-   "last_min": 15,
-   "cur": "자가점검 00:20: V0 없음 4건 — BO-017·DG-0",
+   "last_min": 0,
+   "cur": "⏸ 사장님 결재 대기 4건(00:37 상정): aroma-am",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
   },
@@ -977,7 +984,7 @@
    "who": "사장님",
    "role": "③ CP 결재",
    "lvl": "ok",
-   "state": "결재 대기 3건"
+   "state": "결재 대기 4건"
   }
  ],
  "suppliers": [
@@ -985,7 +992,7 @@
    "who": "이대리(자기점검·CA 검색어·일정 박스)",
    "kind": "글감",
    "ran": true,
-   "at": "00:30",
+   "at": "00:36",
    "today": 4,
    "lvl": "ok",
    "order": null,
@@ -1033,14 +1040,21 @@
    "what": "【권고】AM-PE-024(공연·연예, 홈판형+검색형) 새 글 게시 승인 요청. 제목: 2027 골든디스크 후보 음원·음반 둘 다 4팀, 집계 1",
    "by": "이대리",
    "waited": ""
+  },
+  {
+   "kind": "aroma",
+   "id": "aroma-am-sp-028-1129",
+   "what": "【권고】🔴급함 AM-SP-028(스포츠, 홈판형 경기 전 글) 새 글 게시 승인 요청 — 11/29 14:00 삼성화재-현대캐피탈 경기 전 게시",
+   "by": "이대리",
+   "waited": ""
   }
  ],
  "edits": [],
  "today_events": [
   {
-   "code": "AM-SP-028",
+   "code": "AM-PE-024",
    "stage": "proc",
-   "at": "2026-11-29 00:20:09",
+   "at": "2026-11-29 00:30:28",
    "src": "파일 수정 시각"
   },
   {
@@ -1056,9 +1070,9 @@
    "src": "파일 수정 시각"
   },
   {
-   "code": "AM-PE-024",
+   "code": "AM-SP-028",
    "stage": "proc",
-   "at": "2026-11-29 00:30:28",
+   "at": "2026-11-29 00:36:29",
    "src": "파일 수정 시각"
   }
  ],
@@ -1095,7 +1109,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-29 00:35:55",
+     "chip": "2026-11-29 00:38:25",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
@@ -1120,12 +1134,12 @@
      "head": "TOWER_OWED",
      "lvl": "ok",
      "chip": "시각 기록 없음",
-     "sub": "이대리 🙋·⏸ → 이부장(15분 안에 처리 기록이 없으면 · 같은 건 30분 간격 재알림) · 출처 tick owed(aroma 건) · aroma 건은 울린 적 없음 — 장부에 미처리 aroma 건 없음 · 오늘 1회는 전체 세션 합계(aroma 몫은 따로 저장되지 않음)"
+     "sub": "이대리 🙋·⏸ → 이부장(15분 안에 처리 기록이 없으면 · 같은 건 30분 간격 재알림) · 출처 tick owed(aroma 건) · aroma 건은 울린 적 없음 — 미처리 1건 · 가장 오래된 0분째 (15분 넘으면 경보) · 오늘 1회는 전체 세션 합계(aroma 몫은 따로 저장되지 않음)"
     },
     {
      "head": "ASIDE_ALERT",
      "lvl": "ok",
-     "chip": "2026-11-28 16:27:06",
+     "chip": "2026-11-29 00:37:53",
      "sub": "이대리 🙋·⏸·👤 → 이부장 즉시 · 출처 now_log(bid=aroma) · 오늘 2회 · 횟수는 전체 세션"
     },
     {
@@ -1137,7 +1151,7 @@
     {
      "head": "aromapv 자동 동기",
      "lvl": "ok",
-     "chip": "2026-11-29 00:30",
+     "chip": "2026-11-29 00:36",
      "sub": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사) · 출처 webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다) · 복사된 미리보기 81개"
     }
    ]
