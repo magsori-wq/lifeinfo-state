@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 12:25:49",
+ "at": "2026-11-28 12:28:08",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -492,7 +492,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 2,
+   "last_min": 5,
    "cur": "🚀 A2-38 발행 — 긴급복지 우선드림 30만 원 2027 ",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -501,7 +501,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 739,
+   "last_min": 742,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -541,7 +541,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 2,
+   "last_min": 5,
    "cur": "🚀 A2-38 발행 — 긴급복지 우선드림 30만 원 2027 ",
    "lvl": "ok"
   },
@@ -549,7 +549,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 3,
+   "last_min": 6,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -557,16 +557,16 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 739,
+   "last_min": 742,
    "cur": "",
    "lvl": "ok"
   },
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 3,
-   "cur": "이부장 ack rf4a0fe — 12:19 결재 커밋(bf00",
+   "last_min": 1,
+   "cur": "[이부장 접수 12:27] 제휴 10편 「광고·협찬 없음」 삭",
    "lvl": "ok"
   },
   {
@@ -1378,13 +1378,13 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "bad",
-  "ok": 5,
+  "state": "stale",
+  "ok": 6,
   "stale": 1,
-  "bad": 1,
+  "bad": 0,
   "na": 0,
-  "at": "2026-11-28 12:21:31",
-  "age_min": 4
+  "at": "2026-11-28 12:27:53",
+  "age_min": 0
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1484,7 +1484,7 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 173,
+   "total": 174,
    "kinds": [
     [
      "REPORT_UNACKED",
