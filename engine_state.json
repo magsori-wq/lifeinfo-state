@@ -1,5 +1,5 @@
 {
- "at": "2026-11-29 00:15:54",
+ "at": "2026-11-29 00:18:15",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -485,7 +485,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 394,
+   "last_min": 397,
    "cur": "",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -494,7 +494,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1449,
+   "last_min": 1452,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -530,7 +530,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 394,
+   "last_min": 397,
    "cur": "",
    "lvl": "ok"
   },
@@ -538,7 +538,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -546,7 +546,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1449,
+   "last_min": 1452,
    "cur": "",
    "lvl": "ok"
   },
@@ -554,8 +554,8 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 14,
-   "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
+   "last_min": 1,
+   "cur": "루틴10 점검 PASS 4/4 — 야간 회차(23:09)는 0",
    "lvl": "ok"
   },
   {
@@ -575,8 +575,8 @@
    "code": "C4-12",
    "title": "맹장 수술 등 7개 질병군 포괄수가 개정 — 2027년 1월부터 환자 부",
    "src": "lifeinfo-daily-publish",
-   "state": "제안",
-   "at": "2026-11-29T00:11"
+   "state": "선별",
+   "at": "2026-11-29T00:16"
   }
  ],
  "kpi": {
@@ -1040,6 +1040,12 @@
    "stage": "topic",
    "at": "2026-11-29 00:11:35",
    "src": "topicprop 제안"
+  },
+  {
+   "code": "C4-12",
+   "stage": "proc",
+   "at": "2026-11-29 00:16:52",
+   "src": "topicprop 선별"
   }
  ],
  "approvals": [],
@@ -1207,7 +1213,7 @@
   "bad": 1,
   "na": 0,
   "at": "2026-11-29 00:13:13",
-  "age_min": 2
+  "age_min": 5
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1307,7 +1313,7 @@
  "fired": [
   {
    "day": "2026-11-29",
-   "total": 7,
+   "total": 10,
    "kinds": [
     [
      "ASIDE_ALERT",
@@ -1319,6 +1325,10 @@
     ],
     [
      "NO_EMPTY_TOPIC",
+     2
+    ],
+    [
+     "CHKMON_REPORT",
      1
     ],
     [
@@ -1327,6 +1337,10 @@
     ],
     [
      "ROUTINE_DONE",
+     1
+    ],
+    [
+     "ROUTINE_REPORT",
      1
     ]
    ]
