@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 14:36:57",
+ "at": "2026-11-28 14:39:38",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -11,20 +11,19 @@
     "code": "B4-41",
     "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대",
     "left": [
-     "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
      "naver": true,
-     "insta": false,
+     "insta": true,
      "threads": false
     },
     "who": {
-     "naver": "lee"
+     "naver": "lee",
+     "insta": ""
     },
     "plan": {
-     "insta": "lee",
      "threads": "lee"
     },
     "pub": "",
@@ -522,7 +521,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 1,
+   "last_min": 0,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -531,7 +530,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 870,
+   "last_min": 873,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -573,7 +572,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 1,
+   "last_min": 0,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -581,7 +580,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 15,
+   "last_min": 18,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -589,7 +588,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 870,
+   "last_min": 873,
    "cur": "",
    "lvl": "ok"
   },
@@ -597,7 +596,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "이부장 ack r6cf420 — [이부장 14:36] 이대리 ",
    "lvl": "ok"
   },
@@ -920,6 +919,13 @@
   "insta": {
    "done": [
     {
+     "code": "B4-41",
+     "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대",
+     "url": "https://www.instagram.com/magsori8975/p/DgRhQ9pEY0K/",
+     "at": "2026-11-28",
+     "who": ""
+    },
+    {
      "code": "B4-42",
      "title": "종부세 분납 12월 15일 신청 — 250만 원 넘으면",
      "url": "https://www.instagram.com/magsori8975/p/DgRfNN5kV1s/",
@@ -1018,12 +1024,7 @@
      "who": ""
     }
    ],
-   "wait": [
-    {
-     "code": "B4-41",
-     "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대"
-    }
-   ]
+   "wait": []
   },
   "threads": {
    "done": [
@@ -1351,6 +1352,13 @@
    "who": "lee"
   },
   {
+   "code": "B4-41",
+   "stage": "insta",
+   "at": "2026-11-28 14:38:40",
+   "src": "now_log 게시 URL",
+   "who": ""
+  },
+  {
    "code": "A2-38",
    "stage": "threads",
    "at": "",
@@ -1565,7 +1573,7 @@
   "stale": 0,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-28 14:35:35",
+  "at": "2026-11-28 14:38:00",
   "age_min": 1
  },
  "design_signals": [
@@ -1666,7 +1674,7 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 242,
+   "total": 243,
    "kinds": [
     [
      "REPORT_UNACKED",
@@ -1690,7 +1698,7 @@
     ],
     [
      "ASIDE_DRAFT",
-     14
+     15
     ],
     [
      "TOWER_OWED",
