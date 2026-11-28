@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 16:30:47",
+ "at": "2026-11-28 16:33:06",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -542,7 +542,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 17,
+   "last_min": 0,
    "cur": "🚀 A2-40 발행 — 혼인지원금 100만 원 — 2027년 ",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -551,7 +551,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 984,
+   "last_min": 987,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -594,7 +594,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 17,
+   "last_min": 0,
    "cur": "🚀 A2-40 발행 — 혼인지원금 100만 원 — 2027년 ",
    "lvl": "ok"
   },
@@ -602,7 +602,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 1,
+   "last_min": 4,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -610,7 +610,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 984,
+   "last_min": 987,
    "cur": "",
    "lvl": "ok"
   },
@@ -618,7 +618,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 3,
+   "last_min": 5,
    "cur": "[이부장 접수 16:27] 보고 접수(A2-40 발행·동기 완",
    "lvl": "ok"
   },
@@ -846,6 +846,13 @@
   "naver": {
    "done": [
     {
+     "code": "A2-40",
+     "title": "혼인지원금 100만 원 — 2027년 1월 혼인신고부터",
+     "url": "https://blog.naver.com/magsori8975/224496001200",
+     "at": "2026-11-28",
+     "who": "lee"
+    },
+    {
      "code": "B4-41",
      "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대",
      "url": "https://blog.naver.com/magsori8975/224495882547",
@@ -877,13 +884,6 @@
      "code": "D3-17",
      "title": "공공분양 일정 2027 — 수도권 5만6000호, 우리",
      "url": "https://blog.naver.com/magsori8975/224495416875",
-     "at": "2026-11-28",
-     "who": "lee"
-    },
-    {
-     "code": "A2-40",
-     "title": "혼인지원금 100만 원 — 2027년 1월 혼인신고부터",
-     "url": "https://blog.naver.com/magsori8975/224496001200",
      "at": "2026-11-28",
      "who": "lee"
     },
@@ -1434,6 +1434,13 @@
    "src": "결재 도장"
   },
   {
+   "code": "A2-40",
+   "stage": "naver",
+   "at": "2026-11-28 16:32:23",
+   "src": "now_log 게시 URL",
+   "who": "lee"
+  },
+  {
    "code": "A2-38",
    "stage": "threads",
    "at": "",
@@ -1445,13 +1452,6 @@
    "stage": "blog",
    "at": "",
    "src": "pub_dates(날짜뿐)"
-  },
-  {
-   "code": "A2-40",
-   "stage": "naver",
-   "at": "",
-   "src": "DB osmu_at(날짜뿐)",
-   "who": "lee"
   },
   {
    "code": "A2-40",
@@ -1681,12 +1681,12 @@
  "exec_error": "",
  "reflect": {
   "state": "bad",
-  "ok": 6,
-  "stale": 0,
+  "ok": 5,
+  "stale": 1,
   "bad": 1,
   "na": 0,
-  "at": "2026-11-28 16:26:44",
-  "age_min": 4
+  "at": "2026-11-28 16:31:13",
+  "age_min": 1
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1786,7 +1786,7 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 292,
+   "total": 298,
    "kinds": [
     [
      "REPORT_UNACKED",
@@ -1798,7 +1798,7 @@
     ],
     [
      "ASIDE_ALERT",
-     28
+     29
     ],
     [
      "BOSS_APPROVAL",
@@ -1810,11 +1810,11 @@
     ],
     [
      "ASIDE_DRAFT",
-     17
+     18
     ],
     [
      "TOWER_OWED",
-     11
+     13
     ],
     [
      "CODE_UNVERIFIED",
