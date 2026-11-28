@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 18:46:26",
+ "at": "2026-11-28 18:48:47",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -519,7 +519,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 65,
+   "last_min": 67,
    "cur": "",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -528,7 +528,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1120,
+   "last_min": 1122,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -571,7 +571,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 65,
+   "last_min": 67,
    "cur": "",
    "lvl": "ok"
   },
@@ -579,7 +579,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 20,
+   "last_min": 23,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -587,7 +587,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1120,
+   "last_min": 1122,
    "cur": "",
    "lvl": "ok"
   },
@@ -595,7 +595,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 6,
+   "last_min": 8,
    "cur": "[이부장 접수 18:39] 18:23 이대리 DG-022 승인",
    "lvl": "ok"
   },
@@ -1673,7 +1673,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-28 18:44:19",
-  "age_min": 2
+  "age_min": 4
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
