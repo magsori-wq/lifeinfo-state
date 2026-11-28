@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 15:39:01",
+ "at": "2026-11-28 15:41:46",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -522,7 +522,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 1,
+   "last_min": 4,
    "cur": "✍️ A2-40 초안 — 2027년 혼인신고 부부에게 100만",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -531,7 +531,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 933,
+   "last_min": 935,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -573,7 +573,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 1,
+   "last_min": 4,
    "cur": "✍️ A2-40 초안 — 2027년 혼인신고 부부에게 100만",
    "lvl": "ok"
   },
@@ -581,7 +581,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 11,
+   "last_min": 14,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -589,16 +589,16 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 933,
+   "last_min": 935,
    "cur": "",
    "lvl": "ok"
   },
   {
    "who": "이대리",
-   "state": "대기",
+   "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 62,
-   "cur": "이부장 ack r6cf420 — [이부장 14:36] 이대리 ",
+   "last_min": 0,
+   "cur": "⚠ 오늘 새 글 2편(BO-016·PE-023)뿐 — 사장님 ",
    "lvl": "ok"
   },
   {
@@ -1622,12 +1622,12 @@
  "exec_error": "",
  "reflect": {
   "state": "stale",
-  "ok": 5,
-  "stale": 2,
+  "ok": 6,
+  "stale": 1,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-28 15:35:20",
-  "age_min": 3
+  "at": "2026-11-28 15:40:45",
+  "age_min": 1
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1727,19 +1727,19 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 257,
+   "total": 262,
    "kinds": [
     [
      "REPORT_UNACKED",
-     42
+     44
     ],
     [
      "ASIDE_ALERT",
-     25
+     26
     ],
     [
      "CHKMON_REPORT",
-     25
+     26
     ],
     [
      "BOSS_APPROVAL",
@@ -1747,7 +1747,7 @@
     ],
     [
      "NEW_BOSS_ITEM",
-     18
+     19
     ],
     [
      "ASIDE_DRAFT",
