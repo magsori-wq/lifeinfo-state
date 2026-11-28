@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 12:44:28",
+ "at": "2026-11-28 12:46:27",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -11,24 +11,24 @@
     "code": "B2-30",
     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
     "left": [
-     "네이버",
      "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
-     "naver": false,
+     "naver": true,
      "insta": false,
      "threads": false
     },
-    "who": {},
+    "who": {
+     "naver": "lee"
+    },
     "plan": {
-     "naver": "lee",
      "insta": "lee",
      "threads": "lee"
     },
     "pub": "",
-    "last_at": "",
+    "last_at": "2026-11-28",
     "lvl": "amber"
    }
   ],
@@ -493,7 +493,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 4,
+   "last_min": 0,
    "cur": "🚀 B2-30 발행 — 불법사금융신고 온라인으로 — 센터 방문",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -502,7 +502,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 758,
+   "last_min": 760,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -542,7 +542,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 4,
+   "last_min": 0,
    "cur": "🚀 B2-30 발행 — 불법사금융신고 온라인으로 — 센터 방문",
    "lvl": "ok"
   },
@@ -550,7 +550,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 3,
+   "last_min": 5,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -558,7 +558,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 758,
+   "last_min": 760,
    "cur": "",
    "lvl": "ok"
   },
@@ -566,7 +566,7 @@
    "who": "이대리",
    "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "⏸ 결재 상정 aroma-aff-disc3-1128(사장님 「",
    "lvl": "ok"
   },
@@ -763,6 +763,13 @@
   "naver": {
    "done": [
     {
+     "code": "B2-30",
+     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
+     "url": "https://blog.naver.com/magsori8975/224495777243",
+     "at": "2026-11-28",
+     "who": "lee"
+    },
+    {
      "code": "A2-38",
      "title": "긴급복지 우선드림 30만 원 2027 — 시군구 결정 ",
      "url": "https://blog.naver.com/magsori8975/224495750923",
@@ -847,12 +854,7 @@
      "who": "lee"
     }
    ],
-   "wait": [
-    {
-     "code": "B2-30",
-     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 "
-    }
-   ]
+   "wait": []
   },
   "insta": {
    "done": [
@@ -1200,6 +1202,13 @@
    "who": "lee"
   },
   {
+   "code": "B2-30",
+   "stage": "naver",
+   "at": "2026-11-28 12:46:11",
+   "src": "now_log 게시 URL",
+   "who": "lee"
+  },
+  {
    "code": "A2-38",
    "stage": "threads",
    "at": "",
@@ -1409,13 +1418,13 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "ok",
-  "ok": 7,
-  "stale": 0,
+  "state": "stale",
+  "ok": 6,
+  "stale": 1,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-28 12:41:59",
-  "age_min": 2
+  "at": "2026-11-28 12:45:27",
+  "age_min": 1
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
