@@ -1,12 +1,30 @@
 {
- "at": "2026-11-29 00:13:36",
+ "at": "2026-11-29 00:16:13",
  "errors": [],
  "rows": [
+  {
+   "code": "AM-BO-017",
+   "approvals": [],
+   "title": "넷플릭스12월신작공식목록분포",
+   "last_file_at": "2026-11-29 00:16",
+   "stage": "draft",
+   "label": "초안",
+   "detail": "1개 파일"
+  },
+  {
+   "code": "AM-DG-023",
+   "approvals": [],
+   "title": "몬스터헌터와일즈스위치2가격",
+   "last_file_at": "2026-11-29 00:16",
+   "stage": "draft",
+   "label": "초안",
+   "detail": "1개 파일"
+  },
   {
    "code": "AM-PE-024",
    "approvals": [],
    "title": "골든디스크후보 두부문4팀",
-   "last_file_at": "2026-11-29 00:11",
+   "last_file_at": "2026-11-29 00:14",
    "stage": "draft",
    "label": "초안",
    "detail": "1개 파일"
@@ -257,7 +275,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-29 00:13:23",
+   "last_at": "2026-11-29 00:15:53",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -304,7 +322,7 @@
    "node": "이대리 🙋·⏸·👤 → 이부장 즉시",
    "last_at": "2026-11-28 16:27:06",
    "src": "now_log(bid=aroma)",
-   "today_n": 1,
+   "today_n": 2,
    "note": "횟수는 전체 세션",
    "at_node": ""
   },
@@ -313,17 +331,17 @@
    "node": "루틴10 → CP",
    "last_at": "",
    "src": "시각 저장 없음(루틴10 꺼짐은 설계도 기재)",
-   "today_n": 0,
+   "today_n": 1,
    "note": "횟수는 lifeinfo 루틴 전체",
    "at_node": ""
   },
   {
    "name": "aromapv 자동 동기",
    "node": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사)",
-   "last_at": "2026-11-28 16:20",
+   "last_at": "2026-11-29 00:16",
    "src": "webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다)",
    "today_n": null,
-   "note": "복사된 미리보기 77개",
+   "note": "복사된 미리보기 80개",
    "at_node": "boss"
   }
  ],
@@ -331,13 +349,25 @@
   "who": "이대리",
   "state": "현장(진행)",
   "jobs": 0,
-  "last_min": 12,
+  "last_min": 14,
   "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
   "lvl": "ok"
  },
  "open_requests": [],
  "nodes": {
   "draft": [
+   {
+    "code": "AM-BO-017",
+    "title": "넷플릭스12월신작공식목록분포",
+    "min": 0,
+    "lvl": "ok"
+   },
+   {
+    "code": "AM-DG-023",
+    "title": "몬스터헌터와일즈스위치2가격",
+    "min": 0,
+    "lvl": "ok"
+   },
    {
     "code": "AM-PE-024",
     "title": "골든디스크후보 두부문4팀",
@@ -871,7 +901,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 12,
+   "last_min": 14,
    "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
    "lvl": "ok"
   },
@@ -886,7 +916,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 12,
+   "last_min": 14,
    "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
@@ -915,11 +945,11 @@
    "who": "이대리(자기점검·CA 검색어·일정 박스)",
    "kind": "글감",
    "ran": true,
-   "at": "00:11",
-   "today": 1,
+   "at": "00:16",
+   "today": 3,
    "lvl": "ok",
    "order": null,
-   "note": "오늘 파일(drafts·previews)이 움직인 글 1편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
+   "note": "오늘 파일(drafts·previews)이 움직인 글 3편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
   },
   {
    "who": "루틴10(aroma 야간 글감)",
@@ -933,8 +963,10 @@
  "producers": [
   {
    "who": "이대리",
-   "made": "오늘 새 글 게시 0편 · 파일이 움직인 글 1편",
+   "made": "오늘 새 글 게시 0편 · 파일이 움직인 글 3편",
    "codes": [
+    "AM-BO-017",
+    "AM-DG-023",
     "AM-PE-024"
    ]
   }
@@ -945,7 +977,19 @@
   {
    "code": "AM-PE-024",
    "stage": "proc",
-   "at": "2026-11-29 00:11:46",
+   "at": "2026-11-29 00:14:37",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-BO-017",
+   "stage": "proc",
+   "at": "2026-11-29 00:16:00",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-DG-023",
+   "stage": "proc",
+   "at": "2026-11-29 00:16:05",
    "src": "파일 수정 시각"
   }
  ],
@@ -982,7 +1026,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-29 00:13:23",
+     "chip": "2026-11-29 00:15:53",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
@@ -1013,19 +1057,19 @@
      "head": "ASIDE_ALERT",
      "lvl": "ok",
      "chip": "2026-11-28 16:27:06",
-     "sub": "이대리 🙋·⏸·👤 → 이부장 즉시 · 출처 now_log(bid=aroma) · 오늘 1회 · 횟수는 전체 세션"
+     "sub": "이대리 🙋·⏸·👤 → 이부장 즉시 · 출처 now_log(bid=aroma) · 오늘 2회 · 횟수는 전체 세션"
     },
     {
      "head": "ROUTINE_DONE",
      "lvl": "ok",
      "chip": "시각 기록 없음",
-     "sub": "루틴10 → CP · 출처 시각 저장 없음(루틴10 꺼짐은 설계도 기재) · 오늘 0회 · 횟수는 lifeinfo 루틴 전체"
+     "sub": "루틴10 → CP · 출처 시각 저장 없음(루틴10 꺼짐은 설계도 기재) · 오늘 1회 · 횟수는 lifeinfo 루틴 전체"
     },
     {
      "head": "aromapv 자동 동기",
      "lvl": "ok",
-     "chip": "2026-11-28 16:20",
-     "sub": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사) · 출처 webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다) · 복사된 미리보기 77개"
+     "chip": "2026-11-29 00:16",
+     "sub": "미리보기 → CP 자동 복사(이대리는 C:/lifeinfo 쓰기 권한이 없다 — towertick 이 틱마다 이대리 previews 의 aromapv_*.html 을 webapp/ 으로 복사) · 출처 webapp/aromapv_*.html 수정 시각(복사 이벤트는 기록되지 않는다) · 복사된 미리보기 80개"
     }
    ]
   },

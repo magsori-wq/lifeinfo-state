@@ -1,5 +1,5 @@
 {
- "at": "2026-11-29 00:13:14",
+ "at": "2026-11-29 00:15:54",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -455,11 +455,11 @@
   {
    "who": "루틴6 글감·발행보조",
    "kind": "글감",
-   "ran": false,
-   "at": "",
-   "note": "",
+   "ran": true,
+   "at": "00:15",
+   "note": "[조사장부] 목록 2 · 원문 1 · 후보 1 · 탈락 0 · 검색어 1 — 추천 C4-12 등록(7개 질병군 포괄수가 202",
    "today": 1,
-   "lvl": "idle"
+   "lvl": "ok"
   },
   {
    "who": "루틴8 상품(아침)",
@@ -485,7 +485,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 392,
+   "last_min": 394,
    "cur": "",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -494,7 +494,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1447,
+   "last_min": 1449,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -530,7 +530,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 392,
+   "last_min": 394,
    "cur": "",
    "lvl": "ok"
   },
@@ -538,7 +538,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": -1,
+   "last_min": 2,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -546,7 +546,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1447,
+   "last_min": 1449,
    "cur": "",
    "lvl": "ok"
   },
@@ -554,7 +554,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 12,
+   "last_min": 14,
    "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
    "lvl": "ok"
   },
@@ -1207,7 +1207,7 @@
   "bad": 1,
   "na": 0,
   "at": "2026-11-29 00:13:13",
-  "age_min": 0
+  "age_min": 2
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1307,18 +1307,26 @@
  "fired": [
   {
    "day": "2026-11-29",
-   "total": 4,
+   "total": 7,
    "kinds": [
+    [
+     "ASIDE_ALERT",
+     2
+    ],
     [
      "CONFIRM_BACKLOG",
      2
     ],
     [
-     "ASIDE_ALERT",
+     "NO_EMPTY_TOPIC",
      1
     ],
     [
      "ORDER_UNREAD",
+     1
+    ],
+    [
+     "ROUTINE_DONE",
      1
     ]
    ]
