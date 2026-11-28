@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 23:53:13",
+ "at": "2026-11-28 23:56:52",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -519,7 +519,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 372,
+   "last_min": 375,
    "cur": "",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -528,7 +528,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1427,
+   "last_min": 1430,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -571,7 +571,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 372,
+   "last_min": 375,
    "cur": "",
    "lvl": "ok"
   },
@@ -579,7 +579,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 19,
+   "last_min": 23,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -587,7 +587,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1427,
+   "last_min": 1430,
    "cur": "",
    "lvl": "ok"
   },
@@ -595,7 +595,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 16,
+   "last_min": 20,
    "cur": "[이부장 접수 23:36] 23:35 루틴10 0/4 재조사 ",
    "lvl": "ok"
   },
@@ -1688,13 +1688,13 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "stale",
+  "state": "bad",
   "ok": 5,
-  "stale": 2,
-  "bad": 0,
+  "stale": 1,
+  "bad": 1,
   "na": 0,
-  "at": "2026-11-28 23:44:06",
-  "age_min": 9
+  "at": "2026-11-28 23:55:29",
+  "age_min": 1
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
