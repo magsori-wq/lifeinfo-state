@@ -1,5 +1,5 @@
 {
- "at": "2026-11-29 00:44:16",
+ "at": "2026-11-29 00:46:35",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -7,7 +7,7 @@
    {
     "code": "C4-12",
     "title": "맹장수술 환자부담 122만→87만 원 — 2027 포괄",
-    "min": 0,
+    "min": 2,
     "lvl": "ok"
    }
   ],
@@ -537,7 +537,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 11,
+   "last_min": 1,
    "cur": "",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -546,7 +546,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1478,
+   "last_min": 1480,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -584,7 +584,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 11,
+   "last_min": 1,
    "cur": "",
    "lvl": "ok"
   },
@@ -592,7 +592,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 10,
+   "last_min": 13,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -600,7 +600,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1478,
+   "last_min": 1480,
    "cur": "",
    "lvl": "ok"
   },
@@ -608,7 +608,7 @@
    "who": "이대리",
    "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
-   "last_min": 6,
+   "last_min": 8,
    "cur": "⏸ 사장님 결재 대기 4건(00:37 상정): aroma-am",
    "lvl": "ok"
   },
@@ -1336,7 +1336,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-29 00:43:54",
-  "age_min": 0
+  "age_min": 2
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1436,15 +1436,15 @@
  "fired": [
   {
    "day": "2026-11-29",
-   "total": 28,
+   "total": 31,
    "kinds": [
     [
      "NEW_BOSS_ITEM",
-     5
+     6
     ],
     [
      "CHKMON_REPORT",
-     4
+     5
     ],
     [
      "ASIDE_ALERT",
@@ -1463,11 +1463,11 @@
      2
     ],
     [
-     "DEPLOY_NEEDED",
+     "BOSS_APPROVAL",
      1
     ],
     [
-     "DRAFT_READY",
+     "DEPLOY_NEEDED",
      1
     ]
    ]
