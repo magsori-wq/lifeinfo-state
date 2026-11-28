@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 12:48:28",
+ "at": "2026-11-28 12:51:01",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -11,20 +11,19 @@
     "code": "B2-30",
     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
     "left": [
-     "인스타",
      "쓰레드"
     ],
     "ch": {
      "blog": true,
      "naver": true,
-     "insta": false,
+     "insta": true,
      "threads": false
     },
     "who": {
-     "naver": "lee"
+     "naver": "lee",
+     "insta": "lee"
     },
     "plan": {
-     "insta": "lee",
      "threads": "lee"
     },
     "pub": "",
@@ -493,7 +492,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "🚀 B2-30 발행 — 불법사금융신고 온라인으로 — 센터 방문",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -502,7 +501,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 762,
+   "last_min": 765,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -542,7 +541,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "🚀 B2-30 발행 — 불법사금융신고 온라인으로 — 센터 방문",
    "lvl": "ok"
   },
@@ -550,7 +549,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 7,
+   "last_min": 9,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -558,7 +557,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 762,
+   "last_min": 765,
    "cur": "",
    "lvl": "ok"
   },
@@ -566,8 +565,8 @@
    "who": "이대리",
    "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
-   "last_min": 6,
-   "cur": "⏸ 결재 상정 aroma-aff-disc3-1128(사장님 「",
+   "last_min": 0,
+   "cur": "⏸ 대기 — 사장님 결재: aroma-aff-disc3-112",
    "lvl": "ok"
   },
   {
@@ -873,6 +872,13 @@
      "who": ""
     },
     {
+     "code": "B2-30",
+     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
+     "url": "https://www.instagram.com/magsori8975/p/DgRVB6bkR4L/",
+     "at": "2026-11-28",
+     "who": "lee"
+    },
+    {
      "code": "A2-36",
      "title": "보훈증명서 발급방법 11월 30일부터 무인민원발급기 무",
      "url": "https://www.instagram.com/p/DgO3cYHEfWA/",
@@ -943,12 +949,7 @@
      "who": ""
     }
    ],
-   "wait": [
-    {
-     "code": "B2-30",
-     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 "
-    }
-   ]
+   "wait": []
   },
   "threads": {
    "done": [
@@ -1222,6 +1223,13 @@
    "src": "pub_dates(날짜뿐)"
   },
   {
+   "code": "B2-30",
+   "stage": "insta",
+   "at": "",
+   "src": "DB osmu_at(날짜뿐)",
+   "who": "lee"
+  },
+  {
    "code": "D3-17",
    "stage": "blog",
    "at": "",
@@ -1423,8 +1431,8 @@
   "stale": 1,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-28 12:45:27",
-  "age_min": 3
+  "at": "2026-11-28 12:50:55",
+  "age_min": 0
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1524,7 +1532,7 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 184,
+   "total": 186,
    "kinds": [
     [
      "REPORT_UNACKED",
@@ -1532,7 +1540,7 @@
     ],
     [
      "ASIDE_ALERT",
-     19
+     20
     ],
     [
      "CHKMON_REPORT",
