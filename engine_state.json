@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 18:38:06",
+ "at": "2026-11-28 18:40:07",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -519,7 +519,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 57,
+   "last_min": 59,
    "cur": "",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -528,7 +528,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1112,
+   "last_min": 1114,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -571,7 +571,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 57,
+   "last_min": 59,
    "cur": "",
    "lvl": "ok"
   },
@@ -579,7 +579,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 12,
+   "last_min": 14,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -587,16 +587,16 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1112,
+   "last_min": 1114,
    "cur": "",
    "lvl": "ok"
   },
   {
    "who": "이대리",
-   "state": "대기(보고 완료·다음 지시 기다림)",
+   "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 2,
-   "cur": "✅ AM-DG-022 더 게임 어워드 2026 후보작 게시 h",
+   "last_min": 0,
+   "cur": "[이부장 접수 18:39] 18:23 이대리 DG-022 승인",
    "lvl": "ok"
   },
   {
@@ -1668,12 +1668,12 @@
  "exec_error": "",
  "reflect": {
   "state": "bad",
-  "ok": 6,
-  "stale": 0,
+  "ok": 5,
+  "stale": 1,
   "bad": 1,
   "na": 0,
-  "at": "2026-11-28 18:31:02",
-  "age_min": 7
+  "at": "2026-11-28 18:38:24",
+  "age_min": 1
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1773,11 +1773,11 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 316,
+   "total": 318,
    "kinds": [
     [
      "REPORT_UNACKED",
-     51
+     53
     ],
     [
      "CHKMON_REPORT",
