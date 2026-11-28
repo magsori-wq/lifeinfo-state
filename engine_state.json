@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 12:42:29",
+ "at": "2026-11-28 12:44:28",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -493,7 +493,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "🚀 B2-30 발행 — 불법사금융신고 온라인으로 — 센터 방문",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -502,7 +502,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 756,
+   "last_min": 758,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -542,7 +542,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "🚀 B2-30 발행 — 불법사금융신고 온라인으로 — 센터 방문",
    "lvl": "ok"
   },
@@ -550,7 +550,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 1,
+   "last_min": 3,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -558,7 +558,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 756,
+   "last_min": 758,
    "cur": "",
    "lvl": "ok"
   },
@@ -566,7 +566,7 @@
    "who": "이대리",
    "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "⏸ 결재 상정 aroma-aff-disc3-1128(사장님 「",
    "lvl": "ok"
   },
@@ -1415,7 +1415,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-28 12:41:59",
-  "age_min": 0
+  "age_min": 2
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1515,7 +1515,7 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 182,
+   "total": 184,
    "kinds": [
     [
      "REPORT_UNACKED",
@@ -1523,7 +1523,7 @@
     ],
     [
      "ASIDE_ALERT",
-     18
+     19
     ],
     [
      "CHKMON_REPORT",
