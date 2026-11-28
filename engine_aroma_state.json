@@ -1,7 +1,17 @@
 {
- "at": "2026-11-29 00:05:18",
+ "at": "2026-11-29 00:08:58",
  "errors": [],
- "rows": [],
+ "rows": [
+  {
+   "code": "AM-PE-024",
+   "approvals": [],
+   "title": "골든디스크후보 두부문4팀",
+   "last_file_at": "2026-11-29 00:08",
+   "stage": "draft",
+   "label": "초안",
+   "detail": "1개 파일"
+  }
+ ],
  "old_inflight": [],
  "discarded": [
   {
@@ -247,7 +257,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-29 00:04:53",
+   "last_at": "2026-11-29 00:08:53",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -321,13 +331,20 @@
   "who": "이대리",
   "state": "현장(진행)",
   "jobs": 0,
-  "last_min": 3,
+  "last_min": 7,
   "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
   "lvl": "ok"
  },
  "open_requests": [],
  "nodes": {
-  "draft": [],
+  "draft": [
+   {
+    "code": "AM-PE-024",
+    "title": "골든디스크후보 두부문4팀",
+    "min": 0,
+    "lvl": "ok"
+   }
+  ],
   "v0": [],
   "boss": [],
   "deploy": [],
@@ -854,7 +871,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 3,
+   "last_min": 7,
    "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
    "lvl": "ok"
   },
@@ -869,7 +886,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 3,
+   "last_min": 7,
    "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
@@ -897,12 +914,12 @@
   {
    "who": "이대리(자기점검·CA 검색어·일정 박스)",
    "kind": "글감",
-   "ran": false,
-   "at": "",
-   "today": 0,
-   "lvl": "idle",
+   "ran": true,
+   "at": "00:08",
+   "today": 1,
+   "lvl": "ok",
    "order": null,
-   "note": "오늘 파일(drafts·previews)이 움직인 글 0편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
+   "note": "오늘 파일(drafts·previews)이 움직인 글 1편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
   },
   {
    "who": "루틴10(aroma 야간 글감)",
@@ -916,13 +933,22 @@
  "producers": [
   {
    "who": "이대리",
-   "made": "오늘 새 글 게시 0편 · 파일이 움직인 글 0편",
-   "codes": []
+   "made": "오늘 새 글 게시 0편 · 파일이 움직인 글 1편",
+   "codes": [
+    "AM-PE-024"
+   ]
   }
  ],
  "approvals": [],
  "edits": [],
- "today_events": [],
+ "today_events": [
+  {
+   "code": "AM-PE-024",
+   "stage": "proc",
+   "at": "2026-11-29 00:08:28",
+   "src": "파일 수정 시각"
+  }
+ ],
  "incidents": [],
  "stage_of": {},
  "design_signals": [],
@@ -956,7 +982,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-29 00:04:53",
+     "chip": "2026-11-29 00:08:53",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
