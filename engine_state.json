@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 15:05:18",
+ "at": "2026-11-28 15:07:49",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -144,7 +144,7 @@
      "threads": ""
     },
     "plan": {},
-    "pub": "",
+    "pub": "2026-11-28",
     "last_at": "2026-11-28",
     "lvl": "ok"
    },
@@ -511,7 +511,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 11,
+   "last_min": 14,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -520,7 +520,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 899,
+   "last_min": 901,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -562,7 +562,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 11,
+   "last_min": 14,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -570,7 +570,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 19,
+   "last_min": 22,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -578,15 +578,15 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 899,
+   "last_min": 901,
    "cur": "",
    "lvl": "ok"
   },
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "대기",
    "jobs": 0,
-   "last_min": 28,
+   "last_min": 31,
    "cur": "이부장 ack r6cf420 — [이부장 14:36] 이대리 ",
    "lvl": "ok"
   },
@@ -711,6 +711,13 @@
      "who": ""
     },
     {
+     "code": "B4-41",
+     "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대",
+     "url": "https://lifeinfo8975.blogspot.com/2026/11/20.html",
+     "at": "2026-11-28",
+     "who": ""
+    },
+    {
      "code": "D3-17",
      "title": "공공분양 일정 2027 — 수도권 5만6000호, 우리",
      "url": "https://lifeinfo8975.blogspot.com/2026/11/2027-56000.html",
@@ -785,13 +792,6 @@
      "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
      "url": "https://lifeinfo8975.blogspot.com/2026/11/1332-2026.html",
      "at": "2026-11-25",
-     "who": ""
-    },
-    {
-     "code": "B4-41",
-     "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대",
-     "url": "https://lifeinfo8975.blogspot.com/2026/11/20.html",
-     "at": "",
      "who": ""
     }
    ],
@@ -1379,6 +1379,12 @@
    "who": ""
   },
   {
+   "code": "B4-41",
+   "stage": "blog",
+   "at": "",
+   "src": "pub_dates(날짜뿐)"
+  },
+  {
    "code": "D3-17",
    "stage": "blog",
    "at": "",
@@ -1574,7 +1580,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-28 15:04:13",
-  "age_min": 1
+  "age_min": 3
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
