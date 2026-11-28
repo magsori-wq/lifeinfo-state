@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 12:51:01",
+ "at": "2026-11-28 12:52:49",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -492,7 +492,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 4,
+   "last_min": 1,
    "cur": "🚀 B2-30 발행 — 불법사금융신고 온라인으로 — 센터 방문",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -501,7 +501,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 765,
+   "last_min": 766,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -541,7 +541,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 7,
-   "last_min": 4,
+   "last_min": 1,
    "cur": "🚀 B2-30 발행 — 불법사금융신고 온라인으로 — 센터 방문",
    "lvl": "ok"
   },
@@ -549,7 +549,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 9,
+   "last_min": 11,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -557,16 +557,16 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 765,
+   "last_min": 766,
    "cur": "",
    "lvl": "ok"
   },
   {
    "who": "이대리",
-   "state": "⏸ 대기(남의 차례)",
+   "state": "현장(진행)",
    "jobs": 0,
    "last_min": 0,
-   "cur": "⏸ 대기 — 사장님 결재: aroma-aff-disc3-112",
+   "cur": "[이부장 접수 12:52] aroma-aff-disc3-112",
    "lvl": "ok"
   },
   {
@@ -858,6 +858,13 @@
   "insta": {
    "done": [
     {
+     "code": "B2-30",
+     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
+     "url": "https://www.instagram.com/magsori8975/p/DgRVB6bkR4L/",
+     "at": "2026-11-28",
+     "who": "lee"
+    },
+    {
      "code": "A2-38",
      "title": "긴급복지 우선드림 30만 원 2027 — 시군구 결정 ",
      "url": "https://www.instagram.com/magsori8975/p/DgRSfqREZe0/",
@@ -870,13 +877,6 @@
      "url": "https://www.instagram.com/p/DgQlBmxE0pW/",
      "at": "2026-11-28",
      "who": ""
-    },
-    {
-     "code": "B2-30",
-     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
-     "url": "https://www.instagram.com/magsori8975/p/DgRVB6bkR4L/",
-     "at": "2026-11-28",
-     "who": "lee"
     },
     {
      "code": "A2-36",
@@ -1210,6 +1210,13 @@
    "who": "lee"
   },
   {
+   "code": "B2-30",
+   "stage": "insta",
+   "at": "2026-11-28 12:51:37",
+   "src": "now_log 게시 URL",
+   "who": "lee"
+  },
+  {
    "code": "A2-38",
    "stage": "threads",
    "at": "",
@@ -1221,13 +1228,6 @@
    "stage": "blog",
    "at": "",
    "src": "pub_dates(날짜뿐)"
-  },
-  {
-   "code": "B2-30",
-   "stage": "insta",
-   "at": "",
-   "src": "DB osmu_at(날짜뿐)",
-   "who": "lee"
   },
   {
    "code": "D3-17",
@@ -1426,12 +1426,12 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "stale",
-  "ok": 6,
-  "stale": 1,
+  "state": "ok",
+  "ok": 7,
+  "stale": 0,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-28 12:50:55",
+  "at": "2026-11-28 12:52:50",
   "age_min": 0
  },
  "design_signals": [
@@ -1532,11 +1532,11 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 186,
+   "total": 188,
    "kinds": [
     [
      "REPORT_UNACKED",
-     30
+     31
     ],
     [
      "ASIDE_ALERT",
@@ -1563,7 +1563,7 @@
      8
     ],
     [
-     "RLOG_BLOCKED_STALE",
+     "ASIDE_DRAFT",
      7
     ]
    ]
