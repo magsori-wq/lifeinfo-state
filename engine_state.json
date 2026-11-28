@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 12:59:48",
+ "at": "2026-11-28 13:02:08",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -482,7 +482,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 6,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "D2-15 네이버 정정 원고 고치기·Aside 등록 (사장님 ",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -491,7 +491,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 773,
+   "last_min": 776,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -531,7 +531,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 6,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "D2-15 네이버 정정 원고 고치기·Aside 등록 (사장님 ",
    "lvl": "ok"
   },
@@ -539,7 +539,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 18,
+   "last_min": 21,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -547,7 +547,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 773,
+   "last_min": 776,
    "cur": "",
    "lvl": "ok"
   },
@@ -555,7 +555,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 7,
+   "last_min": 9,
    "cur": "[이부장 접수 12:52] aroma-aff-disc3-112",
    "lvl": "ok"
   },
@@ -1432,7 +1432,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-28 12:59:43",
-  "age_min": 0
+  "age_min": 2
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1532,11 +1532,11 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 188,
+   "total": 191,
    "kinds": [
     [
      "REPORT_UNACKED",
-     31
+     33
     ],
     [
      "ASIDE_ALERT",
@@ -1560,7 +1560,7 @@
     ],
     [
      "TOWER_OWED",
-     8
+     9
     ],
     [
      "ASIDE_DRAFT",
