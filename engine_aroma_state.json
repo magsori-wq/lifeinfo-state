@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 23:57:09",
+ "at": "2026-11-29 00:02:37",
  "errors": [],
  "rows": [],
  "old_inflight": [],
@@ -127,22 +127,22 @@
   "rows": [
    [
     "방송·OTT",
-    3
+    2
    ],
    [
     "공연·연예",
-    4
-   ],
-   [
-    "스포츠",
     3
    ],
    [
-    "디지털 콘텐츠·여가",
+    "스포츠",
     2
+   ],
+   [
+    "디지털 콘텐츠·여가",
+    1
    ]
   ],
-  "total": 12
+  "total": 8
  },
  "share": {
   "state": "dormant",
@@ -247,7 +247,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-28 23:56:52",
+   "last_at": "2026-11-29 00:02:22",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -276,7 +276,7 @@
    "node": "요청 → 이행(30분)·활동 공백(09~23시 중 3시간 · 열린 요청 STALL 이 없을 때만 1회)",
    "last_at": "2026-11-28 21:50",
    "src": "idaeri_idle_at(공백 알림만)",
-   "today_n": 1,
+   "today_n": 0,
    "note": "열린 요청 0건",
    "at_node": ""
   },
@@ -286,7 +286,7 @@
    "last_at": "",
    "src": "tick owed(aroma 건)",
    "today_n": null,
-   "note": "aroma 건은 울린 적 없음 — 장부에 미처리 aroma 건 없음 · 오늘 17회는 전체 세션 합계(aroma 몫은 따로 저장되지 않음)",
+   "note": "aroma 건은 울린 적 없음 — 장부에 미처리 aroma 건 없음",
    "at_node": ""
   },
   {
@@ -294,7 +294,7 @@
    "node": "이대리 🙋·⏸·👤 → 이부장 즉시",
    "last_at": "2026-11-28 16:27:06",
    "src": "now_log(bid=aroma)",
-   "today_n": 33,
+   "today_n": 0,
    "note": "횟수는 전체 세션",
    "at_node": ""
   },
@@ -303,7 +303,7 @@
    "node": "루틴10 → CP",
    "last_at": "",
    "src": "시각 저장 없음(루틴10 꺼짐은 설계도 기재)",
-   "today_n": 7,
+   "today_n": 0,
    "note": "횟수는 lifeinfo 루틴 전체",
    "at_node": ""
   },
@@ -321,8 +321,8 @@
   "who": "이대리",
   "state": "현장(진행)",
   "jobs": 0,
-  "last_min": 20,
-  "cur": "[이부장 접수 23:36] 23:35 루틴10 0/4 재조사 ",
+  "last_min": 1,
+  "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
   "lvl": "ok"
  },
  "open_requests": [],
@@ -827,9 +827,9 @@
   ]
  },
  "kpi": {
-  "today": "2026-11-28",
-  "done_today": 4,
-  "published_today": 4,
+  "today": "2026-11-29",
+  "done_today": 0,
+  "published_today": 0,
   "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
@@ -846,7 +846,7 @@
   "state": "미확인(aroma 발행챗 상태는 이 방이 읽는 길이 없다)"
  },
  "tower": {
-  "age_min": 2,
+  "age_min": 4,
   "lvl": "ok"
  },
  "units": [
@@ -854,8 +854,8 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 20,
-   "cur": "[이부장 접수 23:36] 23:35 루틴10 0/4 재조사 ",
+   "last_min": 1,
+   "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
    "lvl": "ok"
   },
   {
@@ -869,8 +869,8 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 20,
-   "cur": "[이부장 접수 23:36] 23:35 루틴10 0/4 재조사 ",
+   "last_min": 1,
+   "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
   },
@@ -897,12 +897,12 @@
   {
    "who": "이대리(자기점검·CA 검색어·일정 박스)",
    "kind": "글감",
-   "ran": true,
-   "at": "18:32",
-   "today": 4,
-   "lvl": "ok",
+   "ran": false,
+   "at": "",
+   "today": 0,
+   "lvl": "idle",
    "order": null,
-   "note": "오늘 파일(drafts·previews)이 움직인 글 4편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
+   "note": "오늘 파일(drafts·previews)이 움직인 글 0편 — 글감 제안 기록은 따로 읽는 길이 없다(미확인)"
   },
   {
    "who": "루틴10(aroma 야간 글감)",
@@ -916,138 +916,36 @@
  "producers": [
   {
    "who": "이대리",
-   "made": "오늘 새 글 게시 4편 · 파일이 움직인 글 4편",
-   "codes": [
-    "AM-BO-016",
-    "AM-DG-022",
-    "AM-PE-023",
-    "AM-SP-027"
-   ]
+   "made": "오늘 새 글 게시 0편 · 파일이 움직인 글 0편",
+   "codes": []
   }
  ],
  "approvals": [],
  "edits": [],
- "today_events": [
-  {
-   "code": "AM-DG-022",
-   "stage": "proc",
-   "at": "2026-11-28 16:15:35",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-SP-027",
-   "stage": "proc",
-   "at": "2026-11-28 16:09:22",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-BO-016",
-   "stage": "proc",
-   "at": "2026-11-28 05:37:01",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-PE-023",
-   "stage": "proc",
-   "at": "2026-11-28 05:59:41",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-BO-016",
-   "stage": "boss",
-   "at": "2026-11-28 05:40:40",
-   "src": "결재 커밋 시각"
-  },
-  {
-   "code": "AM-PE-023",
-   "stage": "boss",
-   "at": "2026-11-28 06:02:13",
-   "src": "결재 커밋 시각"
-  },
-  {
-   "code": "aroma-aff-adfix10-1128",
-   "stage": "boss",
-   "at": "2026-11-28 12:09:59",
-   "src": "결재 커밋 시각"
-  },
-  {
-   "code": "aroma-aff-adfix-1128",
-   "stage": "boss",
-   "at": "2026-11-28 12:06:46",
-   "src": "결재 커밋 시각"
-  },
-  {
-   "code": "aroma-aff-disc3-1128",
-   "stage": "boss",
-   "at": "2026-11-28 13:52:05",
-   "src": "결재 커밋 시각"
-  },
-  {
-   "code": "aroma-bo016-disc-1128",
-   "stage": "boss",
-   "at": "2026-11-28 15:54:47",
-   "src": "결재 커밋 시각"
-  },
-  {
-   "code": "AM-SP-027",
-   "stage": "boss",
-   "at": "2026-11-28 16:11:21",
-   "src": "결재 커밋 시각"
-  },
-  {
-   "code": "AM-DG-022",
-   "stage": "boss",
-   "at": "2026-11-28 18:23:50",
-   "src": "결재 커밋 시각"
-  },
-  {
-   "code": "AM-DG-022",
-   "stage": "naver",
-   "at": "",
-   "src": "db.json published(날짜만)"
-  },
-  {
-   "code": "AM-SP-027",
-   "stage": "naver",
-   "at": "",
-   "src": "db.json published(날짜만)"
-  },
-  {
-   "code": "AM-BO-016",
-   "stage": "naver",
-   "at": "",
-   "src": "db.json published(날짜만)"
-  },
-  {
-   "code": "AM-PE-023",
-   "stage": "naver",
-   "at": "",
-   "src": "db.json published(날짜만)"
-  }
- ],
+ "today_events": [],
  "incidents": [],
  "stage_of": {},
  "design_signals": [],
  "room_extra": [
   {
    "title": "📊 카테고리 4개 · 최근 14일 게시",
-   "sub": "합계 12편 · 일률분배 몫 3.0편",
+   "sub": "합계 8편 · 일률분배 몫 2.0편",
    "rows": [
     {
      "head": "방송·OTT",
-     "chip": "3편"
+     "chip": "2편"
     },
     {
      "head": "공연·연예",
-     "chip": "4편"
-    },
-    {
-     "head": "스포츠",
      "chip": "3편"
     },
     {
-     "head": "디지털 콘텐츠·여가",
+     "head": "스포츠",
      "chip": "2편"
+    },
+    {
+     "head": "디지털 콘텐츠·여가",
+     "chip": "1편"
     }
    ]
   },
@@ -1058,7 +956,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-28 23:56:52",
+     "chip": "2026-11-29 00:02:22",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
@@ -1077,25 +975,25 @@
      "head": "IDAERI_STALL",
      "lvl": "ok",
      "chip": "2026-11-28 21:50",
-     "sub": "요청 → 이행(30분)·활동 공백(09~23시 중 3시간 · 열린 요청 STALL 이 없을 때만 1회) · 출처 idaeri_idle_at(공백 알림만) · 오늘 1회 · 열린 요청 0건"
+     "sub": "요청 → 이행(30분)·활동 공백(09~23시 중 3시간 · 열린 요청 STALL 이 없을 때만 1회) · 출처 idaeri_idle_at(공백 알림만) · 오늘 0회 · 열린 요청 0건"
     },
     {
      "head": "TOWER_OWED",
      "lvl": "ok",
      "chip": "시각 기록 없음",
-     "sub": "이대리 🙋·⏸ → 이부장(15분 안에 처리 기록이 없으면 · 같은 건 30분 간격 재알림) · 출처 tick owed(aroma 건) · aroma 건은 울린 적 없음 — 장부에 미처리 aroma 건 없음 · 오늘 17회는 전체 세션 합계(aroma 몫은 따로 저장되지 않음)"
+     "sub": "이대리 🙋·⏸ → 이부장(15분 안에 처리 기록이 없으면 · 같은 건 30분 간격 재알림) · 출처 tick owed(aroma 건) · aroma 건은 울린 적 없음 — 장부에 미처리 aroma 건 없음"
     },
     {
      "head": "ASIDE_ALERT",
      "lvl": "ok",
      "chip": "2026-11-28 16:27:06",
-     "sub": "이대리 🙋·⏸·👤 → 이부장 즉시 · 출처 now_log(bid=aroma) · 오늘 33회 · 횟수는 전체 세션"
+     "sub": "이대리 🙋·⏸·👤 → 이부장 즉시 · 출처 now_log(bid=aroma) · 오늘 0회 · 횟수는 전체 세션"
     },
     {
      "head": "ROUTINE_DONE",
      "lvl": "ok",
      "chip": "시각 기록 없음",
-     "sub": "루틴10 → CP · 출처 시각 저장 없음(루틴10 꺼짐은 설계도 기재) · 오늘 7회 · 횟수는 lifeinfo 루틴 전체"
+     "sub": "루틴10 → CP · 출처 시각 저장 없음(루틴10 꺼짐은 설계도 기재) · 오늘 0회 · 횟수는 lifeinfo 루틴 전체"
     },
     {
      "head": "aromapv 자동 동기",

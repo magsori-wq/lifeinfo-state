@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 23:56:52",
+ "at": "2026-11-29 00:02:14",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -106,26 +106,6 @@
     "plan": {},
     "pub": "2026-11-26",
     "last_at": "2026-11-26",
-    "lvl": "ok"
-   },
-   {
-    "code": "B2-29",
-    "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
-    "left": [],
-    "ch": {
-     "blog": true,
-     "naver": true,
-     "insta": true,
-     "threads": true
-    },
-    "who": {
-     "naver": "lee",
-     "insta": "",
-     "threads": ""
-    },
-    "plan": {},
-    "pub": "2026-11-25",
-    "last_at": "2026-11-25",
     "lvl": "ok"
    },
    {
@@ -452,10 +432,10 @@
   {
    "who": "3.세션",
    "kind": "글감",
-   "ran": true,
+   "ran": false,
    "at": "23:33",
    "note": "24:00 칸별 최종(실측): 추천 0 · 1차 열린 것 0 → topicprop add 없음 · F: 우이령길 1차 미확보(",
-   "today": 4,
+   "today": 0,
    "order": null,
    "lvl": "ok"
   },
@@ -471,38 +451,38 @@
   {
    "who": "루틴2 글감(정보)",
    "kind": "글감",
-   "ran": true,
-   "at": "13:10",
-   "note": "[조사장부] 목록 2 · 원문 1 · 후보 3 · 탈락 3 · 검색어 4 · 유입 0. 추천 A2-38 긴급복지 우선드림(to",
-   "today": 4,
-   "lvl": "ok"
+   "ran": false,
+   "at": "",
+   "note": "",
+   "today": 0,
+   "lvl": "idle"
   },
   {
    "who": "루틴4 글감(여행·행사)",
    "kind": "글감",
-   "ran": true,
-   "at": "21:14",
-   "note": "[조사장부] 목록 3 · 원문 1 · 후보 1 · 탈락 0 · 검색어 1. 추천 F4-36 우이령길 평일 개방 제안(원문 do",
-   "today": 1,
-   "lvl": "ok"
+   "ran": false,
+   "at": "",
+   "note": "",
+   "today": 0,
+   "lvl": "idle"
   },
   {
    "who": "루틴6 글감·발행보조",
    "kind": "글감",
-   "ran": true,
-   "at": "00:10",
-   "note": "[조사장부] 목록 3(korea.kr 정책뉴스·보도자료 목록 2종 + 정책뉴스 본문 2건) · 원문 1(docs/source_",
-   "today": 2,
-   "lvl": "ok"
+   "ran": false,
+   "at": "",
+   "note": "",
+   "today": 0,
+   "lvl": "idle"
   },
   {
    "who": "루틴8 상품(아침)",
    "kind": "상품",
-   "ran": true,
-   "at": "07:13",
-   "note": "🛒 후보 없음(신규 0): 토스 인기 순위 재확인(Aside 읽기, API 거부) · 감귤·고춧가루·김치 검색 — 12brix",
+   "ran": false,
+   "at": "",
+   "note": "",
    "today": 0,
-   "lvl": "ok"
+   "lvl": "idle"
   },
   {
    "who": "루틴9 상품(오후)",
@@ -519,7 +499,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 375,
+   "last_min": 381,
    "cur": "",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -528,7 +508,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1430,
+   "last_min": 1436,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -550,15 +530,8 @@
  "producers": [
   {
    "who": "이과장",
-   "made": "새 글 초안·발행 6편 · 개선 반영 0편",
-   "codes": [
-    "A2-38",
-    "A2-40",
-    "B2-30",
-    "B4-41",
-    "B4-42",
-    "D3-17"
-   ]
+   "made": "새 글 초안·발행 0편 · 개선 반영 0편",
+   "codes": []
   },
   {
    "who": "에이전트",
@@ -571,7 +544,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 375,
+   "last_min": 381,
    "cur": "",
    "lvl": "ok"
   },
@@ -579,7 +552,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 23,
+   "last_min": 28,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -587,7 +560,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1430,
+   "last_min": 1436,
    "cur": "",
    "lvl": "ok"
   },
@@ -595,8 +568,8 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 20,
-   "cur": "[이부장 접수 23:36] 23:35 루틴10 0/4 재조사 ",
+   "last_min": 1,
+   "cur": "[이부장 접수 00:01] 00:00 재조사 4/4 쓸 수 있",
    "lvl": "ok"
   },
   {
@@ -611,97 +584,12 @@
    "lvl": "ok"
   }
  ],
- "topics": [
-  {
-   "code": "F4-36",
-   "title": "북한산 우이령길 평일 개방 — 주말·공휴일 예약은 그대로",
-   "src": "lifeinfo-travel-prep",
-   "state": "버림",
-   "at": "2026-11-28T21:33"
-  },
-  {
-   "code": "A2-40",
-   "title": "2027년 혼인신고 부부에게 100만 원 — 혼인지원금, 누가 언제까지 ",
-   "src": "3.",
-   "state": "소진",
-   "at": "2026-11-28T15:32"
-  },
-  {
-   "code": "B4-41",
-   "title": "연말 회식비 식대 비과세 월 20만 원 한도 — 직장인이 알아야 할 세금",
-   "src": "3.",
-   "state": "소진",
-   "at": "2026-11-28T12:04"
-  },
-  {
-   "code": "B4-42",
-   "title": "종합부동산세 납부 전 확인할 3가지 — 분납·납부유예·정정신고 함정 (2",
-   "src": "3.",
-   "state": "소진",
-   "at": "2026-11-28T12:04"
-  },
-  {
-   "code": "B2-30",
-   "title": "불법사금융 원스톱 지원 온라인 신청 시작 — 방문 없이 신용회복위원회에서",
-   "src": "lifeinfo-daily-topics",
-   "state": "소진",
-   "at": "2026-11-28T11:37"
-  },
-  {
-   "code": "A2-39",
-   "title": "2027년 장애인일자리 3만 8446명 모집 — 11~12월 지금 신청하",
-   "src": "lifeinfo-daily-topics",
-   "state": "버림",
-   "at": "2026-11-28T09:17"
-  },
-  {
-   "code": "B3-08",
-   "title": "연말 회식비 식대 비과세 월 20만 원 한도 — 직장인이 알아야 할 세금",
-   "src": "3.",
-   "state": "버림",
-   "at": "2026-11-28T06:31"
-  },
-  {
-   "code": "B4-40",
-   "title": "국민연금 추후납부 보험료, 언제 내야 덜 낼까 — 납부기한 달의 보험료율",
-   "src": "lifeinfo-daily-topics",
-   "state": "버림",
-   "at": "2026-11-28T05:43"
-  },
-  {
-   "code": "A2-38",
-   "title": "긴급복지 생계지원금 30만 원 우선드림 — 동사무소에서 먼저 받는 방법 ",
-   "src": "lifeinfo-daily-topics",
-   "state": "소진",
-   "at": "2026-11-28T05:39"
-  },
-  {
-   "code": "D3-17",
-   "title": "2027년 수도권 공공주택 5만6000호 모집 일정 총정리 — 지구별 시",
-   "src": "lifeinfo-daily-publish",
-   "state": "소진",
-   "at": "2026-11-28T00:19"
-  },
-  {
-   "code": "D1-30",
-   "title": "2027년 수도권 공공주택 5만6000호 모집 일정 총정리 — 지구별 시",
-   "src": "lifeinfo-daily-publish",
-   "state": "버림",
-   "at": "2026-11-28T00:16"
-  }
- ],
+ "topics": [],
  "kpi": {
-  "today": "2026-11-28",
-  "done_today": 6,
-  "done_codes": [
-   "A2-38",
-   "A2-40",
-   "B2-30",
-   "B4-41",
-   "B4-42",
-   "D3-17"
-  ],
-  "published_today": 6,
+  "today": "2026-11-29",
+  "done_today": 0,
+  "done_codes": [],
+  "published_today": 0,
   "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
@@ -713,20 +601,6 @@
  "channels": {
   "blog": {
    "done": [
-    {
-     "code": "B4-42",
-     "title": "종부세 분납 12월 15일 신청 — 250만 원 넘으면",
-     "url": "https://lifeinfo8975.blogspot.com/2026/11/12-15-250-6.html",
-     "at": "2026-11-28",
-     "who": ""
-    },
-    {
-     "code": "B2-30",
-     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
-     "url": "https://lifeinfo8975.blogspot.com/2026/11/24.html",
-     "at": "2026-11-28",
-     "who": ""
-    },
     {
      "code": "A2-38",
      "title": "긴급복지 우선드림 30만 원 2027 — 시군구 결정 ",
@@ -742,9 +616,23 @@
      "who": ""
     },
     {
+     "code": "B2-30",
+     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
+     "url": "https://lifeinfo8975.blogspot.com/2026/11/24.html",
+     "at": "2026-11-28",
+     "who": ""
+    },
+    {
      "code": "B4-41",
      "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대",
      "url": "https://lifeinfo8975.blogspot.com/2026/11/20.html",
+     "at": "2026-11-28",
+     "who": ""
+    },
+    {
+     "code": "B4-42",
+     "title": "종부세 분납 12월 15일 신청 — 250만 원 넘으면",
+     "url": "https://lifeinfo8975.blogspot.com/2026/11/12-15-250-6.html",
      "at": "2026-11-28",
      "who": ""
     },
@@ -817,13 +705,6 @@
      "url": "https://lifeinfo8975.blogspot.com/2026/11/4-3-60.html",
      "at": "2026-11-26",
      "who": ""
-    },
-    {
-     "code": "B2-29",
-     "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
-     "url": "https://lifeinfo8975.blogspot.com/2026/11/1332-2026.html",
-     "at": "2026-11-25",
-     "who": ""
     }
    ],
    "wait": []
@@ -831,9 +712,23 @@
   "naver": {
    "done": [
     {
+     "code": "A2-38",
+     "title": "긴급복지 우선드림 30만 원 2027 — 시군구 결정 ",
+     "url": "https://blog.naver.com/magsori8975/224495750923",
+     "at": "2026-11-28",
+     "who": "lee"
+    },
+    {
      "code": "A2-40",
      "title": "혼인지원금 100만 원 — 2027년 1월 혼인신고부터",
      "url": "https://blog.naver.com/magsori8975/224496001200",
+     "at": "2026-11-28",
+     "who": "lee"
+    },
+    {
+     "code": "B2-30",
+     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
+     "url": "https://blog.naver.com/magsori8975/224495777243",
      "at": "2026-11-28",
      "who": "lee"
     },
@@ -848,20 +743,6 @@
      "code": "B4-42",
      "title": "종부세 분납 12월 15일 신청 — 250만 원 넘으면",
      "url": "https://blog.naver.com/magsori8975/224495863978",
-     "at": "2026-11-28",
-     "who": "lee"
-    },
-    {
-     "code": "B2-30",
-     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
-     "url": "https://blog.naver.com/magsori8975/224495777243",
-     "at": "2026-11-28",
-     "who": "lee"
-    },
-    {
-     "code": "A2-38",
-     "title": "긴급복지 우선드림 30만 원 2027 — 시군구 결정 ",
-     "url": "https://blog.naver.com/magsori8975/224495750923",
      "at": "2026-11-28",
      "who": "lee"
     },
@@ -934,13 +815,6 @@
      "url": "https://blog.naver.com/magsori8975/224492924667",
      "at": "2026-11-26",
      "who": "lee"
-    },
-    {
-     "code": "B2-29",
-     "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
-     "url": "https://blog.naver.com/magsori8975/224490648955",
-     "at": "2026-11-25",
-     "who": "lee"
     }
    ],
    "wait": []
@@ -948,11 +822,25 @@
   "insta": {
    "done": [
     {
+     "code": "A2-38",
+     "title": "긴급복지 우선드림 30만 원 2027 — 시군구 결정 ",
+     "url": "https://www.instagram.com/magsori8975/p/DgRSfqREZe0/",
+     "at": "2026-11-28",
+     "who": "lee"
+    },
+    {
      "code": "A2-40",
      "title": "혼인지원금 100만 원 — 2027년 1월 혼인신고부터",
      "url": "https://www.instagram.com/magsori8975/p/DgRuwHqEbyH/",
      "at": "2026-11-28",
      "who": ""
+    },
+    {
+     "code": "B2-30",
+     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
+     "url": "https://www.instagram.com/magsori8975/p/DgRVB6bkR4L/",
+     "at": "2026-11-28",
+     "who": "lee"
     },
     {
      "code": "B4-41",
@@ -965,20 +853,6 @@
      "code": "B4-42",
      "title": "종부세 분납 12월 15일 신청 — 250만 원 넘으면",
      "url": "https://www.instagram.com/magsori8975/p/DgRfNN5kV1s/",
-     "at": "2026-11-28",
-     "who": "lee"
-    },
-    {
-     "code": "B2-30",
-     "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
-     "url": "https://www.instagram.com/magsori8975/p/DgRVB6bkR4L/",
-     "at": "2026-11-28",
-     "who": "lee"
-    },
-    {
-     "code": "A2-38",
-     "title": "긴급복지 우선드림 30만 원 2027 — 시군구 결정 ",
-     "url": "https://www.instagram.com/magsori8975/p/DgRSfqREZe0/",
      "at": "2026-11-28",
      "who": "lee"
     },
@@ -1051,40 +925,12 @@
      "url": "https://www.instagram.com/p/DgMLXppEbUC/",
      "at": "2026-11-26",
      "who": ""
-    },
-    {
-     "code": "B2-29",
-     "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
-     "url": "https://www.instagram.com/p/DgIQ4yEkwvh/",
-     "at": "2026-11-25",
-     "who": ""
     }
    ],
    "wait": []
   },
   "threads": {
    "done": [
-    {
-     "code": "B4-41",
-     "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대",
-     "url": "https://www.threads.com/@magsori8975/post/DgRho1UgYYa",
-     "at": "2026-11-28",
-     "who": ""
-    },
-    {
-     "code": "B4-42",
-     "title": "종부세 분납 12월 15일 신청 — 250만 원 넘으면",
-     "url": "https://www.threads.com/@magsori8975/post/DgRfjJGgX6U",
-     "at": "2026-11-28",
-     "who": "lee"
-    },
-    {
-     "code": "D3-17",
-     "title": "공공분양 일정 2027 — 수도권 5만6000호, 우리",
-     "url": "https://www.threads.com/@magsori8975/post/DgQlY11kqni",
-     "at": "2026-11-28",
-     "who": ""
-    },
     {
      "code": "A2-38",
      "title": "긴급복지 우선드림 30만 원 2027 — 시군구 결정 ",
@@ -1103,6 +949,27 @@
      "code": "B2-30",
      "title": "불법사금융신고 온라인으로 — 센터 방문 없이 24시간 ",
      "url": "https://www.threads.com/@magsori8975/post/DgRVU4mgalg",
+     "at": "2026-11-28",
+     "who": ""
+    },
+    {
+     "code": "B4-41",
+     "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대",
+     "url": "https://www.threads.com/@magsori8975/post/DgRho1UgYYa",
+     "at": "2026-11-28",
+     "who": ""
+    },
+    {
+     "code": "B4-42",
+     "title": "종부세 분납 12월 15일 신청 — 250만 원 넘으면",
+     "url": "https://www.threads.com/@magsori8975/post/DgRfjJGgX6U",
+     "at": "2026-11-28",
+     "who": "lee"
+    },
+    {
+     "code": "D3-17",
+     "title": "공공분양 일정 2027 — 수도권 5만6000호, 우리",
+     "url": "https://www.threads.com/@magsori8975/post/DgQlY11kqni",
      "at": "2026-11-28",
      "who": ""
     },
@@ -1168,326 +1035,12 @@
      "url": "https://www.threads.com/@magsori8975/post/DgMLxtHgUgW",
      "at": "2026-11-26",
      "who": ""
-    },
-    {
-     "code": "B2-29",
-     "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
-     "url": "https://www.threads.com/@magsori8975/post/DgIROUCAYnd",
-     "at": "2026-11-25",
-     "who": ""
     }
    ],
    "wait": []
   }
  },
- "today_events": [
-  {
-   "code": "D1-30",
-   "stage": "topic",
-   "at": "2026-11-28 00:09:07",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "D3-17",
-   "stage": "topic",
-   "at": "2026-11-28 00:18:39",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "D3-17",
-   "stage": "proc",
-   "at": "2026-11-28 00:19:37",
-   "src": "topicprop 선별"
-  },
-  {
-   "code": "D3-17",
-   "stage": "boss",
-   "at": "2026-11-28 00:42:38",
-   "src": "V0 통과"
-  },
-  {
-   "code": "A2-38",
-   "stage": "topic",
-   "at": "2026-11-28 05:34:26",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "A2-38",
-   "stage": "proc",
-   "at": "2026-11-28 05:39:40",
-   "src": "topicprop 선별"
-  },
-  {
-   "code": "B4-40",
-   "stage": "topic",
-   "at": "2026-11-28 05:42:01",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "D3-17",
-   "stage": "naver",
-   "at": "2026-11-28 05:45:02",
-   "src": "now_log 게시 URL",
-   "who": "lee"
-  },
-  {
-   "code": "D3-17",
-   "stage": "insta",
-   "at": "2026-11-28 05:52:31",
-   "src": "now_log 게시 URL",
-   "who": ""
-  },
-  {
-   "code": "D3-17",
-   "stage": "threads",
-   "at": "2026-11-28 05:55:30",
-   "src": "now_log 게시 URL",
-   "who": ""
-  },
-  {
-   "code": "B3-08",
-   "stage": "topic",
-   "at": "2026-11-28 06:24:34",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "B4-41",
-   "stage": "topic",
-   "at": "2026-11-28 06:32:54",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "A2-38",
-   "stage": "boss",
-   "at": "2026-11-28 06:38:29",
-   "src": "V0 통과"
-  },
-  {
-   "code": "B2-30",
-   "stage": "topic",
-   "at": "2026-11-28 09:15:56",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "A2-39",
-   "stage": "topic",
-   "at": "2026-11-28 09:16:32",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "B4-42",
-   "stage": "topic",
-   "at": "2026-11-28 11:16:37",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "B2-30",
-   "stage": "proc",
-   "at": "2026-11-28 11:37:06",
-   "src": "topicprop 선별"
-  },
-  {
-   "code": "B2-30",
-   "stage": "boss",
-   "at": "2026-11-28 11:55:26",
-   "src": "V0 통과"
-  },
-  {
-   "code": "B4-41",
-   "stage": "proc",
-   "at": "2026-11-28 12:04:15",
-   "src": "topicprop 선별"
-  },
-  {
-   "code": "B4-42",
-   "stage": "proc",
-   "at": "2026-11-28 12:04:25",
-   "src": "topicprop 선별"
-  },
-  {
-   "code": "B2-30",
-   "stage": "blog",
-   "at": "2026-11-28 12:19:45",
-   "src": "now_log 발행 완료"
-  },
-  {
-   "code": "A2-38",
-   "stage": "naver",
-   "at": "2026-11-28 12:22:41",
-   "src": "now_log 게시 URL",
-   "who": "lee"
-  },
-  {
-   "code": "A2-38",
-   "stage": "insta",
-   "at": "2026-11-28 12:29:33",
-   "src": "now_log 게시 URL",
-   "who": "lee"
-  },
-  {
-   "code": "B2-30",
-   "stage": "naver",
-   "at": "2026-11-28 12:46:11",
-   "src": "now_log 게시 URL",
-   "who": "lee"
-  },
-  {
-   "code": "B2-30",
-   "stage": "insta",
-   "at": "2026-11-28 12:51:37",
-   "src": "now_log 게시 URL",
-   "who": "lee"
-  },
-  {
-   "code": "B4-42",
-   "stage": "boss",
-   "at": "2026-11-28 13:30:30",
-   "src": "V0 통과"
-  },
-  {
-   "code": "B4-41",
-   "stage": "boss",
-   "at": "2026-11-28 13:46:46",
-   "src": "V0 통과"
-  },
-  {
-   "code": "B4-42",
-   "stage": "blog",
-   "at": "2026-11-28 14:11:12",
-   "src": "now_log 발행 완료"
-  },
-  {
-   "code": "B4-42",
-   "stage": "naver",
-   "at": "2026-11-28 14:14:43",
-   "src": "now_log 게시 URL",
-   "who": "lee"
-  },
-  {
-   "code": "B4-42",
-   "stage": "insta",
-   "at": "2026-11-28 14:20:38",
-   "src": "now_log 게시 URL",
-   "who": "lee"
-  },
-  {
-   "code": "B4-42",
-   "stage": "threads",
-   "at": "2026-11-28 14:27:50",
-   "src": "now_log 게시 URL",
-   "who": "lee"
-  },
-  {
-   "code": "B4-41",
-   "stage": "naver",
-   "at": "2026-11-28 14:33:18",
-   "src": "now_log 게시 URL",
-   "who": "lee"
-  },
-  {
-   "code": "B4-41",
-   "stage": "insta",
-   "at": "2026-11-28 14:38:40",
-   "src": "now_log 게시 URL",
-   "who": ""
-  },
-  {
-   "code": "B4-41",
-   "stage": "threads",
-   "at": "2026-11-28 14:41:45",
-   "src": "now_log 게시 URL",
-   "who": ""
-  },
-  {
-   "code": "A2-40",
-   "stage": "topic",
-   "at": "2026-11-28 15:26:47",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "A2-40",
-   "stage": "proc",
-   "at": "2026-11-28 15:32:53",
-   "src": "topicprop 선별"
-  },
-  {
-   "code": "A2-40",
-   "stage": "boss",
-   "at": "2026-11-28 15:59:51",
-   "src": "V0 통과"
-  },
-  {
-   "code": "A2-40",
-   "stage": "pub",
-   "at": "2026-11-28 16:03:43",
-   "src": "결재 도장"
-  },
-  {
-   "code": "A2-40",
-   "stage": "naver",
-   "at": "2026-11-28 16:32:23",
-   "src": "now_log 게시 URL",
-   "who": "lee"
-  },
-  {
-   "code": "A2-40",
-   "stage": "insta",
-   "at": "2026-11-28 16:36:57",
-   "src": "now_log 게시 URL",
-   "who": ""
-  },
-  {
-   "code": "F4-36",
-   "stage": "topic",
-   "at": "2026-11-28 21:12:53",
-   "src": "topicprop 제안"
-  },
-  {
-   "code": "A2-38",
-   "stage": "threads",
-   "at": "",
-   "src": "DB osmu_at(날짜뿐)",
-   "who": "lee"
-  },
-  {
-   "code": "A2-38",
-   "stage": "blog",
-   "at": "",
-   "src": "pub_dates(날짜뿐)"
-  },
-  {
-   "code": "A2-40",
-   "stage": "threads",
-   "at": "",
-   "src": "DB osmu_at(날짜뿐)",
-   "who": ""
-  },
-  {
-   "code": "A2-40",
-   "stage": "blog",
-   "at": "",
-   "src": "pub_dates(날짜뿐)"
-  },
-  {
-   "code": "B2-30",
-   "stage": "threads",
-   "at": "",
-   "src": "DB osmu_at(날짜뿐)",
-   "who": ""
-  },
-  {
-   "code": "B4-41",
-   "stage": "blog",
-   "at": "",
-   "src": "pub_dates(날짜뿐)"
-  },
-  {
-   "code": "D3-17",
-   "stage": "blog",
-   "at": "",
-   "src": "pub_dates(날짜뿐)"
-  }
- ],
+ "today_events": [],
  "approvals": [],
  "stage_of": {
   "A2-35": "완결",
@@ -1495,7 +1048,6 @@
   "A2-38": "완결",
   "A2-40": "완결",
   "A5-24": "완결",
-  "B2-29": "완결",
   "B2-30": "완결",
   "B4-41": "완결",
   "B4-42": "완결",
@@ -1534,14 +1086,6 @@
     "attached": 0,
     "live": null
    },
-   "A2-39": {
-    "stage": "none",
-    "icon": "⬜",
-    "label": "미조사",
-    "links": 0,
-    "attached": 0,
-    "live": null
-   },
    "A2-40": {
     "stage": "no_fit",
     "icon": "☑️",
@@ -1558,34 +1102,10 @@
     "attached": 0,
     "live": null
    },
-   "B2-29": {
-    "stage": "no_fit",
-    "icon": "☑️",
-    "label": "붙일 것 없음",
-    "links": 0,
-    "attached": 0,
-    "live": null
-   },
    "B2-30": {
     "stage": "no_fit",
     "icon": "☑️",
     "label": "붙일 것 없음",
-    "links": 0,
-    "attached": 0,
-    "live": null
-   },
-   "B3-08": {
-    "stage": "none",
-    "icon": "⬜",
-    "label": "미조사",
-    "links": 0,
-    "attached": 0,
-    "live": null
-   },
-   "B4-40": {
-    "stage": "none",
-    "icon": "⬜",
-    "label": "미조사",
     "links": 0,
     "attached": 0,
     "live": null
@@ -1607,14 +1127,6 @@
     "live": null
    },
    "D1-29": {
-    "stage": "none",
-    "icon": "⬜",
-    "label": "미조사",
-    "links": 0,
-    "attached": 0,
-    "live": null
-   },
-   "D1-30": {
     "stage": "none",
     "icon": "⬜",
     "label": "미조사",
@@ -1662,14 +1174,6 @@
     "attached": 0,
     "live": null
    },
-   "F4-36": {
-    "stage": "none",
-    "icon": "⬜",
-    "label": "미조사",
-    "links": 0,
-    "attached": 0,
-    "live": null
-   },
    "H1-47": {
     "stage": "none",
     "icon": "⬜",
@@ -1694,7 +1198,7 @@
   "bad": 1,
   "na": 0,
   "at": "2026-11-28 23:55:29",
-  "age_min": 1
+  "age_min": 6
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
