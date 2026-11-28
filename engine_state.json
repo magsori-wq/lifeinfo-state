@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 16:21:43",
+ "at": "2026-11-28 16:24:06",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -27,7 +27,7 @@
      "insta": "lee",
      "threads": "lee"
     },
-    "pub": "",
+    "pub": "2026-11-28",
     "last_at": "",
     "lvl": "amber"
    }
@@ -530,7 +530,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 7,
+   "last_min": 10,
    "cur": "🚀 A2-40 발행 — 혼인지원금 100만 원 — 2027년 ",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -539,7 +539,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 975,
+   "last_min": 978,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -582,7 +582,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 7,
+   "last_min": 10,
    "cur": "🚀 A2-40 발행 — 혼인지원금 100만 원 — 2027년 ",
    "lvl": "ok"
   },
@@ -590,7 +590,7 @@
    "who": "3.세션",
    "state": "대기(상시 업무만)",
    "jobs": 2,
-   "last_min": 54,
+   "last_min": 56,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -598,7 +598,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 975,
+   "last_min": 978,
    "cur": "",
    "lvl": "ok"
   },
@@ -606,7 +606,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 11,
+   "last_min": 13,
    "cur": "📮 카드 상정: aroma-am-sp-027-1128(K리그 ",
    "lvl": "ok"
   },
@@ -738,6 +738,13 @@
      "who": ""
     },
     {
+     "code": "A2-40",
+     "title": "혼인지원금 100만 원 — 2027년 1월 혼인신고부터",
+     "url": "https://lifeinfo8975.blogspot.com/2026/11/100-2027-1-12.html",
+     "at": "2026-11-28",
+     "who": ""
+    },
+    {
      "code": "B4-41",
      "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대",
      "url": "https://lifeinfo8975.blogspot.com/2026/11/20.html",
@@ -819,13 +826,6 @@
      "title": "불법추심 신고 어디로 — 1332·지자체·경찰 상황별 ",
      "url": "https://lifeinfo8975.blogspot.com/2026/11/1332-2026.html",
      "at": "2026-11-25",
-     "who": ""
-    },
-    {
-     "code": "A2-40",
-     "title": "혼인지원금 100만 원 — 2027년 1월 혼인신고부터",
-     "url": "https://lifeinfo8975.blogspot.com/2026/11/100-2027-1-12.html",
-     "at": "",
      "who": ""
     }
    ],
@@ -1433,6 +1433,12 @@
    "src": "pub_dates(날짜뿐)"
   },
   {
+   "code": "A2-40",
+   "stage": "blog",
+   "at": "",
+   "src": "pub_dates(날짜뿐)"
+  },
+  {
    "code": "B2-30",
    "stage": "threads",
    "at": "",
@@ -1650,7 +1656,7 @@
   "bad": 2,
   "na": 2,
   "at": "2026-11-28 07:17:41",
-  "age_min": 4
+  "age_min": 6
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1750,15 +1756,15 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 287,
+   "total": 292,
    "kinds": [
     [
      "REPORT_UNACKED",
-     48
+     49
     ],
     [
      "CHKMON_REPORT",
-     33
+     34
     ],
     [
      "ASIDE_ALERT",
