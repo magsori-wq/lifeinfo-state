@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 15:41:46",
+ "at": "2026-11-28 15:44:03",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -522,7 +522,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 4,
+   "last_min": 6,
    "cur": "✍️ A2-40 초안 — 2027년 혼인신고 부부에게 100만",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -531,7 +531,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 935,
+   "last_min": 938,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -573,7 +573,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 4,
+   "last_min": 6,
    "cur": "✍️ A2-40 초안 — 2027년 혼인신고 부부에게 100만",
    "lvl": "ok"
   },
@@ -581,7 +581,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 14,
+   "last_min": 16,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -589,7 +589,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 935,
+   "last_min": 938,
    "cur": "",
    "lvl": "ok"
   },
@@ -598,7 +598,7 @@
    "state": "현장(진행)",
    "jobs": 0,
    "last_min": 0,
-   "cur": "⚠ 오늘 새 글 2편(BO-016·PE-023)뿐 — 사장님 ",
+   "cur": "⚠ 오늘 새 글 2편(방송 BO-016·공연 PE-023)뿐 ",
    "lvl": "ok"
   },
   {
@@ -1484,9 +1484,9 @@
     "live": null
    },
    "A2-40": {
-    "stage": "none",
-    "icon": "⬜",
-    "label": "미조사",
+    "stage": "no_fit",
+    "icon": "☑️",
+    "label": "붙일 것 없음",
     "links": 0,
     "attached": 0,
     "live": null
@@ -1627,7 +1627,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-28 15:40:45",
-  "age_min": 1
+  "age_min": 3
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
