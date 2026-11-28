@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 16:00:24",
+ "at": "2026-11-28 16:02:45",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -7,7 +7,7 @@
    {
     "code": "A2-40",
     "title": "혼인지원금 100만 원 — 2027년 1월 혼인신고부터",
-    "min": 0,
+    "min": 2,
     "lvl": "ok"
    }
   ],
@@ -506,7 +506,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 24,
+   "last_min": 0,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -515,7 +515,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 954,
+   "last_min": 956,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -558,7 +558,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 1,
-   "last_min": 24,
+   "last_min": 0,
    "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
@@ -566,7 +566,7 @@
    "who": "3.세션",
    "state": "대기(상시 업무만)",
    "jobs": 2,
-   "last_min": 32,
+   "last_min": 35,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -574,7 +574,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 954,
+   "last_min": 956,
    "cur": "",
    "lvl": "ok"
   },
@@ -582,7 +582,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 2,
+   "last_min": 4,
    "cur": "✅ AM-BO-016 하단 대가성 원문 추가 완료(결재 aro",
    "lvl": "ok"
   },
@@ -1607,7 +1607,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-28 15:59:34",
-  "age_min": 0
+  "age_min": 3
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1707,7 +1707,7 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 269,
+   "total": 270,
    "kinds": [
     [
      "REPORT_UNACKED",
