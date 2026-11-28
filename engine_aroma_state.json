@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 18:22:40",
+ "at": "2026-11-28 18:25:00",
  "errors": [],
  "rows": [
   {
@@ -7,17 +7,16 @@
    "approvals": [
     {
      "id": "aroma-am-dg-022-1128",
-     "state": "todo",
+     "state": "done",
      "kind": "1128",
      "at": "2026-11-28"
     }
    ],
    "title": "seg1",
    "last_file_at": "2026-11-28 16:15",
-   "stage": "boss_wait",
-   "label": "결재 대기",
-   "detail": "aroma-am-dg-022-1128",
-   "no_preview": false
+   "stage": "approved",
+   "label": "승인됨(게시 전)",
+   "detail": "watch done + 커밋 83935ceff"
   }
  ],
  "old_inflight": [],
@@ -265,7 +264,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-28 18:22:37",
+   "last_at": "2026-11-28 18:24:37",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -337,26 +336,26 @@
  ],
  "unit": {
   "who": "이대리",
-  "state": "대기",
+  "state": "대기(보고 완료·다음 지시 기다림)",
   "jobs": 0,
-  "last_min": 99,
-  "cur": "이부장 ack rc6bd0b — 카드 복구·결재함 상정 확인(",
+  "last_min": 0,
+  "cur": "✅ aroma-am-dg-022-1128 사장님 승인 확인(1",
   "lvl": "ok"
  },
  "open_requests": [],
  "nodes": {
   "draft": [],
   "v0": [],
-  "boss": [
+  "boss": [],
+  "deploy": [],
+  "publish": [
    {
     "code": "AM-DG-022",
-    "title": "seg1",
-    "min": 127,
+    "title": "seg1 · 게시 승인 꼴 결재가 없거나 보류·취소·사장님 승인 아님 — 게시 지연 판정 해당 없음",
+    "min": null,
     "lvl": "ok"
    }
   ],
-  "deploy": [],
-  "publish": [],
   "osmu": []
  },
  "channels": {
@@ -836,7 +835,11 @@
      "url": "https://blog.naver.com/aroma-mag/224454765191"
     }
    ],
-   "wait": []
+   "wait": [
+    {
+     "code": "AM-DG-022"
+    }
+   ]
   }
  },
  "topics": [],
@@ -850,7 +853,7 @@
   "today": "2026-11-28",
   "done_today": 3,
   "published_today": 3,
-  "boss_wait": 1,
+  "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
    "1": 0,
@@ -872,10 +875,10 @@
  "units": [
   {
    "who": "이대리",
-   "state": "대기",
+   "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 99,
-   "cur": "이부장 ack rc6bd0b — 카드 복구·결재함 상정 확인(",
+   "last_min": 0,
+   "cur": "✅ aroma-am-dg-022-1128 사장님 승인 확인(1",
    "lvl": "ok"
   },
   {
@@ -887,10 +890,10 @@
  "drivers": [
   {
    "who": "이대리",
-   "state": "대기",
+   "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 99,
-   "cur": "이부장 ack rc6bd0b — 카드 복구·결재함 상정 확인(",
+   "last_min": 0,
+   "cur": "✅ aroma-am-dg-022-1128 사장님 승인 확인(1",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
   },
@@ -910,7 +913,7 @@
    "who": "사장님",
    "role": "③ CP 결재",
    "lvl": "ok",
-   "state": "결재 대기 1건"
+   "state": "대기"
   }
  ],
  "suppliers": [
@@ -945,29 +948,9 @@
    ]
   }
  ],
- "approvals": [
-  {
-   "kind": "aroma",
-   "id": "aroma-am-dg-022-1128",
-   "what": "【권고】AM-DG-022 「더 게임 어워드 2026 후보작 GTA6 8개 최다, 붉은사막은 커뮤니티상 후보」(44자, 디지털 콘텐츠·여가, 홈판",
-   "by": "이대리",
-   "waited": ""
-  }
- ],
+ "approvals": [],
  "edits": [],
  "today_events": [
-  {
-   "code": "AM-BO-016",
-   "stage": "proc",
-   "at": "2026-11-28 05:37:01",
-   "src": "파일 수정 시각"
-  },
-  {
-   "code": "AM-DG-022",
-   "stage": "proc",
-   "at": "2026-11-28 16:15:35",
-   "src": "파일 수정 시각"
-  },
   {
    "code": "AM-PE-023",
    "stage": "proc",
@@ -975,9 +958,21 @@
    "src": "파일 수정 시각"
   },
   {
+   "code": "AM-BO-016",
+   "stage": "proc",
+   "at": "2026-11-28 05:37:01",
+   "src": "파일 수정 시각"
+  },
+  {
    "code": "AM-SP-027",
    "stage": "proc",
    "at": "2026-11-28 16:09:22",
+   "src": "파일 수정 시각"
+  },
+  {
+   "code": "AM-DG-022",
+   "stage": "proc",
+   "at": "2026-11-28 16:15:35",
    "src": "파일 수정 시각"
   },
   {
@@ -1020,6 +1015,12 @@
    "code": "AM-SP-027",
    "stage": "boss",
    "at": "2026-11-28 16:11:21",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "AM-DG-022",
+   "stage": "boss",
+   "at": "2026-11-28 18:23:50",
    "src": "결재 커밋 시각"
   },
   {
@@ -1074,7 +1075,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-28 18:22:37",
+     "chip": "2026-11-28 18:24:37",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
