@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 18:59:48",
+ "at": "2026-11-28 19:01:47",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -519,7 +519,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 78,
+   "last_min": 80,
    "cur": "",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -528,7 +528,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1133,
+   "last_min": 1135,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -571,7 +571,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 78,
+   "last_min": 80,
    "cur": "",
    "lvl": "ok"
   },
@@ -579,7 +579,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 7,
+   "last_min": 9,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -587,7 +587,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1133,
+   "last_min": 1135,
    "cur": "",
    "lvl": "ok"
   },
@@ -595,7 +595,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 9,
+   "last_min": 11,
    "cur": "18:50 자가점검: 할 일 0·결재 대기 0 — 오늘 4개 ",
    "lvl": "ok"
   },
@@ -1668,12 +1668,12 @@
  "exec_error": "",
  "reflect": {
   "state": "stale",
-  "ok": 5,
-  "stale": 2,
+  "ok": 6,
+  "stale": 1,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-28 18:56:09",
-  "age_min": 3
+  "at": "2026-11-28 19:01:45",
+  "age_min": 0
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
