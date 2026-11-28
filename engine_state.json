@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 14:27:55",
+ "at": "2026-11-28 14:30:16",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -521,9 +521,9 @@
   {
    "who": "이과장",
    "state": "현장(진행)",
-   "jobs": 2,
-   "last_min": 0,
-   "cur": "🚀 A2-38 발행 — 긴급복지 우선드림 30만 원 2027 ",
+   "jobs": 1,
+   "last_min": 2,
+   "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
   },
@@ -531,7 +531,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 861,
+   "last_min": 864,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -572,16 +572,16 @@
   {
    "who": "이과장",
    "state": "현장(진행)",
-   "jobs": 2,
-   "last_min": 0,
-   "cur": "🚀 A2-38 발행 — 긴급복지 우선드림 30만 원 2027 ",
+   "jobs": 1,
+   "last_min": 2,
+   "cur": "테마 rel=alternate 시험 2단계 — 적용·확인(이과",
    "lvl": "ok"
   },
   {
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 6,
+   "last_min": 9,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -589,7 +589,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 861,
+   "last_min": 864,
    "cur": "",
    "lvl": "ok"
   },
@@ -597,7 +597,7 @@
    "who": "이대리",
    "state": "현장(진행)",
    "jobs": 0,
-   "last_min": 7,
+   "last_min": 10,
    "cur": "자가점검 14:20 — 할 일 0건·사장님 결재 대기 0건(d",
    "lvl": "ok"
   },
@@ -1551,13 +1551,13 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "stale",
-  "ok": 6,
-  "stale": 1,
+  "state": "ok",
+  "ok": 7,
+  "stale": 0,
   "bad": 0,
   "na": 0,
-  "at": "2026-11-28 14:26:37",
-  "age_min": 1
+  "at": "2026-11-28 14:29:37",
+  "age_min": 0
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1657,7 +1657,7 @@
  "fired": [
   {
    "day": "2026-11-28",
-   "total": 233,
+   "total": 237,
    "kinds": [
     [
      "REPORT_UNACKED",
