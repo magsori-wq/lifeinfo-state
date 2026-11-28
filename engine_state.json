@@ -1,12 +1,12 @@
 {
- "at": "2026-11-29 00:38:15",
+ "at": "2026-11-29 00:40:35",
  "nodes": {
   "draft": [],
   "v0": [
    {
     "code": "C4-12",
     "title": "맹장수술 비용 2027년부터 35만 원 줄어 — 포괄수",
-    "min": 38,
+    "min": 40,
     "lvl": "amber"
    }
   ],
@@ -421,7 +421,7 @@
   {
    "p": 2,
    "what": "V0 지연 C4-12 맹장수술 비용 2027년부터 35만 원 줄어 — 포괄수",
-   "min": 38,
+   "min": 40,
    "owner": "이부장"
   },
   {
@@ -554,7 +554,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 5,
+   "last_min": 7,
    "cur": "",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -563,7 +563,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1472,
+   "last_min": 1474,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -601,7 +601,7 @@
    "who": "이과장",
    "state": "대기",
    "jobs": 0,
-   "last_min": 5,
+   "last_min": 7,
    "cur": "",
    "lvl": "ok"
   },
@@ -609,7 +609,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 4,
+   "last_min": 7,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -617,7 +617,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 1472,
+   "last_min": 1474,
    "cur": "",
    "lvl": "ok"
   },
@@ -625,7 +625,7 @@
    "who": "이대리",
    "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
-   "last_min": 0,
+   "last_min": 2,
    "cur": "⏸ 사장님 결재 대기 4건(00:37 상정): aroma-am",
    "lvl": "ok"
   },
@@ -1347,7 +1347,7 @@
   "bad": 0,
   "na": 0,
   "at": "2026-11-29 00:36:16",
-  "age_min": 1
+  "age_min": 4
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
@@ -1447,7 +1447,7 @@
  "fired": [
   {
    "day": "2026-11-29",
-   "total": 23,
+   "total": 26,
    "kinds": [
     [
      "NEW_BOSS_ITEM",
@@ -1455,15 +1455,15 @@
     ],
     [
      "CHKMON_REPORT",
+     4
+    ],
+    [
+     "ASIDE_ALERT",
      3
     ],
     [
      "REPORT_UNACKED",
      3
-    ],
-    [
-     "ASIDE_ALERT",
-     2
     ],
     [
      "CONFIRM_BACKLOG",
