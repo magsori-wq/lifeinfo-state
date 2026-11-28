@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 16:35:26",
+ "at": "2026-11-28 16:37:46",
  "nodes": {
   "draft": [],
   "v0": [],
@@ -541,7 +541,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 2,
+   "last_min": 0,
    "cur": "🚀 A2-40 발행 — 혼인지원금 100만 원 — 2027년 ",
    "lvl": "ok",
    "role": "②처리·④발행 운전"
@@ -550,7 +550,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 989,
+   "last_min": 991,
    "cur": "",
    "lvl": "ok",
    "role": "애드센스 정비"
@@ -593,7 +593,7 @@
    "who": "이과장",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 2,
+   "last_min": 0,
    "cur": "🚀 A2-40 발행 — 혼인지원금 100만 원 — 2027년 ",
    "lvl": "ok"
   },
@@ -601,7 +601,7 @@
    "who": "3.세션",
    "state": "현장(진행)",
    "jobs": 2,
-   "last_min": 6,
+   "last_min": 8,
    "cur": "⛽ 3. 글감 연료 공급 상시(재고 하한 미만 시)",
    "lvl": "ok"
   },
@@ -609,7 +609,7 @@
    "who": "4.세션",
    "state": "대기",
    "jobs": 0,
-   "last_min": 989,
+   "last_min": 991,
    "cur": "",
    "lvl": "ok"
   },
@@ -617,7 +617,7 @@
    "who": "이대리",
    "state": "대기(보고 완료·다음 지시 기다림)",
    "jobs": 0,
-   "last_min": 8,
+   "last_min": 10,
    "cur": "[이부장 접수 16:27] 보고 접수(A2-40 발행·동기 완",
    "lvl": "ok"
   },
@@ -962,6 +962,13 @@
   "insta": {
    "done": [
     {
+     "code": "A2-40",
+     "title": "혼인지원금 100만 원 — 2027년 1월 혼인신고부터",
+     "url": "https://www.instagram.com/magsori8975/p/DgRuwHqEbyH/",
+     "at": "2026-11-28",
+     "who": ""
+    },
+    {
      "code": "B4-41",
      "title": "식대 비과세 월 20만 원 — 사내식당 밥 먹으면 식대",
      "url": "https://www.instagram.com/magsori8975/p/DgRhQ9pEY0K/",
@@ -993,13 +1000,6 @@
      "code": "D3-17",
      "title": "공공분양 일정 2027 — 수도권 5만6000호, 우리",
      "url": "https://www.instagram.com/p/DgQlBmxE0pW/",
-     "at": "2026-11-28",
-     "who": ""
-    },
-    {
-     "code": "A2-40",
-     "title": "혼인지원금 100만 원 — 2027년 1월 혼인신고부터",
-     "url": "https://www.instagram.com/magsori8975/p/DgRuwHqEbyH/",
      "at": "2026-11-28",
      "who": ""
     },
@@ -1442,6 +1442,13 @@
    "who": "lee"
   },
   {
+   "code": "A2-40",
+   "stage": "insta",
+   "at": "2026-11-28 16:36:57",
+   "src": "now_log 게시 URL",
+   "who": ""
+  },
+  {
    "code": "A2-38",
    "stage": "threads",
    "at": "",
@@ -1453,13 +1460,6 @@
    "stage": "blog",
    "at": "",
    "src": "pub_dates(날짜뿐)"
-  },
-  {
-   "code": "A2-40",
-   "stage": "insta",
-   "at": "",
-   "src": "DB osmu_at(날짜뿐)",
-   "who": ""
   },
   {
    "code": "A2-40",
@@ -1688,13 +1688,13 @@
  },
  "exec_error": "",
  "reflect": {
-  "state": "bad",
-  "ok": 5,
+  "state": "stale",
+  "ok": 6,
   "stale": 1,
-  "bad": 1,
+  "bad": 0,
   "na": 0,
-  "at": "2026-11-28 16:31:13",
-  "age_min": 4
+  "at": "2026-11-28 16:36:00",
+  "age_min": 1
  },
  "design_signals": [
   "APPROVE_SERVER_DOWN",
