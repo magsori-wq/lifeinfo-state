@@ -1,5 +1,5 @@
 {
- "at": "2026-11-28 12:00:54",
+ "at": "2026-11-28 12:07:26",
  "errors": [],
  "rows": [],
  "old_inflight": [],
@@ -253,7 +253,7 @@
   {
    "name": "IDAERI_WAKE",
    "node": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외)",
-   "last_at": "2026-11-28 12:00:42",
+   "last_at": "2026-11-28 12:07:13",
    "src": ".idaeri_wake.json last_run",
    "today_n": null,
    "note": "",
@@ -298,7 +298,7 @@
   {
    "name": "ASIDE_ALERT",
    "node": "이대리 🙋·⏸·👤 → 이부장 즉시",
-   "last_at": "2026-11-28 09:50:15",
+   "last_at": "2026-11-28 12:03:36",
    "src": "now_log(bid=aroma)",
    "today_n": 17,
    "note": "횟수는 전체 세션",
@@ -325,10 +325,10 @@
  ],
  "unit": {
   "who": "이대리",
-  "state": "현장(진행)",
+  "state": "⏸ 대기(남의 차례)",
   "jobs": 0,
   "last_min": 3,
-  "cur": "[이부장 접수 11:57] 관련 검색어 태그 반영 15편(PE",
+  "cur": "⏸ 대기 — aroma-aff-adfix10-1128·adfi",
   "lvl": "ok"
  },
  "open_requests": [],
@@ -826,7 +826,7 @@
   "today": "2026-11-28",
   "done_today": 2,
   "published_today": 2,
-  "boss_wait": 2,
+  "boss_wait": 0,
   "incidents_by_code": {
    "0": 0,
    "1": 0,
@@ -842,16 +842,16 @@
   "state": "미확인(aroma 발행챗 상태는 이 방이 읽는 길이 없다)"
  },
  "tower": {
-  "age_min": 0,
-  "lvl": "ok"
+  "age_min": 5,
+  "lvl": "amber"
  },
  "units": [
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
    "last_min": 3,
-   "cur": "[이부장 접수 11:57] 관련 검색어 태그 반영 15편(PE",
+   "cur": "⏸ 대기 — aroma-aff-adfix10-1128·adfi",
    "lvl": "ok"
   },
   {
@@ -863,10 +863,10 @@
  "drivers": [
   {
    "who": "이대리",
-   "state": "현장(진행)",
+   "state": "⏸ 대기(남의 차례)",
    "jobs": 0,
    "last_min": 3,
-   "cur": "[이부장 접수 11:57] 관련 검색어 태그 반영 15편(PE",
+   "cur": "⏸ 대기 — aroma-aff-adfix10-1128·adfi",
    "lvl": "ok",
    "role": "글감·초안·V0·게시 기록"
   },
@@ -886,7 +886,7 @@
    "who": "사장님",
    "role": "③ CP 결재",
    "lvl": "ok",
-   "state": "결재 대기 2건"
+   "state": "대기"
   }
  ],
  "suppliers": [
@@ -919,22 +919,7 @@
    ]
   }
  ],
- "approvals": [
-  {
-   "kind": "aroma",
-   "id": "aroma-aff-adfix10-1128",
-   "what": "【권고】제휴 글 10편(SP-025·SP-026·SP-024·PE-021·PE-022·BO-014·BO-015·DG-020·DG-018·DG-0",
-   "by": "이대리",
-   "waited": ""
-  },
-  {
-   "kind": "aroma",
-   "id": "aroma-aff-adfix-1128",
-   "what": "【권고】제휴 이미지판 9편(SP-025·SP-026·SP-024·PE-021·PE-022·BO-014·BO-015·DG-020·DG-018) 하",
-   "by": "이대리",
-   "waited": ""
-  }
- ],
+ "approvals": [],
  "edits": [],
  "today_events": [
   {
@@ -959,6 +944,18 @@
    "code": "AM-PE-023",
    "stage": "boss",
    "at": "2026-11-28 06:02:13",
+   "src": "결재 커밋 시각"
+  },
+  {
+   "code": "aroma-aff-adfix10-1128",
+   "stage": "boss",
+   "at": "",
+   "src": "watch done_at(날짜뿐)"
+  },
+  {
+   "code": "aroma-aff-adfix-1128",
+   "stage": "boss",
+   "at": "2026-11-28 12:06:46",
    "src": "결재 커밋 시각"
   },
   {
@@ -1007,7 +1004,7 @@
     {
      "head": "IDAERI_WAKE",
      "lvl": "ok",
-     "chip": "2026-11-28 12:00:42",
+     "chip": "2026-11-28 12:07:13",
      "sub": "승인 → 이대리 깨움(모드가 30초마다 확인 · 사장님 승인·aroma2 챗 보고·이부장 전달·직접 지시·새 요청 · 보류·승인 아님은 제외) · 출처 .idaeri_wake.json last_run"
     },
     {
@@ -1037,7 +1034,7 @@
     {
      "head": "ASIDE_ALERT",
      "lvl": "ok",
-     "chip": "2026-11-28 09:50:15",
+     "chip": "2026-11-28 12:03:36",
      "sub": "이대리 🙋·⏸·👤 → 이부장 즉시 · 출처 now_log(bid=aroma) · 오늘 17회 · 횟수는 전체 세션"
     },
     {
